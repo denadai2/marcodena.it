@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+  {% for keyword in article.keywords %}
+    <meta name="keywords" contents="{{keyword}}" />
+  {% endfor %}
+
+  {% for description in article.description %}
+    <meta name="description" contents="{{description}}" />
+  {% endfor %}
+
+  {% for tag in article.tags %}
+    <meta name="tags" contents="{{tag}}" />
+  {% endfor %}
+
+{% endblock %}
+
+{% block content %}
+<article id="content" class="body">
+  <header>
+    <h1 class="entry-title">{{ article.title }}</h1>
+ {% import 'translations.html' as translations with context %}
+ {{ translations.translations_for(article) }}
+  </header>
+  <!-- post details -->
+    <span class="date text-right">{{ article.locale_date }}</span>
+  <!-- /post details -->
+  
+  <div class="entry-content">
+    {{ article.content }}
+  </div><!-- /.entry-content -->
+</article>
+{% if article.share_post and article.status != 'draft' %}
+<section>
+    <p id="post-share-links">
+        <strong style="text-transform:uppercase;margin-bottom:5px;display:block">Do you like this article?:</strong>
+        <a href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter">
+          <img src="{{ SITEURL }}/theme/images/01_twitter.png" alt="Twitter" /></a>
+        
+        <a href="{{article.share_post['facebook']}}" target="_blank" title="Share on Facebook">
+          <img src="{{ SITEURL }}/theme/images/02_facebook.png" alt="Facebook" /></a>
+        
+        <a href="{{article.share_post['email']}}" target="_blank" title="Share via Email">
+          <img src="{{ SITEURL }}/theme/images/20_sparow.png" alt="E-mail" /></a>
+    </p>
+</section>
+{% endif %}
+
+{% endblock %}

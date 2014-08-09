@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section id="content projects">
+
+<div class="row">
+    <div class="large-12 columns projects projectsList">
+        <h2>My projects</h2>
+{% for page in pages|sort(attribute='sortorder', reverse=True) if page.category == 'Projects' %}
+    {% if loop.index0 is divisibleby 3 %}
+    {% if loop.index != 1 %}
+        </div>
+    {% endif %}
+    <div class="row">
+    {% endif %}
+        <div class="large-4 columns left text-center project">
+            <a href="{{ SITEURL }}/{{ page.url }}" title="Permalink to {{ page.title|striptags }}" rel="bookmark"><img src="{{ SITEURL }}/theme/images/projects/{{ page.thumb }}" /></a>
+            <h3 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}" rel="bookmark" title="Permalink to {{ page.title|striptags }}">{{ page.title }}</a></h3>
+                    
+                    <div class="entry-content">{{ page.summary }}</div>
+                </div>
+{% endfor %}
+</div> <!-- to end the line of projects !-->
+
+</div><!-- /#posts-list -->
+<div class="row">
+    <div class="large-12 columns projects">
+    <h2>Other projects</h2>
+    <ul>
+        <li><a href="https://github.com/denadai2/EasyAround"><h4>easyAround</h4></a>
+            <p>Python web application realized following the commonKADS model. Tools used: Flask, Flask-SQLAlchemy and PIL and Beatifulsoup4 for the scraper.</p></li>
+        <li><a href="https://github.com/denadai2/soccerbigdata_DEBS_analysis"><h4>A new massive data analytics approach to the football</h4></a>
+            <p>Small framework of tools which permits the coaches to base
+                their new strategies not only on their intuitions and judgments
+                but also on comprehensive (and maybe not human-eye visible)
+                statistics. These tools were developed using Massive-data analytics techniques.</p></li>
+        <li><a href="https://github.com/denadai2/formalVerificationOAuthProverif"><h4>Formal verification OAuth 2.0 protocol</h4></a>
+            <p>Formal verification of the protocol OAuth 2.0 (draft 22) using the automatic cryptographic protocol verifier <a href="http://prosecco.gforge.inria.fr/personal/bblanche/proverif/">Proverif</a>.</p></li>
+    </ul>
+
+
+
+    <h2>Awards</h2>
+    <ul>
+
+        <li><h4>Finalist Data Journalism Awards 2014</h4>
+            <p>The <a href="http://www.marcodena.it/projects/westgate-attack/">Westgate attack</a> project was nominated in the Data Journalism Awards 2014, organized by the <a href="http://www.globaleditorsnetwork.org/">Global Editors Network</a>.</p></li>
+        <li><h4>Best application</h4>
+            <p><a href="http://www.marcodena.it/projects/ulook/">Ulook</a> was recognized as the best application in the "Community and Social" category by the "Smau Mob App Awards" that took place during the Smau 2014.</p></li>
+        <li><h4>Special creativity price</h4>
+            <p>Special creativity award from IED (http://www.ied.com) at StartupWeekEnd 2012 - Turin. The award was assigned to "Linked Green" project, that permits to scan a product's barcorde and see all the informations about its package and it's eco sustainability.</p></li>
+    
+
+    
+    </ul>
+
+</div></div>
+</section><!-- /#content -->
+{% endblock content %}

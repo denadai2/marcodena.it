@@ -1,0 +1,538 @@
+/*
+        Theme Name: HTML5 Blank
+        Theme URI: http://html5blank.com
+        Description: HTML5 Blank WordPress Theme
+        Version: 1.4.3
+        Author: Todd Motto (@toddmotto)
+        Author URI: http://toddmotto.com
+        Tags: Blank, HTML5, CSS3
+
+        License: MIT
+        License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+@font-face {
+    font-family: 'AvenirNextLTW01-Regular';
+    src: url('fonts/avenirnextltpro-regular.eot?#iefix');
+    src: url('fonts/avenirnextltpro-regular.eot?#iefix') format('eot'),
+        url('fonts/avenirnextltpro-regular.woff') format('woff'),
+        url('fonts/avenirnextltpro-regular.ttf') format('truetype'),
+        url('fonts/avenirnextltpro-regular.svg#avenirnextltpro-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TrumpGothicEastMedium';
+    src: url('fonts/ufonts.com_trump_gothic_east_medium-webfont.eot');
+    src: url('fonts/ufonts.com_trump_gothic_east_medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ufonts.com_trump_gothic_east_medium-webfont.woff') format('woff'),
+        url('fonts/ufonts.com_trump_gothic_east_medium-webfont.ttf') format('truetype'),
+        url('fonts/ufonts.com_trump_gothic_east_medium-webfont.svg#trump_gothic_east_mediumRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* global box-sizing */
+*,
+*:after,
+*:before {
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+}
+/* html element 62.5% font-size for REM use */
+
+body {
+    background: url(../images/faux7.png) center top;
+    color: rgb(33, 31, 31);
+    font-family: 'AvenirNextLTW01-Regular',Helvetica,Arial,sans-serif;
+}
+/* clear */
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+    *zoom:1;
+}
+img {
+    max-width:100%;
+    vertical-align:bottom;
+}
+a {
+    color:#c0392b;
+    text-decoration:none;
+}
+a:hover {
+    color:#444;
+}
+a:focus {
+    outline:0;
+}
+a:hover,a:active{text-decoration:underline}
+a:hover,
+a:active {
+    outline:0;
+}
+input:focus {
+    outline:0;
+    border:1px solid #04A4CC;
+}
+
+h1,h2,h3,h4{
+    font-family: 'TrumpGothicEastMedium';
+    text-transform: uppercase;
+    font-weight: normal;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 24px;
+    display:inline;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+/* wrapper */
+.wrapper {
+    
+}
+
+/* header */
+#sidebar header, #sidebar footer{
+    padding: 30px 30px 0px 0px;
+    height: auto;
+    text-align: right;
+}
+
+article h1{
+    margin-top:0;
+}
+/* logo */
+.logo {
+}
+.logo-img {
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    margin-bottom:1em;
+
+}
+#sidebar .logo-name{
+    font-size: 48px;
+    font-family: 'TrumpGothicEastMedium';
+    text-transform: uppercase;
+    font-weight: normal;
+    color: white;
+}
+#sidebar .logo-name:hover{
+    text-decoration: none;
+}
+/* nav */
+nav {
+
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:12px 0;
+}
+
+#sidebar nav a:hover{
+    color: #444;
+}
+
+/* icons */
+#icons a
+{
+    margin-right: 2px;
+}
+#icons a:hover
+{
+    opacity: .75;
+}
+
+/* sidebar */
+#sidebar {
+    background-color: #c0392b;
+    border-right: 1px solid rgb(44, 62, 80);
+    color: #ecf0f1;
+}
+
+#sidebar a{
+    color: #ecf0f1;
+}
+
+#sidebar a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+/* footer */
+.footer {
+    font-size: 14px;
+}
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+section{
+    margin-bottom: 50px;
+}
+
+#post-list {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+#post-list article{
+    margin-bottom: 35px;
+}
+
+#post-list header{
+    text-align: left;
+    padding:0;
+}
+
+#post-list header h2{
+    margin:0;
+    font-size: 36px;
+}
+
+#post-list abbr{
+    font-family: 'AvenirNextLTW01-Regular';
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    display: block;
+    text-align: right;
+    border:none;
+}
+
+#post-list p{
+    margin-top: 0;
+}
+
+
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+.projects img {
+    border: 1px solid rgb(148, 145, 140);
+}
+.projects a:hover img, .projects a:focus img {
+    border-color: rgb(51, 51, 51);
+}
+.projects p {
+    margin: 0;
+}
+
+.projectsList img {
+    box-sizing: content-box;
+    width:190px;
+    height:190px;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+    #sidebar {
+        width:20em;
+    }
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+    background:#04A4CC;
+    color:#FFF;
+    text-shadow:none;
+}
+::-webkit-selection {
+    background:#04A4CC;
+    color:#FFF;
+    text-shadow:none;
+}
+::-moz-selection {
+    background:#04A4CC;
+    color:#FFF;
+    text-shadow:none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+article img {
+    border: 1px solid #94918C;
+    margin: 5px 20px 20px 0px;
+}
+
+.projects h4 {
+    font-size:26px;
+}
+
+section h1{
+    margin-top:0;
+}
+
+article ul, .projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+article ul li:before, .projects ul li:before {
+    content: "\00BB \0020";
+}
+
+article ul li, .projects ul li {
+    font-size:14px;
+}
+
+.projects ul li {
+    margin: 20px 0px;
+}
+
+article ul li p, .projects ul li p{
+    font-size:14px;
+    padding-left: 10px;
+    margin-top:5px;
+    line-height: 1.2;
+}
+
+
+.alignnone {
+    margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display:block;
+    margin:5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin:5px 0 10px 10px;
+}
+.alignleft {
+    float:left;
+    margin:5px 15px 20px 0;
+}
+.aligncenter {
+    display:block;
+    margin:5px auto 5px auto;
+}
+a img.alignright {
+    float:right;
+    margin:5px 0 20px 20px;
+}
+a img.alignnone {
+    margin:5px 20px 20px 0;
+}
+a img.alignleft {
+    float:left;
+    margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.wp-caption {
+    background:#FFF;
+    border:1px solid #F0F0F0;
+    max-width:96%;
+    padding:5px 3px 10px;
+    text-align:center;
+}
+.wp-caption.alignnone {
+    margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin:5px 0 20px 20px;
+}
+.wp-caption img {
+    border:0 none;
+    height:auto;
+    margin:0;
+    max-width:98.5%;
+    padding:0;
+    width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+    * {
+        background:transparent !important;
+        color:#000 !important;
+        box-shadow:none !important;
+        text-shadow:none !important;
+    }
+    a,
+    a:visited {
+        text-decoration:underline;
+    }
+    a[href]:after {
+        content:" (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content:" (" attr(title) ")";
+    }
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content:"";
+    }
+    pre,blockquote {
+        border:1px solid #999;
+        page-break-inside:avoid;
+    }
+    thead {
+        display:table-header-group;
+    }
+    tr,img {
+        page-break-inside:avoid;
+    }
+    img {
+        max-width:100% !important;
+    }
+    @page {
+        margin:0.5cm;
+    }
+    p,
+    h2,
+    h3 {
+        orphans:3;
+        widows:3;
+    }
+    h2,
+    h3 {
+        page-break-after:avoid;
+    }
+}
+
+
+
+
+/*------------------------------------*\
+    PROJECTS
+\*------------------------------------*/
+.projects{
+    margin-bottom:50px;
+}
+
+.projects .project a{
+    color: #444;
+}
+
+.projects .project a:hover{
+    color: #c0392b;
+    text-decoration: none;
+}
+.projects h2{
+    margin-top:10px
+}
+.projects .project{
+    margin-bottom: 20px;
+}
+.projects .project div{
+    font-size: 14px;
+    padding:5px 10px;
+}
+.projects .project h3{
+    margin:10px 0 0;
+}
+
+
+/*------------------------------------*\
+    PROJECT
+\*------------------------------------*/
+article h1 {
+    margin-top:0;
+    margin-bottom: 5px
+}
+
+article h2 {
+    margin-top: 40px;
+    margin-bottom: 0
+}
+
+article .date, article .articleInfo{
+    font-family: 'AvenirNextLTW01-Regular';
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    display: block;
+}
+
+article{
+    line-height: 1.5;
+}
+
+#post-share-links{
+    padding: 40px 0;
+}
