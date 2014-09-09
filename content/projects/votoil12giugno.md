@@ -35,7 +35,6 @@ __Aggiornamento__: Il sito ha avuto ottimi pareri da parte di moltissime persone
 ![12giugno](/images/projects/12giugno5.jpg)
 ![12giugno](/images/projects/12giugno6.jpg)
 ![12giugno](/images/projects/12giugno7.jpg)
-![12giugno](/images/projects/12giugno8.jpg)
 
 
 

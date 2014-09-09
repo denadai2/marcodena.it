@@ -49,9 +49,9 @@
 /* html element 62.5% font-size for REM use */
 
 body {
-    background: url(../images/faux7.png) center top;
     color: rgb(33, 31, 31);
     font-family: 'AvenirNextLTW01-Regular',Helvetica,Arial,sans-serif;
+    line-height: 1;
 }
 /* clear */
 .clear:before,
@@ -66,6 +66,11 @@ body {
 .clear {
     *zoom:1;
 }
+/* fix for foundation4 */
+.text-center {
+    text-align: center !important;
+}
+
 img {
     max-width:100%;
     vertical-align:bottom;
@@ -120,7 +125,6 @@ h4{
 
 /* header */
 #sidebar header, #sidebar footer{
-    padding: 30px 30px 0px 0px;
     height: auto;
     text-align: right;
 }
@@ -157,7 +161,7 @@ nav ul{
 nav li{
     font-size: 18px;
     text-transform: uppercase;
-    padding:12px 0;
+    padding:6px 0;
 }
 
 #sidebar nav a:hover{
@@ -261,21 +265,31 @@ section{
 \*------------------------------------*/
 
 @media only screen and (min-width:320px) {
-
+    #sidebar footer {
+        padding: 20px;
+    }
+    #sidebar header, #sidebar footer{
+        padding: 0;
+    }
 }
 @media only screen and (min-width:480px) {
 
 }
 @media only screen and (min-width:768px) {
-
+    #sidebar header, #sidebar footer{
+        padding: 30px 30px 0 0;
+    }
 }
 @media only screen and (min-width:1024px) {
     #sidebar {
         width:20em;
     }
-
 }
 @media only screen and (min-width:1140px) {
+
+    body{
+        background: url(../images/faux7.png) center top;
+    }
 
 }
 @media only screen and (min-width:1280px) {
@@ -485,6 +499,11 @@ a img.aligncenter {
     margin-bottom:50px;
 }
 
+.projects .project{
+    height:266px;
+    margin-bottom: 20px;
+}
+
 .projects .project a{
     color: #444;
 }
@@ -495,9 +514,6 @@ a img.aligncenter {
 }
 .projects h2{
     margin-top:10px
-}
-.projects .project{
-    margin-bottom: 20px;
 }
 .projects .project div{
     font-size: 14px;
@@ -531,6 +547,10 @@ article .date, article .articleInfo{
 
 article{
     line-height: 1.5;
+}
+
+#comment-sep{
+    margin-top:50px;
 }
 
 #post-share-links{

@@ -4,11 +4,13 @@
         {% block head %}
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="{{ SITEURL }}/theme/images/favicon.png" rel="shortcut icon">
         <link rel='stylesheet' id='normalize-css'  href='{{ SITEURL }}/theme/css/normalize.css' media='all' />
         <link rel='stylesheet' id='foundation-css'  href='{{ SITEURL }}/theme/css/foundation.min.css' media='all' />
         <link rel='stylesheet' href='{{ SITEURL }}/theme/css/style.css' media='all' />
+        <link rel='stylesheet' href='{{ SITEURL }}/theme/css/marcodenashare-embedded.css' media='all' />
         <link rel='stylesheet' href='{{ SITEURL }}/theme/css/monokai.css' media='all' />
         <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
 
@@ -52,7 +54,7 @@
 
                             <!-- logo -->
                             <div class="logo">
-                                <a href="{{ SITEURL }}/">
+                                <a href="{{ SITEURL }}/" class="show-for-medium-up">
                                     <img src="{{ SITEURL }}/theme/images/marcodena.jpg" alt="Logo" class="logo-img">
                                 </a><br />
                                 <a href="{{ SITEURL }}/" class="logo-name">Marco De Nadai</a>
@@ -62,9 +64,9 @@
                             <!-- nav -->
                             <nav class="nav" role="navigation">
                                 <ul>
-                                    <li><a href="{{ SITEURL }}/">Home</a></li>
-                                    <!--<li><a href="{{ SITEURL }}/blog.html">Blog</a></li>-->
-                                    <li><a href="{{ SITEURL }}/about">About</a></li>
+                                    <li class="column small-4 medium-12"><a href="{{ SITEURL }}/">Home</a></li>
+                                    <li class="column small-4 medium-12"><a href="{{ SITEURL }}/blog.html">Blog</a></li>
+                                    <li class="column small-4 medium-12"><a href="{{ SITEURL }}/about">About</a></li>
                                 </ul>
 
                             </nav>
@@ -175,7 +177,7 @@
                             </div>
 
                             <!-- copyright -->
-                            <p class="copyright">
+                            <p class="copyright show-for-large-up">
                                 &copy; 2014 Copyright Marco De Nadai. <br />
                                 Proudly powered by <i><a href="http://getpelican.com/">Pelican</a></i>, which takes great advantage of <i><a href="http://python.org">Python</a></i>.
                             </p>

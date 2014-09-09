@@ -6,14 +6,9 @@
 <div class="row">
     <div class="large-12 columns projects projectsList">
         <h2>My projects</h2>
+        <div class="row">
 {% for page in pages|sort(attribute='sortorder', reverse=True) if page.category == 'Projects' %}
-    {% if loop.index0 is divisibleby 3 %}
-    {% if loop.index != 1 %}
-        </div>
-    {% endif %}
-    <div class="row">
-    {% endif %}
-        <div class="large-4 columns left text-center project">
+    <div class="large-4 medium-6 small-12 columns left text-center project">
             <a href="{{ SITEURL }}/{{ page.url }}" title="Permalink to {{ page.title|striptags }}" rel="bookmark"><img src="{{ SITEURL }}/theme/images/projects/{{ page.thumb }}" /></a>
             <h3 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}" rel="bookmark" title="Permalink to {{ page.title|striptags }}">{{ page.title }}</a></h3>
                     
@@ -21,8 +16,6 @@
                 </div>
 {% endfor %}
 </div> <!-- to end the line of projects !-->
-
-</div><!-- /#posts-list -->
 <div class="row">
     <div class="large-12 columns projects">
     <h2>Other projects</h2>

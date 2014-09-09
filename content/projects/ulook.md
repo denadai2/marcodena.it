@@ -15,7 +15,9 @@ I developed the application, the design and the API system. The first one was ma
 Update: the application was recognized as the best application in the "Community and Social" category by the "Smau Mob App Awards" that took place during the Smau 2014.
 
 ![westgate1.jpg](/images/projects/ulook1.jpg)
-![westgate2.jpg](/images/projects/ulook 2.jpg)
-![westgate3.jpg](/images/projects/ulook 3.jpg)
-![westgate4.jpg](/images/projects/ulook 4.jpg)
-![westgate5.jpg](/images/projects/ulook 5.jpg)
+![westgate2.jpg](/images/projects/ulook2.jpg)
+![westgate3.jpg](/images/projects/ulook3.jpg)
+![westgate4.jpg](/images/projects/ulook4.jpg)
+![westgate5.jpg](/images/projects/ulook5.jpg)
+
+
