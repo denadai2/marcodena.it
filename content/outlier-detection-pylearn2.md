@@ -4,7 +4,7 @@ Category: Data-mining
 
 In this article I will show part of the work I've done during my Master's internship in Amsterdam. The focus of this work was finding outliers in the gas consumption of some buildings. 
 
-Energy consumption in buildings is one of the fastest growing sectors. Approximately __41% of the total energy in Europe is consumed by buildings (households and services)__. It is showed that __commercial buildings consume from 15% to 30% more energy than necessary__ due to poorly maintained, degraded, and improperly controlled equipment. These anomalies can become easy fixable problems with a reliable fault detection and diagnosis (FDD) system. 
+Energy consumption in buildings is one of the fastest growing sectors. Approximately __41% of the total energy__ in Europe is consumed by buildings (households and services). It is showed that __commercial buildings consume from 15% to 30% more energy than necessary__ due to poorly maintained, degraded, and improperly controlled equipment. These anomalies can become easy fixable problems with a reliable fault detection and diagnosis (FDD) system. 
 
 
 An outlier, by definition, is an observation which deviates significantly from other observations so that it creates suspicion that it was created by different dynamics. Despite this general definition, the more appropriate way of defining

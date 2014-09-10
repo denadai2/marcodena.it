@@ -14,6 +14,7 @@
   {% endfor %}
 
 {% endblock %}
+{% block title %}{{ article.title|striptags }}{% endblock %}
 
 {% block content %}
 <article id="content" class="body">
