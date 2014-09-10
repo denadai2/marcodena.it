@@ -172,7 +172,9 @@
   <!-- /post details -->
   
   <div class="entry-content">
-    <p>In this article I will show part of the work I've done during my Master's internship in Amsterdam. The focus of this work was finding outliers in the gas consumption of some buildings. An outlier, by definition, is an observation which deviates significantly from other observations so that it creates suspicion that it was created by different dynamics. Despite this general definition, the more appropriate way of defining
+    <p>In this article I will show part of the work I've done during my Master's internship in Amsterdam. The focus of this work was finding outliers in the gas consumption of some buildings. </p>
+<p>Energy consumption in buildings is one of the fastest growing sectors. Approximately <strong>41% of the total energy in Europe is consumed by buildings (households and services)</strong>. It is showed that <strong>commercial buildings consume from 15% to 30% more energy than necessary</strong> due to poorly maintained, degraded, and improperly controlled equipment. These anomalies can become easy fixable problems with a reliable fault detection and diagnosis (FDD) system. </p>
+<p>An outlier, by definition, is an observation which deviates significantly from other observations so that it creates suspicion that it was created by different dynamics. Despite this general definition, the more appropriate way of defining
 outliers is highly application-dependent, because even same scenarios may require different determinations of outliers.</p>
 <p>In this paper, outliers are very closed related to the problem of time-series forecasting, since outliers are declared on the basis of deviations from expected (or forecast) value.</p>
 <p><img alt="outliers" src="/images/outliers.png" /></p>
@@ -187,6 +189,8 @@ forecast thanks to a historical time-series, and in the second phase outliers ar
 <li><a href="http://nbviewer.ipython.org/github/denadai2/energyUva/blob/master/notebooks/3-Feature%20engineering.ipynb">Feature engineering</a>. <a href="http://nbviewer.ipython.org/github/denadai2/energyUva/blob/master/notebooks/3bis-%20Regression%20short%20version.ipynb">Short version</a></li>
 <li><a href="https://github.com/denadai2/energyUva/blob/master/NN_static_MLSE.yaml">pylearn2 YAML file</a></li>
 </ul>
+<h2>Results</h2>
+<p>This model was able to detect some synthetic and real outliers from the dataset.  Since the predictor is very accurate (with RMSE from 8 m^3 in building 740-NTH, to RMSE 2.5 m^3 in building 761-KMH), the outlier mechanism is able to easily detect strange behaviours defining a threshold value in the confidence interval without the need to possess previous examples of outliers. The scope of this paper was forecasting the highly irregular gas consumption time-series, but it is believed that similar results could be also obtained with electric consumption time-series. It is hoped that this could lead to new analysis of the energy consumption in public buildings.</p>
 <p>The draft of the <strong>paper</strong> can be found <a href="https://github.com/denadai2/energyUva/blob/master/paperEnergy/paperv2_2.pdf">here</a>, while the sources are in this <a href="https://github.com/denadai2/energyUva">github project</a>.</p>
 <p><strong>The paper is still a draft, so I would really like to listen your opinion, notes, doubts. Please, drop a note here!</strong></p>
   </div><!-- /.entry-content -->
@@ -198,7 +202,7 @@ forecast thanks to a historical time-series, and in the second phase outliers ar
         <a href="http://twitter.com/home?status=Detecting%20anomalies%20with%20Neural%20newtorks%20 http%3A//www.marcodena.it/blog/detecting-anomalies-with-neural-newtorks/" target="_blank" title="Share on Twitter">
           <i class="icon-twitter"></i></a>
         
-        <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/blog/detecting-anomalies-with-neural-newtorks/&p[images][0]=&p[title]=Detecting%20anomalies%20with%20Neural%20newtorks%20&p[summary]=%3Cp%3EIn%20this%20article%20I%20will%20show%20part%20of%20the%20work%20I%27ve%20done%20during%20my%20Master%27s%20internship%20in%20Amsterdam.%20The%20focus%20of%20this%20work%20was%20finding%20outliers%20in%20the%20gas%20consumption%20of%20some%20buildings.%20An%20outlier%2C%20by%20definition%2C%20is%20an%20observation%20which%20deviates%20significantly%20from%20other%20observations%20so%20that%20...%3C/p%3E" target="_blank" title="Share on Facebook">
+        <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/blog/detecting-anomalies-with-neural-newtorks/&p[images][0]=&p[title]=Detecting%20anomalies%20with%20Neural%20newtorks%20&p[summary]=%3Cp%3EIn%20this%20article%20I%20will%20show%20part%20of%20the%20work%20I%27ve%20done%20during%20my%20Master%27s%20internship%20in%20Amsterdam.%20The%20focus%20of%20this%20work%20was%20finding%20outliers%20in%20the%20gas%20consumption%20of%20some%20buildings.%20%3C/p%3E%0A%3Cp%3EEnergy%20consumption%20in%20buildings%20is%20one%20of%20the%20fastest%20growing%20sectors.%20Approximately%20%3Cstrong%3E41%25%20of%20the%20...%3C/strong%3E%3C/p%3E" target="_blank" title="Share on Facebook">
           <i class="icon-facebook"></i></a>
         
         <a href="mailto:?subject=Detecting%20anomalies%20with%20Neural%20newtorks%20&body=http%3A//www.marcodena.it/blog/detecting-anomalies-with-neural-newtorks/" target="_blank" title="Share via Email">
