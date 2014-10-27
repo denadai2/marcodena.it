@@ -1,6 +1,8 @@
-Title: Detecting anomalies with Neural newtorks
+Title: Detecting anomalies with Neural Networks
 Date: 2014-09-07 10:20
 Category: Data-mining
+url: detecting-anomalies-with-neural-newtorks
+save_as: detecting-anomalies-with-neural-newtorks/index.html
 
 In this article I will show part of the work I've done during my Master's internship in Amsterdam. The focus of this work was finding outliers in the gas consumption of some buildings. 
 
