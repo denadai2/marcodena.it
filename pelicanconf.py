@@ -61,6 +61,7 @@ STATIC_PATHS = [
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/CV.pdf': {'path': 'CV.pdf'},
+    'extra/CNAME': {'path': 'CNAME'},
     }
 
 SITEMAP = {
