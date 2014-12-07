@@ -41,13 +41,10 @@ PLUGIN_PATHS = ["plugins", "/srv/pelican/plugins"]
 PLUGINS = [
     'share_post',
     'sitemap',
-    'disqus_static',
     'better_figures_and_images'
 ]
 
 DISQUS_SITENAME = 'marcodenait'
-DISQUS_SECRET_KEY = u'7nmPevpzixtK8SWcxomt24wvb2bIW6gr9gyoBG0TOXnxyUgreM6qx7j9f5YYnlWi'
-DISQUS_PUBLIC_KEY = u'YSeRO4TopRaqpLuFIfViFoSlRk76GEUQ4mscouFyE66Z3uN3I69Zk9gMkZgyl0fP'
 
 THEME = 'theme'
 
