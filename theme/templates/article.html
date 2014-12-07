@@ -19,7 +19,7 @@
 {% block content %}
 <section id="articleContent" class="first">
   <div class="row">
-<article id="content" class="body large-8 large-offset-2 end">
+<article id="content" class="body column large-8 large-offset-2 end">
   <header>
     <h1 class="entry-title">{{ article.title }}</h1>
  {% import 'translations.html' as translations with context %}
@@ -37,7 +37,7 @@
 {% if article.share_post and article.status != 'draft' %}
 <section class="noTopPadding">
   <div class="row">
-  <div class="large-8 large-offset-2 end">
+  <div class="column large-8 large-offset-2 end">
     <div id="share-containter">
         <ul class="social-tools-bottom inline">
           <li class="left facebook">
@@ -62,7 +62,7 @@
 {% if DISQUS_SITENAME %}
 <section class="comments noTopPadding" id="comments">
   <div class="row">
-  <div class="large-8 large-offset-2 end">
+  <div class="column large-8 large-offset-2 end">
 <h2>Comments</h2>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
