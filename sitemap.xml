@@ -4,161 +4,147 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://www.marcodena.it/index.html</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/index.html</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/archives.html</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/archives.html</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/tags.html</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/tags.html</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/categories.html</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/categories.html</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/about/</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/about/</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/projects/cartolina</loc>
+<loc>/projects/cartolina</loc>
 <lastmod>2014-09-02T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/projects/coca-cola-blog</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/projects/komixjam</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/projects/komixjam</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/projects/mcz</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/projects/mcz</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/projects/mczservice</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/projects/mczservice</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/projects/red365</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/projects/red365</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/projects/sunday</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/projects/sunday</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.marcodena.it/projects/udine-bus</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.marcodena.it/projects/ulook</loc>
+<loc>/projects/ulook</loc>
 <lastmod>2010-12-02T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/projects/votoil12giugno</loc>
-<lastmod>2014-09-11T00:59:08-00:00</lastmod>
+<loc>/projects/votoil12giugno</loc>
+<lastmod>2014-12-07T19:22:43-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/projects/westgate-attack</loc>
+<loc>/projects/westgate-attack</loc>
 <lastmod>2010-12-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/blog/detecting-anomalies-with-neural-newtorks/</loc>
+<loc>/detecting-anomalies-with-neural-newtorks</loc>
 <lastmod>2014-09-07T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/blog/stop-remembering-passwords/</loc>
+<loc>/blog/stop-remembering-passwords/</loc>
 <lastmod>2014-09-02T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/blog/wordpress-the-future-is-static/</loc>
+<loc>/blog/wordpress-the-future-is-static/</loc>
 <lastmod>2014-08-09T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/category/data-mining.html</loc>
+<loc>/category/data-mining.html</loc>
 <lastmod>2014-09-07T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/category/programming.html</loc>
+<loc>/category/programming.html</loc>
 <lastmod>2014-08-09T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/category/security.html</loc>
+<loc>/category/security.html</loc>
 <lastmod>2014-09-02T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.marcodena.it/author/marco-de-nadai.html</loc>
+<loc>/author/marco-de-nadai.html</loc>
 <lastmod>2014-09-07T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

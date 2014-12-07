@@ -5,274 +5,241 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="//www.google-analytics.com" rel="dns-prefetch">
-        <link href="http://www.marcodena.it/theme/images/favicon.png" rel="shortcut icon">
-        <link rel='stylesheet' id='normalize-css'  href='http://www.marcodena.it/theme/css/normalize.css' media='all' />
-        <link rel='stylesheet' id='foundation-css'  href='http://www.marcodena.it/theme/css/foundation.min.css' media='all' />
-        <link rel='stylesheet' href='http://www.marcodena.it/theme/css/style.css' media='all' />
-        <link rel='stylesheet' href='http://www.marcodena.it/theme/css/marcodenashare-embedded.css' media='all' />
-        <link rel='stylesheet' href='http://www.marcodena.it/theme/css/monokai.css' media='all' />
+        <link href="/theme/images/favicon.png" rel="shortcut icon">
+        <link rel='stylesheet' id='normalize-css'  href='/theme/css/normalize.css' media='all' />
+        <link rel='stylesheet' id='foundation-css'  href='/theme/css/foundation.min.css' media='all' />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+        <link rel='stylesheet' href='/theme/css/style.css' media='all' />
+        <link rel='stylesheet' href='/theme/css/marcodenashare.css' media='all' />
+        <link rel='stylesheet' href='/theme/css/monokai.css' media='all' />
         <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
 
         <meta name="description" content="Marco De Nadai is a passionate data scientist and web/iOS developer. This page shows his portfolio and papers.">
 </head>
 
 <body id="index" class="home">
-    <div class="wrapper row">
-            <div class="large-12 columns">
-                <div class="row">
-                    <div id="sidebar" class="large-4 columns">
-                        <!-- header -->
-                        <header class="header clear" role="banner">
-
+  <!-- header -->
+                        <header class="header clear" role="banner" id="header">
+                          <div class="row">
+                          <div class="large-12 column">
                             <!-- logo -->
                             <div class="logo">
-                                <a href="http://www.marcodena.it/" class="show-for-medium-up">
-                                    <img src="http://www.marcodena.it/theme/images/marcodena.jpg" alt="Logo" class="logo-img">
+                                <a href="/" class="show-for-medium-up">
+                                    <img src="/theme/images/marcodena.jpg" alt="Logo" class="logo-img">
                                 </a><br />
-                                <a href="http://www.marcodena.it/" class="logo-name">Marco De Nadai</a>
                             </div>
                             <!-- /logo -->
 
                             <!-- nav -->
                             <nav class="nav" role="navigation">
                                 <ul>
-                                    <li class="column small-4 medium-12"><a href="http://www.marcodena.it/">Home</a></li>
-                                    <li class="column small-4 medium-12"><a href="http://www.marcodena.it/blog.html">Blog</a></li>
-                                    <li class="column small-4 medium-12"><a href="http://www.marcodena.it/about">About</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/blog.html">Blog</a></li>
+                                    <li><a href="/about">About</a></li>
+                                    
+                                    <li class="social"><a href="http://nl.linkedin.com/in/marcodenadai/"><i aria-hidden="true" class="icon-linkedin"></i></a></li>
+                                    <li class="social"><a href="http://www.marcodena.it/CV.pdf"><i aria-hidden="true" class="icon-file-pdf"></i></a></li>
+                                    <li class="social"><a href="https://github.com/denadai2"><i aria-hidden="true" class="icon-github-circled"></i></a></li>
+                                    <li class="social"><a href="http://twitter.com/denadai2"><i aria-hidden="true" class="icon-twitter"></i></a></li>
                                 </ul>
 
                             </nav>
                             <!-- /nav -->
-
+                          </div>
+                          </div>
                         </header>
                         <!-- /header -->
+            <!--<div class="large-12 columns">
+                <div class="row">
+                    
+                    <div class="large-12 columns" style="padding-top:30px">-->
 
-                        <!-- footer -->
-                        <footer class="footer" role="contentinfo">
-
-                            <div id="icons">
-                                <a rel="me" title="Linkedin Account" href="http://nl.linkedin.com/in/marcodenadai/">
-                                    <svg width="32" height="32" version="1.1" id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#256FBB" d="M48,42c0,3.313-2.687,6-6,6H6c-3.313,0-6-2.687-6-6V6
-                                          c0-3.313,2.687-6,6-6h36c3.313,0,6,2.687,6,6V42z"></path>
-                                    <g>
-                                    <g>
-                                    <path fill="#257EAA" d="M13.237,33.891h4.988V16.842h-4.988V33.891z M15.731,9.966c-1.608,0-2.658,1.083-2.625,2.527
-                                          c-0.033,1.378,1.018,2.494,2.593,2.494c1.641,0,2.691-1.116,2.691-2.494C18.357,11.049,17.339,9.966,15.731,9.966z M31.712,17.081
-                                          c-1.595,0-3.222-0.329-4.956,2.36h-0.099l-0.087-2.599h-4.417c0.065,1.411,0.074,3.518,0.074,5.52v11.529h4.988v-9.855
-                                          c0-0.46,0.065-0.919,0.196-1.248c0.328-0.919,1.149-1.871,2.527-1.871c1.805,0,2.527,1.411,2.527,3.479v9.495h4.988V23.773
-                                          C37.455,19.047,34.993,17.081,31.712,17.081z"></path>
-                                    </g>
-                                    </g>
-                                    <g>
-                                    <g>
-                                    <path fill="#FFFFFF" d="M15.731,11.633c-1.608,0-2.658,1.083-2.625,2.527c-0.033,1.378,1.018,2.494,2.593,2.494
-                                          c1.641,0,2.691-1.116,2.691-2.494C18.357,12.716,17.339,11.633,15.731,11.633z M13.237,35.557h4.988V18.508h-4.988V35.557z
-                                          M31.712,18.748c-1.595,0-3.222-0.329-4.956,2.36h-0.099l-0.087-2.599h-4.417c0.065,1.411,0.074,3.518,0.074,5.52v11.529h4.988
-                                          v-9.854c0-0.46,0.065-0.919,0.196-1.248c0.328-0.919,1.149-1.871,2.527-1.871c1.805,0,2.527,1.411,2.527,3.479v9.494h4.988V25.439
-                                          C37.455,20.713,34.993,18.748,31.712,18.748z"></path>
-                                    </g>
-                                    </g>
-                                    </svg>
-                                </a>
-                                <a rel="me" title="twitter account" href="http://twitter.com/denadai2">
-                                    <svg version="1.1" width="32" height="32" id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#29AAE1" d="M48,42c0,3.313-2.687,6-6,6H6c-3.313,0-6-2.687-6-6V6
-                                          c0-3.313,2.687-6,6-6h36c3.313,0,6,2.687,6,6V42z"></path>
-                                    <path fill="#29AAE1" d="M40.231,13.413c-1.12,0.497-2.323,0.833-3.588,0.984c1.291-0.774,2.28-1.998,2.747-3.457
-                                          c-1.206,0.716-2.543,1.236-3.968,1.516c-1.139-1.214-2.763-1.972-4.56-1.972c-3.449,0-6.246,2.796-6.246,6.247
-                                          c0,0.49,0.055,0.966,0.161,1.424c-5.192-0.261-9.795-2.749-12.876-6.528c-0.538,0.923-0.846,1.996-0.846,3.141
-                                          c0,2.167,1.103,4.08,2.779,5.199c-1.024-0.032-1.987-0.313-2.83-0.781c0,0.026,0,0.053,0,0.079c0,3.026,2.153,5.551,5.011,6.125
-                                          c-0.525,0.143-1.076,0.219-1.646,0.219c-0.403,0-0.794-0.038-1.176-0.11c0.795,2.48,3.102,4.287,5.835,4.338
-                                          c-2.138,1.675-4.832,2.675-7.758,2.675c-0.504,0-1.002-0.03-1.491-0.089c2.765,1.773,6.048,2.808,9.576,2.808
-                                          c11.49,0,17.774-9.519,17.774-17.774c0-0.271-0.006-0.54-0.019-0.809C38.334,15.766,39.394,14.666,40.231,13.413z"></path>
-                                    <path fill="#FFFFFF" d="M40.231,14.739c-1.12,0.497-2.323,0.833-3.588,0.984c1.291-0.773,2.28-1.998,2.747-3.456
-                                          c-1.206,0.716-2.543,1.236-3.968,1.516c-1.139-1.214-2.763-1.972-4.56-1.972c-3.449,0-6.246,2.796-6.246,6.247
-                                          c0,0.489,0.055,0.966,0.161,1.424c-5.192-0.261-9.795-2.748-12.876-6.527c-0.538,0.923-0.846,1.996-0.846,3.141
-                                          c0,2.167,1.103,4.079,2.779,5.199c-1.024-0.032-1.987-0.313-2.83-0.781c0,0.026,0,0.052,0,0.079c0,3.027,2.153,5.551,5.011,6.125
-                                          c-0.525,0.144-1.076,0.219-1.646,0.219c-0.403,0-0.794-0.038-1.176-0.11c0.795,2.481,3.102,4.287,5.835,4.338
-                                          c-2.138,1.676-4.832,2.675-7.758,2.675c-0.504,0-1.002-0.03-1.491-0.089c2.765,1.773,6.048,2.808,9.576,2.808
-                                          c11.49,0,17.774-9.519,17.774-17.774c0-0.271-0.006-0.54-0.019-0.808C38.334,17.092,39.394,15.992,40.231,14.739z"></path>
-                                    </svg>
-                                </a>
-                                <a rel="me" title="Github account" href="https://github.com/denadai2">
-                                    <svg version="1.1" width="32" height="32" id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M48,42c0,3.313-2.687,6-6,6H6c-3.313,0-6-2.687-6-6V6
-                                          c0-3.313,2.687-6,6-6h36c3.313,0,6,2.687,6,6V42z"></path>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M27.695,29.811c0,0,1.519,5.062,5.974,4.05
-                                          c4.456-1.013,4.759-6.684,2.127-9.619C33.163,21.305,26.379,25.962,27.695,29.811z"></path>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.828,18.179c0,0-3.344,3.499-2.763,9.192
-                                          c0.581,5.694,4.186,10.392,16.208,10.392c12.021,0,15.045-6.275,15.116-11.436c0.071-5.159-2.253-7.46-3.344-8.243
-                                          c0,0,0.007-3.704-0.343-5.661c0,0-1.85-0.219-5.845,2.07c0,0-5.454-0.533-12.722,0.065c0,0-3.053-2.04-6.129-2.574
-                                          C12.006,11.984,11.496,15.196,11.828,18.179z"></path>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#E2B89F" d="M17.211,23.815h14.916c0,0,4.227-0.475,4.227,6.44
-                                          c0.034,6.086-11.139,5.693-11.139,5.693s-12.236,0.486-12.243-6.269C12.956,23.579,17.211,23.815,17.211,23.815z"></path>
-                                    <g>
-                                    <g>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#9C584F" d="M30.767,26.591c0.959,0,1.737,1.25,1.737,2.787
-                                          c0,1.54-0.778,2.788-1.737,2.788c-0.958,0-1.736-1.248-1.736-2.788C29.03,27.841,29.809,26.591,30.767,26.591z"></path>
-                                    <path fill="#FFFFFF" d="M30.767,32.666c-1.254,0-2.236-1.444-2.236-3.288c0-1.843,0.982-3.287,2.236-3.287
-                                          c1.255,0,2.237,1.444,2.237,3.287C33.004,31.222,32.021,32.666,30.767,32.666z M30.767,27.091c-0.585,0-1.236,0.939-1.236,2.287
-                                          c0,1.349,0.651,2.288,1.236,2.288s1.237-0.939,1.237-2.288C32.004,28.03,31.352,27.091,30.767,27.091z"></path>
-                                    </g>
-                                    </g>
-                                    <g>
-                                    <g>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#9C584F" d="M18.767,26.591c0.959,0,1.737,1.25,1.737,2.787
-                                          c0,1.54-0.778,2.788-1.737,2.788c-0.958,0-1.736-1.248-1.736-2.788C17.03,27.841,17.809,26.591,18.767,26.591z"></path>
-                                    <path fill="#FFFFFF" d="M18.767,32.666c-1.254,0-2.236-1.444-2.236-3.288c0-1.843,0.982-3.287,2.236-3.287
-                                          c1.254,0,2.237,1.444,2.237,3.287C21.004,31.222,20.021,32.666,18.767,32.666z M18.767,27.091c-0.585,0-1.236,0.939-1.236,2.287
-                                          c0,1.349,0.651,2.288,1.236,2.288c0.585,0,1.237-0.939,1.237-2.288C20.004,28.03,19.352,27.091,18.767,27.091z"></path>
-                                    </g>
-                                    </g>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#9C584F" d="M24.076,32.705c0,0,0.499-1.418,1.109-0.089
-                                          c0,0-0.457,0.297-0.285,0.996l1.428,0.546h-3.23l1.28-0.575C24.378,33.583,24.562,32.527,24.076,32.705z"></path>
-                                    </svg>
-                                </a>
-                                <a rel="me" title="Curriculum vitae" href="http://www.marcodena.it/CV.pdf">
-                                    <svg version="1.1" id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                         width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
-                                    <path fill="#C93D1D" d="M32,28c0,2.209-1.791,4-4,4H4c-2.208,0-4-1.791-4-4V4c0-2.208,1.792-4,4-4h24c2.209,0,4,1.792,4,4V28z"/>
-                                    <path fill="#FCFCFC" d="M6.103,28.922L6.103,28.922c-0.342,0-0.67-0.111-0.95-0.32C4.13,27.834,3.993,26.98,4.059,26.4
-                                          c0.178-1.6,2.154-3.271,5.875-4.977c1.477-3.234,2.881-7.222,3.719-10.553c-0.979-2.133-1.932-4.899-1.237-6.522
-                                          c0.243-0.568,0.67-0.969,1.236-1.157c0.224-0.075,0.443-0.113,0.65-0.113c0.495,0,0.938,0.216,1.246,0.609
-                                          c0.289,0.369,1.161,1.481-0.151,7.007c1.323,2.733,3.198,5.517,4.995,7.425c1.287-0.234,2.395-0.352,3.297-0.352
-                                          c1.537,0,2.469,0.357,2.849,1.096c0.314,0.609,0.186,1.324-0.384,2.119c-0.546,0.766-1.3,1.17-2.179,1.17
-                                          c-1.195,0-2.584-0.754-4.135-2.242c-2.786,0.58-6.039,1.619-8.667,2.77c-0.821,1.742-1.607,3.145-2.339,4.174
-                                          C7.828,28.264,6.961,28.922,6.103,28.922z M8.715,23.891c-2.099,1.178-2.953,2.146-3.015,2.693c-0.01,0.09-0.036,0.326,0.423,0.68
-                                          C6.27,27.217,7.124,26.826,8.715,23.891z M21.944,19.549c0.799,0.615,1.507,0.951,2.03,0.951c0.229,0,0.532-0.055,0.835-0.479
-                                          c0.146-0.205,0.203-0.336,0.225-0.406c-0.12-0.064-0.474-0.195-1.346-0.195C23.193,19.42,22.604,19.463,21.944,19.549z
-                                          M14.77,13.066c-0.703,2.428-1.63,5.051-2.625,7.426c2.051-0.795,4.282-1.49,6.377-1.982C17.196,16.971,15.872,15.047,14.77,13.066z
-                                          M14.269,4.735c-0.022,0.003-0.053,0.01-0.095,0.024C14.077,4.792,14,4.844,13.935,4.999c-0.253,0.59-0.053,1.712,0.333,2.918
-                                          C14.588,5.839,14.418,4.957,14.269,4.735z"/>
-                                    </svg></a>
-                            </div>
-
-                            <!-- copyright -->
-                            <p class="copyright show-for-large-up">
-                                &copy; 2014 Copyright Marco De Nadai. <br />
-                                Proudly powered by <i><a href="http://getpelican.com/">Pelican</a></i>, which takes great advantage of <i><a href="http://python.org">Python</a></i>.
-                            </p>
-                            <!-- /copyright -->
-
-                        </footer>
-                        <!-- /footer -->
-                    </div>
-                    <div class="large-8 columns" style="padding-top:30px">
-
-<section id="content projects">
+<section id="projects" class="first">
 
 <div class="row">
     <div class="large-12 columns projects projectsList">
-        <h2>My projects</h2>
+        <h2>I make products</h2>
+        <h3>I love to create and design something other people use. Here some selected projects are listed.</h3>
         <div class="row">
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/cartolina" title="Permalink to Cartolina" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/cartolina.jpg" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/cartolina" rel="bookmark" title="Permalink to Cartolina">Cartolina</a></h3>
+            <div class="large-4 medium-6 small-12 columns left text-center project">
+                    <a href="/projects/cartolina" title="Permalink to Cartolina" rel="bookmark"><img src="/theme/images/projects/cartolina_big.jpg" /><span class="overlay">
+                                <span class="project"><h3 class="entry-title">Cartolina</h3></span>
+                                <hr>
+                                <span class="duties"><p>postcards iOS application</p></span>
+                            </span></a>
                     
-                    <div class="entry-content"><p>postcards iOS application</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/westgate-attack" title="Permalink to Westgate attack" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/westgate_attack.jpg" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/westgate-attack" rel="bookmark" title="Permalink to Westgate attack">Westgate attack</a></h3>
+            </div>
+            <div class="large-4 medium-6 small-12 columns left text-center project">
+                    <a href="/projects/westgate-attack" title="Permalink to Westgate attack" rel="bookmark"><img src="/theme/images/projects/westgate_attack_big.jpg" /><span class="overlay">
+                                <span class="project"><h3 class="entry-title">Westgate attack</h3></span>
+                                <hr>
+                                <span class="duties"><p>Information visualization project</p></span>
+                            </span></a>
                     
-                    <div class="entry-content"><p>Information visualization project</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/ulook" title="Permalink to Ulook" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/ulook.jpg" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/ulook" rel="bookmark" title="Permalink to Ulook">Ulook</a></h3>
+            </div>
+            <div class="large-4 medium-6 small-12 columns left text-center project">
+                    <a href="/projects/ulook" title="Permalink to Ulook" rel="bookmark"><img src="/theme/images/projects/ulook_big.jpg" /><span class="overlay">
+                                <span class="project"><h3 class="entry-title">Ulook</h3></span>
+                                <hr>
+                                <span class="duties"><p>fashion iOS application</p></span>
+                            </span></a>
                     
-                    <div class="entry-content"><p>fashion iOS application</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/udine-bus" title="Permalink to Udine bus" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/udinebus.jpg" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/udine-bus" rel="bookmark" title="Permalink to Udine bus">Udine bus</a></h3>
+            </div>
+            <div class="large-4 medium-6 small-12 columns left text-center project">
+                    <a href="/projects/red365" title="Permalink to Red365" rel="bookmark"><img src="/theme/images/projects/red365_big.png" /><span class="overlay">
+                                <span class="project"><h3 class="entry-title">Red365</h3></span>
+                                <hr>
+                                <span class="duties"><p>green/eco heating</p></span>
+                            </span></a>
                     
-                    <div class="entry-content"><p>multi-modal public transport iOS application</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/red365" title="Permalink to Red365" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/red365.png" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/red365" rel="bookmark" title="Permalink to Red365">Red365</a></h3>
+            </div>
+            <div class="large-4 medium-6 small-12 columns left text-center project">
+                    <a href="/projects/votoil12giugno" title="Permalink to Votoil12giugno.it" rel="bookmark"><img src="/theme/images/projects/votoil12giugno_big.png" /><span class="overlay">
+                                <span class="project"><h3 class="entry-title">Votoil12giugno.it</h3></span>
+                                <hr>
+                                <span class="duties"><p>personal project for an italian referendum</p></span>
+                            </span></a>
                     
-                    <div class="entry-content"><p>green/eco heating</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/votoil12giugno" title="Permalink to Votoil12giugno.it" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/votoil12giugno.png" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/votoil12giugno" rel="bookmark" title="Permalink to Votoil12giugno.it">Votoil12giugno.it</a></h3>
+            </div>
+            <div class="large-4 medium-6 small-12 columns left text-center project">
+                    <a href="/projects/mcz" title="Permalink to MCZ.it" rel="bookmark"><img src="/theme/images/projects/mcz_big.jpg" /><span class="overlay">
+                                <span class="project"><h3 class="entry-title">MCZ.it</h3></span>
+                                <hr>
+                                <span class="duties"><p>website for the european heating leader</p></span>
+                            </span></a>
                     
-                    <div class="entry-content"><p>personal project for an italian referendum</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/mcz" title="Permalink to MCZ.it" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/mcz.jpg" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/mcz" rel="bookmark" title="Permalink to MCZ.it">MCZ.it</a></h3>
+            </div>
+            <div class="large-4 medium-6 small-12 columns left text-center project">
+                    <a href="/projects/sunday" title="Permalink to Sunday" rel="bookmark"><img src="/theme/images/projects/sunday_big.jpg" /><span class="overlay">
+                                <span class="project"><h3 class="entry-title">Sunday</h3></span>
+                                <hr>
+                                <span class="duties"><p>website for the european barbecue leader</p></span>
+                            </span></a>
                     
-                    <div class="entry-content"><p>website for the european heating leader</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/coca-cola-blog" title="Permalink to Coca-Cola blog" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/cocacola.png" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/coca-cola-blog" rel="bookmark" title="Permalink to Coca-Cola blog">Coca-Cola blog</a></h3>
+            </div>
+            <div class="large-4 medium-6 small-12 columns left text-center project">
+                    <a href="/projects/komixjam" title="Permalink to Komixjam" rel="bookmark"><img src="/theme/images/projects/komixjam_big.png" /><span class="overlay">
+                                <span class="project"><h3 class="entry-title">Komixjam</h3></span>
+                                <hr>
+                                <span class="duties"><p>Anime and manga community</p></span>
+                            </span></a>
                     
-                    <div class="entry-content"><p>re-design proposal for the Coca-Cola blog</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/sunday" title="Permalink to Sunday" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/sunday.jpg" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/sunday" rel="bookmark" title="Permalink to Sunday">Sunday</a></h3>
+            </div>
+            <div class="large-4 medium-6 small-12 columns left text-center project">
+                    <a href="/projects/mczservice" title="Permalink to MCZService" rel="bookmark"><img src="/theme/images/projects/mcz-acquisto_big.png" /><span class="overlay">
+                                <span class="project"><h3 class="entry-title">MCZService</h3></span>
+                                <hr>
+                                <span class="duties"><p>customers' service website</p></span>
+                            </span></a>
                     
-                    <div class="entry-content"><p>website for the european barbecue leader</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/komixjam" title="Permalink to Komixjam" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/komixjam.png" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/komixjam" rel="bookmark" title="Permalink to Komixjam">Komixjam</a></h3>
-                    
-                    <div class="entry-content"><p>Anime and manga community</p></div>
-                </div>
-    <div class="large-4 medium-6 small-12 columns left text-center project">
-            <a href="http://www.marcodena.it/projects/mczservice" title="Permalink to MCZService" rel="bookmark"><img src="http://www.marcodena.it/theme/images/projects/mcz-acquisto.png" /></a>
-            <h3 class="entry-title"><a href="http://www.marcodena.it/projects/mczservice" rel="bookmark" title="Permalink to MCZService">MCZService</a></h3>
-                    
-                    <div class="entry-content"><p>customers' service website</p></div>
-                </div>
-</div> <!-- to end the line of projects !-->
+            </div>
+        </div>
+    <hr></hr>
+    </div> <!-- to end the line of projects !-->
+</section>
+
+<section class="noTopPadding">
 <div class="row">
     <div class="large-12 columns projects">
-    <h2>Other projects</h2>
-    <ul>
-        <li><a href="https://github.com/denadai2/EasyAround"><h4>easyAround</h4></a>
-            <p>Python web application realized following the commonKADS model. Tools used: Flask, Flask-SQLAlchemy and PIL and Beatifulsoup4 for the scraper.</p></li>
-        <li><a href="https://github.com/denadai2/soccerbigdata_DEBS_analysis"><h4>A new massive data analytics approach to the football</h4></a>
+    <h2>I love to be a nerd</h2>
+    <h3>I study to become a Data scientist and I like Open source project. These are some of my contributions:</h3>
+    <div class="row articleSummary">
+        <div class="column large-offset-1 large-2 date">July 2014</div>
+        <div class="column large-8 end">
+            <a href="https://github.com/denadai2/energyUva"><h4>Detecting shortterm anomalies in gas consumption using ARIMA and Robust Artificial Neural Networks</h4></a><p>Python web application realized following the commonKADS model. Tools used: Flask, Flask-SQLAlchemy and PIL and Beatifulsoup4 for the scraper.</p>
+        </div>
+    </div>
+    <div class="row articleSummary">
+        <div class="column large-3 date">July 2013</div>
+        <div class="column large-8 end">
+            <a href="https://github.com/denadai2/soccerbigdata_DEBS_analysis"><h4>A new massive data analytics approach to the football</h4></a>
             <p>Small framework of tools which permits the coaches to base
                 their new strategies not only on their intuitions and judgments
                 but also on comprehensive (and maybe not human-eye visible)
-                statistics. These tools were developed using Massive-data analytics techniques.</p></li>
-        <li><a href="https://github.com/denadai2/formalVerificationOAuthProverif"><h4>Formal verification OAuth 2.0 protocol</h4></a>
-            <p>Formal verification of the protocol OAuth 2.0 (draft 22) using the automatic cryptographic protocol verifier <a href="http://prosecco.gforge.inria.fr/personal/bblanche/proverif/">Proverif</a>.</p></li>
-    </ul>
+                statistics. These tools were developed using Massive-data analytics techniques.</p>
+        </div>
+    </div>
+    <div class="row articleSummary">
+        <div class="column large-3 date">May 2010</div>
+        <div class="column large-8 end">
+            <a href="https://github.com/denadai2/formalVerificationOAuthProverif"><h4>Formal verification OAuth 2.0 protocol</h4></a>
+            <p>Formal verification of the protocol OAuth 2.0 (draft 22) using the automatic cryptographic protocol verifier <a href="http://prosecco.gforge.inria.fr/personal/bblanche/proverif/">Proverif</a>.</p>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<section id="essays" class="grey">
+<div class="row">
+    <h2>Essays</h2>
+    <h3>Sometimes I like to write some articles about what I think is important. I try to be original, so I don't publish very often.</h3>
+    <div id="container" class="cols column large-10 large-offset-1">
+        <div class="box one"><img src="images/thumbs/UvA.jpg" alt=""></img>
+            <div class="content">
+                <a href="/detecting-anomalies-with-neural-newtorks" rel="bookmark" title="Permalink to Detecting anomalies with Neural Networks"><h4>Detecting anomalies with Neural Networks</h4></a> <p>Commercial buildings consume from 15% to 30% more energy than necessary. Is it possible to find anomalies in gas consumption analyzing its time-series? Yes.</p> 
+            </div>
+        </div>
+        <div class="box one"><img src="images/thumbs/mitro.png" alt=""></img>
+            <div class="content">
+                <a href="/blog/stop-remembering-passwords/" rel="bookmark" title="Permalink to Stop remembering passwords"><h4>Stop remembering passwords</h4></a> <p>Passwords are a "pain in the ass" and hackers continue stealing them. With a password manager like Mitro it's possible to stop remembering passwords and having the security of a bullet proof Open Source system.</p> 
+            </div>
+        </div>
+        <div class="box one"><img src="images/thumbs/wordpress.png" alt=""></img>
+            <div class="content">
+                <a href="/blog/wordpress-the-future-is-static/" rel="bookmark" title="Permalink to Wordpress? The future is static"><h4>Wordpress? The future is static</h4></a> <p>How to move your (Wordpress) blog into a static HTML website and host it for free.</p> 
+            </div>
+        </div>
 
 
+    </div>
 
+</div>
+</section>
+
+<section id="awards">
+<div class="row">
     <h2>Awards</h2>
-    <ul>
+    <h3>By chance or by merits, I was awarded sometimes.</h3>
+    <div class="row articleSummary">
+        <div class="column large-offset-1 large-2 date">May 2014</div>
+        <div class="column large-8 end">
+            <a href="https://github.com/denadai2/EasyAround"><h4>Finalist Data Journalism Awards 2014</h4></a>
+            <p>The <a href="http://www.marcodena.it/projects/westgate-attack/">Westgate attack</a> project was nominated in the Data Journalism Awards 2014, organized by the <a href="http://www.globaleditorsnetwork.org/">Global Editors Network</a>.</p>
+        </div>
+    </div>
+    <div class="row articleSummary">
+        <div class="column large-offset-1 large-2 date">March 2014</div>
+        <div class="column large-8 end">
+            <h4>Best application</h4>
+            <p><a href="http://www.marcodena.it/projects/ulook/">Ulook</a> was recognized as the best application in the "Community and Social" category by the "Smau Mob App Awards" that took place during the Smau 2014.</p>
+        </div>
+    </div>
+    <div class="row articleSummary">
+        <div class="column large-offset-1 large-2 date">June 2012</div>
+        <div class="column large-8 end">
+            <h4>Special creativity price</h4>
+            <p>Special creativity award from IED (http://www.ied.com) at StartupWeekEnd 2012 - Turin. The award was assigned to "Linked Green" project, that permits to scan a product's barcorde and see all the informations about its package and it's eco sustainability.</p>
+        </div>
+    </div>
 
-        <li><h4>Finalist Data Journalism Awards 2014</h4>
-            <p>The <a href="http://www.marcodena.it/projects/westgate-attack/">Westgate attack</a> project was nominated in the Data Journalism Awards 2014, organized by the <a href="http://www.globaleditorsnetwork.org/">Global Editors Network</a>.</p></li>
-        <li><h4>Best application</h4>
-            <p><a href="http://www.marcodena.it/projects/ulook/">Ulook</a> was recognized as the best application in the "Community and Social" category by the "Smau Mob App Awards" that took place during the Smau 2014.</p></li>
-        <li><h4>Special creativity price</h4>
-            <p>Special creativity award from IED (http://www.ied.com) at StartupWeekEnd 2012 - Turin. The award was assigned to "Linked Green" project, that permits to scan a product's barcorde and see all the informations about its package and it's eco sustainability.</p></li>
-    
-
-    
-    </ul>
-
-</div></div>
+</div>
 </section><!-- /#content -->
-                    </div>
-</div>
+                    <!--</div>
 
 </div>
-</div>
 
-        
+</div>-->
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'yfd3ppx',
+      scriptTimeout: 3000
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
         <script type="text/javascript">
 
             var _gaq = _gaq || [];
