@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>Detecting anomalies with Neural Networks</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="//www.google-analytics.com" rel="dns-prefetch">
+        <link rel="dns-prefetch" href="http://use.typekit.com">
+        <link href="http://www.marcodena.it/theme/images/favicon.png" rel="shortcut icon">
+        <link rel='stylesheet' id='normalize-css'  href='http://www.marcodena.it/theme/css/normalize.css' media='all' />
+        <link rel='stylesheet' id='foundation-css'  href='http://www.marcodena.it/theme/css/foundation.min.css' media='all' />
+        <link rel='stylesheet' href='http://www.marcodena.it/theme/css/style_v2.0.css' media='all' />
+        <link rel='stylesheet' href='http://www.marcodena.it/theme/css/marcodenashare_v2.0.css' media='all' />
+        <link rel='stylesheet' href='http://www.marcodena.it/theme/css/monokai.css' media='all' />
+        <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
+
+
+
+
+
+</head>
+
+<body id="index" class="home">
+  <!-- header -->
+                        <header class="header clear" role="banner" id="header">
+                          <div class="row">
+                          <div class="large-12 column">
+                            <!-- logo -->
+                            <div class="logo">
+                                <a href="http://www.marcodena.it/" class="show-for-medium-up">
+                                    <img src="http://www.marcodena.it/theme/images/marcodena.jpg" alt="Logo" class="logo-img">
+                                </a><br />
+                            </div>
+                            <!-- /logo -->
+
+                            <!-- nav -->
+                            <nav class="nav" role="navigation">
+                                <ul>
+                                    <li><a href="http://www.marcodena.it/">Home</a></li>
+                                    <li><a href="http://www.marcodena.it/blog.html">Blog</a></li>
+                                    <li><a href="http://www.marcodena.it/about">About</a></li>
+                                    
+                                    <li class="social last"><a href="http://nl.linkedin.com/in/marcodenadai/"><i aria-hidden="true" class="icon-linkedin"></i></a></li>
+                                    <li class="social"><a href="http://www.marcodena.it/CV.pdf"><i aria-hidden="true" class="icon-file-pdf"></i></a></li>
+                                    <li class="social"><a href="https://github.com/denadai2"><i aria-hidden="true" class="icon-github-circled"></i></a></li>
+                                    <li class="social"><a href="http://twitter.com/denadai2"><i aria-hidden="true" class="icon-twitter"></i></a></li>
+                                </ul>
+
+                            </nav>
+                            <!-- /nav -->
+                          </div>
+                          </div>
+                        </header>
+                        <!-- /header -->
+            <!--<div class="large-12 columns">
+                <div class="row">
+                    
+                    <div class="large-12 columns" style="padding-top:30px">-->
+<section id="articleContent" class="first">
+  <div class="row">
+<article id="content" class="body column large-8 large-offset-2 end">
+  <header>
+    <h1 class="entry-title">Detecting anomalies with Neural Networks</h1>
+ 
+  <span class="date text-right">Sun 07 September 2014</span>
+  </header>
+  
+  <div class="entry-content">
+    <p>In this article I will show part of the work I've done during my Master's internship in Amsterdam. The focus of this work was finding outliers in the gas consumption of some buildings. </p>
+<p>Energy consumption in buildings is one of the fastest growing sectors. Approximately <strong>41% of the total energy</strong> in Europe is consumed by buildings (households and services). It is showed that <strong>commercial buildings consume from 15% to 30% more energy than necessary</strong> due to poorly maintained, degraded, and improperly controlled equipment. These anomalies can become easy fixable problems with a reliable fault detection and diagnosis (FDD) system. </p>
+<p>An outlier, by definition, is an observation which deviates significantly from other observations so that it creates suspicion that it was created by different dynamics. Despite this general definition, the more appropriate way of defining
+outliers is highly application-dependent, because even same scenarios may require different determinations of outliers.</p>
+<p>In this paper, outliers are very closed related to the problem of time-series forecasting, since outliers are declared on the basis of deviations from expected (or forecast) value.</p>
+<p><img alt="outliers" src="/images/outliers.png" /></p>
+<p>The system is composed by 2-phase process where in the first one the short-term (hourly) gas consumption is
+forecast thanks to a historical time-series, and in the second phase outliers are detected on the basis of deviations from expected (or forecast) value.</p>
+<h2>iPython Notebooks</h2>
+<p>In these notebooks the dataset is analysed, then it is used by an Artificial Neural Network built in <a href="https://github.com/lisa-lab/pylearn2">pylearn2</a>. This project uses Python with <a href="http://pandas.pydata.org/">pandas</a>.</p>
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/denadai2/energyUva/blob/master/notebooks/0-Data%2BWeather%2BHolidays.ipynb">Dataset preparation</a></li>
+<li><a href="http://nbviewer.ipython.org/github/denadai2/energyUva/blob/master/notebooks/1-Dataset_cleaning.ipynb">Dataset cleaning</a></li>
+<li><a href="http://nbviewer.ipython.org/github/denadai2/energyUva/blob/master/notebooks/2-Dataset%20analysis.ipynb">Dataset analysis</a></li>
+<li><a href="http://nbviewer.ipython.org/github/denadai2/energyUva/blob/master/notebooks/3-Feature%20engineering.ipynb">Feature engineering</a>. <a href="http://nbviewer.ipython.org/github/denadai2/energyUva/blob/master/notebooks/3bis-%20Regression%20short%20version.ipynb">Short version</a></li>
+<li><a href="https://github.com/denadai2/energyUva/blob/master/NN_static_MLSE.yaml">pylearn2 YAML file</a></li>
+</ul>
+<h2>Results</h2>
+<p>This model was able to detect some synthetic and real outliers from the dataset.  Since the predictor is very accurate (with RMSE from 8 m^3 in building 740-NTH, to RMSE 2.5 m^3 in building 761-KMH), the outlier mechanism is able to easily detect strange behaviours defining a threshold value in the confidence interval without the need to possess previous examples of outliers. The scope of this paper was forecasting the highly irregular gas consumption time-series, but it is believed that similar results could be also obtained with electric consumption time-series. It is hoped that this could lead to new analysis of the energy consumption in public buildings.</p>
+<p>The draft of the <strong>paper</strong> can be found <a href="https://github.com/denadai2/energyUva/blob/master/paperEnergy/paperv2_2.pdf">here</a>, while the sources are in this <a href="https://github.com/denadai2/energyUva">github project</a>.</p>
+<p><strong>The paper is still a draft, so I would really like to listen your opinion, notes, doubts. Please, drop a note here!</strong></p>
+  </div><!-- /.entry-content -->
+</article>
+</div>
+</section>
+
+<section class="noTopPadding">
+  <div class="row">
+  <div class="column large-8 large-offset-2 end">
+    <div id="share-containter">
+        <ul class="social-tools-bottom inline">
+          <li class="left facebook">
+            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/detecting-anomalies-with-neural-newtorks&p[images][0]=&p[title]=Detecting%20anomalies%20with%20Neural%20Networks%20&p[summary]=%3Cp%3EIn%20this%20article%20I%20will%20show%20part%20of%20the%20work%20I%27ve%20done%20during%20my%20Master%27s%20internship%20in%20Amsterdam.%20The%20focus%20of%20this%20work%20was%20finding%20outliers%20in%20the%20gas%20consumption%20of%20some%20buildings.%20%3C/p%3E%0A%3Cp%3EEnergy%20consumption%20in%20buildings%20is%20one%20of%20the%20fastest%20growing%20sectors.%20Approximately%20%3Cstrong%3E41%25%20of%20the%20...%3C/strong%3E%3C/p%3E" class="facebook" target="_blank" title="Share on Facebook">
+              <i class="icon-facebook"></i><span>Share on Facebook</span>
+            </a>
+          </li>
+          <li class="right twitter">
+            <a href="http://twitter.com/home?status=Detecting%20anomalies%20with%20Neural%20Networks%20 http%3A//www.marcodena.it/detecting-anomalies-with-neural-newtorks" class="twitter" target="_blank" title="Share on Twitter">
+              <i class="icon-twitter"></i><span>Share on Twitter</span>
+            </a>
+          </li>
+        </ul>
+        <div style="clear:both"></div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section class="comments noTopPadding" id="comments">
+  <div class="row">
+  <div class="column large-8 large-offset-2 end">
+<h2>Comments</h2>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'marcodenait'; // required: replace example with your forum shortname
+var disqus_identifier = 'detecting-anomalies-with-neural-networks';
+var disqus_url = 'http://www.marcodena.it/detecting-anomalies-with-neural-newtorks';
+var disqus_config = function () {
+this.language = "en";
+};
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+var dsq = document.createElement('script');
+dsq.type = 'text/javascript';
+dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+</div>
+</section>
+
+
+                    <!--</div>
+
+</div>
+
+</div>-->
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'yfd3ppx',
+      scriptTimeout: 3000
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-210377-21']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+</body>
+</html>
