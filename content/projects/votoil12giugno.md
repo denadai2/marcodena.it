@@ -2,7 +2,7 @@ Title: Votoil12giugno.it
 Category: Projects
 url: projects/votoil12giugno
 save_as: projects/votoil12giugno/index.html
-Thumb: votoil12giugno.png
+Thumb: votoil12giugno_big.png
 Summary: personal project for an italian referendum 
 Sortorder: 6
 

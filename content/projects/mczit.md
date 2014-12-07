@@ -2,7 +2,7 @@ Title: MCZ.it
 Category: Projects
 url: projects/mcz
 save_as: projects/mcz/index.html
-Thumb: mcz.jpg
+Thumb: mcz_big.jpg
 Summary: website for the european heating leader 
 Sortorder: 5
 

@@ -1,6 +1,8 @@
 Title: Detecting anomalies with Neural Networks
 Date: 2014-09-07 10:20
 Category: Data-mining
+Thumb: UvA.jpg
+Exceprt: Commercial buildings consume from 15% to 30% more energy than necessary. Is it possible to find anomalies in gas consumption analyzing its time-series? Yes.
 url: detecting-anomalies-with-neural-newtorks
 save_as: detecting-anomalies-with-neural-newtorks/index.html
 

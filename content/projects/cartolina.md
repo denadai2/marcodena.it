@@ -3,7 +3,7 @@ Date: 2014-09-02 10:20
 Category: Projects
 url: projects/cartolina
 save_as: projects/cartolina/index.html
-Thumb: cartolina.jpg
+Thumb: cartolina_big.jpg
 Summary: postcards iOS application
 Sortorder: b
 

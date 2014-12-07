@@ -1,6 +1,8 @@
 Title: Wordpress? The future is static
 Date: 2014-08-09 10:20
 Category: Programming
+Thumb: wordpress.png
+Exceprt: How to move your (Wordpress) blog into a static HTML website and host it for free.
 
 I was a PHP developer and I lived the blog fashion bubble when everyone made blogs, 
 even talking about non-sense. Since that "era" [Wordpress](http://www.wordpress.org)

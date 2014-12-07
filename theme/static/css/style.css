@@ -14,27 +14,6 @@
 /*------------------------------------*\
     MAIN
 \*------------------------------------*/
-@font-face {
-    font-family: 'AvenirNextLTW01-Regular';
-    src: url('fonts/avenirnextltpro-regular.eot?#iefix');
-    src: url('fonts/avenirnextltpro-regular.eot?#iefix') format('eot'),
-        url('fonts/avenirnextltpro-regular.woff') format('woff'),
-        url('fonts/avenirnextltpro-regular.ttf') format('truetype'),
-        url('fonts/avenirnextltpro-regular.svg#avenirnextltpro-regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'TrumpGothicEastMedium';
-    src: url('fonts/ufonts.com_trump_gothic_east_medium-webfont.eot');
-    src: url('fonts/ufonts.com_trump_gothic_east_medium-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/ufonts.com_trump_gothic_east_medium-webfont.woff') format('woff'),
-        url('fonts/ufonts.com_trump_gothic_east_medium-webfont.ttf') format('truetype'),
-        url('fonts/ufonts.com_trump_gothic_east_medium-webfont.svg#trump_gothic_east_mediumRg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 /* global box-sizing */
 *,
 *:after,
@@ -50,8 +29,9 @@
 
 body {
     color: rgb(33, 31, 31);
-    font-family: 'AvenirNextLTW01-Regular',Helvetica,Arial,sans-serif;
-    line-height: 1;
+    font-family: "museo-sans",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.35em;
 }
 /* clear */
 .clear:before,
@@ -114,17 +94,98 @@ h4{
     display:inline;
 }
 
+p{
+    color: #3D3A3A;
+}
+
 /*------------------------------------*\
     STRUCTURE
 \*------------------------------------*/
 
-/* wrapper */
-.wrapper {
-    
+/* header */
+header#header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    z-index: 99999;
+    background-color: #FFF;
+    border-bottom: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.008);
 }
 
-/* header */
-#sidebar header, #sidebar footer{
+header#header > div{
+    padding: 5px;
+}
+
+header#header nav {
+    padding: 3px 0 6px;
+    margin:0;
+    float:left;
+    width:90%;
+}
+
+header#header nav ul {
+    margin:0;
+    padding:0;
+}
+
+header#header nav li{
+    position: relative;
+    float: left;
+    margin: 0px 2.5%;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+header#header a{
+    color: #211F1F;
+}
+
+header#header nav .social{
+    margin: 0px 0.6%;
+    font-size:18px;
+    padding:0;
+    float:right
+}
+
+header#header nav .social a{
+    border: 1px solid #444951;
+    border-radius: 50%;
+    display: block;
+    line-height: 1.7em;
+    text-align: center;
+    width: 1.7em;
+    height: 1.7em;
+}
+
+header#header nav .social i{
+    color: #444951;
+}
+
+header#header nav .social:hover a{
+    border:1px solid #c0392b;
+}
+
+header#header .social:hover i{
+    color:#c0392b;
+}
+
+.logo {
+    float:left;
+    width:60px;
+}
+
+.logo-img {
+    border-radius: 50%;
+    border: 2px solid #DFDFDF;
+    margin-bottom:1em;
+    width: 40px;
+    height: 40px;
+}
+
+
+#sidebar footer{
     height: auto;
     text-align: right;
 }
@@ -132,15 +193,7 @@ h4{
 article h1{
     margin-top:0;
 }
-/* logo */
-.logo {
-}
-.logo-img {
-    border-radius: 50%;
-    border: 4px solid rgb(255, 255, 255);
-    margin-bottom:1em;
 
-}
 #sidebar .logo-name{
     font-size: 48px;
     font-family: 'TrumpGothicEastMedium';
@@ -199,11 +252,53 @@ nav li{
     font-size: 14px;
 }
 
+section.first{
+    padding-top: 9.25em;
+}
+section.noTopPadding{
+    padding-top:0;
+}
+
+section.grey{
+    background: rgb(237,237,237);
+}
+
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
-section{
-    margin-bottom: 50px;
+
+section h2, section h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    max-width: 40em;
+    text-align: center;
+    text-transform: none;
+    color: #444951;
+}
+
+section h2{
+    font-size: 2.5em;
+    margin: 0px auto 0.65em;
+}
+
+section h3{
+    color: #444951;
+    font-size: 1em;
+    margin: 0px auto 1.5em;
+}
+
+section hr {
+    border-style: solid;
+    border-color: #DDD;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: 1px 0px 0px;
+    clear: both;
+    margin: 2.6rem 0px;
+    height: 0px;
 }
 
 #post-list {
@@ -245,7 +340,7 @@ section{
     IMAGES
 \*------------------------------------*/
 .projects img {
-    border: 1px solid rgb(148, 145, 140);
+    border: 1px solid #C9C9C9;;
 }
 .projects a:hover img, .projects a:focus img {
     border-color: rgb(51, 51, 51);
@@ -256,8 +351,8 @@ section{
 
 .projectsList img {
     box-sizing: content-box;
-    width:190px;
-    height:190px;
+    width:300px;
+    height:225px;
 }
 
 /*------------------------------------*\
@@ -287,9 +382,7 @@ section{
 }
 @media only screen and (min-width:1140px) {
 
-    body{
-        background: url(../images/faux7.png) center top;
-    }
+    
 
 }
 @media only screen and (min-width:1280px) {
@@ -323,14 +416,6 @@ only screen and (min-resolution:144dpi) {
 /*------------------------------------*\
     WORDPRESS CORE
 \*------------------------------------*/
-article img {
-    border: 1px solid #94918C;
-    margin: 5px 20px 20px 0px;
-}
-
-.projects h4 {
-    font-size:26px;
-}
 
 section h1{
     margin-top:0;
@@ -436,6 +521,166 @@ a img.aligncenter {
 }
 
 /*------------------------------------*\
+    INDEX
+\*------------------------------------*/
+
+section {
+    padding: 7.25em 0 5.75em;
+}
+
+section h3{
+    padding-bottom: 2.5em;
+    margin-bottom: 0.5em;
+}
+section .project h3{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+section h4, section .date{
+    font-family: "ff-tisa-web-pro",serif;
+    font-weight: 400;
+    font-size:18px;
+    text-transform: none;
+    font-style: italic;
+}
+
+section h4{
+    display: inline;
+}
+section p{
+    display: inline;
+}
+
+section h4:after{
+    content: " —"; color: black;
+}
+
+section .date{
+    font-size:16px;
+    text-align: right
+}
+
+
+section .row.articleSummary{
+    margin-bottom:20px;
+}
+
+section .row.articleSummary:last-child{
+    margin-bottom:0 
+}
+
+section hr {
+    border-style: solid;
+    border-color: #DDD;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: 1px 0px 0px;
+    clear: both;
+    margin: 5.75em 0 0;
+    height: 0px;
+}
+
+
+/*------------------------------------*\
+    ARTICLE
+\*------------------------------------*/
+
+#articleContent{
+
+}
+
+#articleContent h1, #pageContent h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    max-width: 40em;
+    text-transform: none;
+    color: #444951;
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+#pageContent h1{
+    margin-bottom: 1em;
+}
+
+article p{
+    line-height: 1.7em;
+}
+
+article h2, #comments h2{
+    text-align: left;
+    font-size: 19px;
+    font-family: "museo-sans",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#comments h2{
+    font-size: 26px;
+}
+
+article img {
+    border: 1px solid #94918C;
+    margin: 20px 0 20px 0;
+}
+
+article .date, article .articleInfo{
+    font-family: "ff-tisa-web-pro",serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: none;
+    font-style: italic;
+    display: block;
+    margin-bottom: 1.6em;
+}
+
+.social-tools-bottom{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.social-tools-bottom li{
+    border-radius: 0.333em;
+    width: 49.5%;
+    padding: 10px 0;
+    margin: 0;
+    font-family: museo-sans;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #3B5998;
+}
+
+.social-tools-bottom li.twitter{
+    background-color: #4099FF;
+}
+
+.social-tools-bottom li a{
+    color: #FFF;
+}
+
+.social-tools-bottom i{
+    font-size: 20px;
+    position: relative;
+    top:2px;
+    padding: 0 5px 0;
+}
+
+#share-containter{
+    padding: 30px 0;
+    border-top: 1px solid #D5D5D5;
+    border-bottom: 1px solid #D5D5D5;
+}
+
+/*------------------------------------*\
     PRINT
 \*------------------------------------*/
 
@@ -495,13 +740,9 @@ a img.aligncenter {
 /*------------------------------------*\
     PROJECTS
 \*------------------------------------*/
-.projects{
-    margin-bottom:50px;
-}
 
 .projects .project{
-    height:266px;
-    margin-bottom: 20px;
+    margin: 0.9375em 0;
 }
 
 .projects .project a{
@@ -511,9 +752,6 @@ a img.aligncenter {
 .projects .project a:hover{
     color: #c0392b;
     text-decoration: none;
-}
-.projects h2{
-    margin-top:10px
 }
 .projects .project div{
     font-size: 14px;
@@ -537,13 +775,7 @@ article h2 {
     margin-bottom: 0
 }
 
-article .date, article .articleInfo{
-    font-family: 'AvenirNextLTW01-Regular';
-    font-size: 12px;
-    text-transform: uppercase;
-    line-height: 1.5;
-    display: block;
-}
+
 
 article{
     line-height: 1.5;
@@ -555,4 +787,80 @@ article{
 
 #post-share-links{
     padding: 40px 0;
+}
+
+
+.project a{
+    display:block;
+    position:relative;
+}
+
+.project a:hover > .overlay{
+    opacity: 1;
+}
+
+.overlay {
+    display: block;
+    opacity: 0;
+    padding: 60px 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: none repeat scroll 0% 0% rgba(192, 57, 43, 0.9);
+    color: #FFF;
+    transition: all 0.5s ease 0s;
+    line-height: 1.1em;
+}
+
+.overlay h3{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.overlay hr {
+    width: 72px;
+    margin: 20px auto;
+    border-width: medium medium 1px;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color #FFF;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    box-sizing: content-box;
+    height: 0px;
+}
+
+.overlay p{
+    color: #FFF;
+}
+
+
+
+
+.cols {
+    -moz-column-count:3;
+    -moz-column-gap: 3%;
+    -moz-column-width: 30%;
+    -webkit-column-count:3;
+    -webkit-column-gap: 3%;
+    -webkit-column-width: 30%;
+    column-count: 3;
+    column-gap: 3%;
+    column-width: 30%;
+}
+.box {
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 0.35em;
+    overflow: hidden;
+    background: white;
+}
+.box > .content {
+    padding: 1em;
 }

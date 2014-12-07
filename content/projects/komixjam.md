@@ -2,7 +2,7 @@ Title: Komixjam
 Category: Projects
 url: projects/komixjam
 save_as: projects/komixjam/index.html
-Thumb: komixjam.png
+Thumb: komixjam_big.png
 Summary: Anime and manga community
 Sortorder: 2
 

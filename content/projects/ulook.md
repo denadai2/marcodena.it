@@ -3,7 +3,7 @@ Date: 2010-12-02 10:20
 Category: Projects
 url: projects/ulook
 save_as: projects/ulook/index.html
-Thumb: ulook.jpg
+Thumb: ulook_big.jpg
 Summary: fashion iOS application
 Sortorder: 9
 

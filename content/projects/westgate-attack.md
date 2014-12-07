@@ -3,7 +3,7 @@ Date: 2010-12-03 10:20
 Category: Projects
 url: projects/westgate-attack
 save_as: projects/westgate-attack/index.html
-Thumb: westgate_attack.jpg
+Thumb: westgate_attack_big.jpg
 Summary: Information visualization project
 Sortorder: a
 

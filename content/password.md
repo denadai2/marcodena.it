@@ -1,6 +1,8 @@
 Title: Stop remembering passwords
 Date: 2014-09-02 10:20
 Category: Security
+Thumb: mitro.png
+Exceprt: Passwords are a "pain in the ass" and hackers continue stealing them. With a password manager like Mitro it's possible to stop remembering passwords and having the security of a bullet proof Open Source system.
 
 Everyday we hear about hackers stealing password and accounts. Just one week ago [1.2 billion passwords were stolen](http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks), and [The Fappening](http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack) hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez and many others. Nevertheless we continue to somehow trust the __passwords__, which are insecure, we often forget them and, finally, we complain when someone hacks our E-mail or Facebook account. Ask yourself:
 

@@ -2,7 +2,7 @@ Title: Sunday
 Category: Projects
 url: projects/sunday
 save_as: projects/sunday/index.html
-Thumb: sunday.jpg
+Thumb: sunday_big.jpg
 Summary: website for the european barbecue leader 
 Sortorder: 3
 

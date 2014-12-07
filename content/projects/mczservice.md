@@ -2,7 +2,7 @@ Title: MCZService
 Category: Projects
 url: projects/mczservice
 save_as: projects/mczservice/index.html
-Thumb: mcz-acquisto.png
+Thumb: mcz-acquisto_big.png
 Summary: customers' service website
 Sortorder: 1
 

@@ -17,41 +17,52 @@
 {% block title %}{{ article.title|striptags }}{% endblock %}
 
 {% block content %}
-<article id="content" class="body">
+<section id="articleContent" class="first">
+  <div class="row">
+<article id="content" class="body large-8 large-offset-2 end">
   <header>
     <h1 class="entry-title">{{ article.title }}</h1>
  {% import 'translations.html' as translations with context %}
  {{ translations.translations_for(article) }}
+  <span class="date text-right">{{ article.locale_date }}</span>
   </header>
-  <!-- post details -->
-    <span class="date text-right">{{ article.locale_date }}</span>
-  <!-- /post details -->
   
   <div class="entry-content">
     {{ article.content }}
   </div><!-- /.entry-content -->
 </article>
+</div>
+</section>
 
 {% if article.share_post and article.status != 'draft' %}
-<section>
-    <p id="post-share-links">
-        <strong style="text-transform:uppercase;margin-bottom:5px;display:block">Do you like this article?:</strong>
-        <a href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter">
-          <i class="icon-twitter"></i></a>
-        
-        <a href="{{article.share_post['facebook']}}" target="_blank" title="Share on Facebook">
-          <i class="icon-facebook"></i></a>
-        
-        <a href="{{article.share_post['email']}}" target="_blank" title="Share via Email">
-          <i class="icon-mail-alt"></i></a>
-    </p>
+<section class="noTopPadding">
+  <div class="row">
+  <div class="large-8 large-offset-2 end">
+    <div id="share-containter">
+        <ul class="social-tools-bottom inline">
+          <li class="left facebook">
+            <a href="{{article.share_post['facebook']}}" class="facebook" target="_blank" title="Share on Facebook">
+              <i class="icon-facebook"></i><span>Share on Facebook</span>
+            </a>
+          </li>
+          <li class="right twitter">
+            <a href="{{article.share_post['twitter']}}" class="twitter" target="_blank" title="Share on Twitter">
+              <i class="icon-twitter"></i><span>Share on Twitter</span>
+            </a>
+          </li>
+        </ul>
+        <div style="clear:both"></div>
+    </div>
+  </div>
+</div>
 </section>
 {% endif %}
 
 
 {% if DISQUS_SITENAME %}
-<hr id="comment-sep" />
-<section class="comments" id="comments">
+<section class="comments noTopPadding" id="comments">
+  <div class="row">
+  <div class="large-8 large-offset-2 end">
 <h2>Comments</h2>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -83,6 +94,8 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
 Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+</div>
 </section>
 {% endif %}
 
