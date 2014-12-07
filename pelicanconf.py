@@ -54,6 +54,7 @@ THEME = 'theme'
 STATIC_PATHS = [
     'extra/robots.txt',
     'extra/CV.pdf',
+    'extra/CNAME',
     'images/'
     ]
 
