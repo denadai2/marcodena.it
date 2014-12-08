@@ -55,3 +55,4 @@ docs/_build/
 plugins/disqus_static.py
 output/
 cache/
+theme/.webassets-cache/

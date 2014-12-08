@@ -12,15 +12,17 @@
             <div class="large-4 medium-6 small-12 columns left text-center project">
                     <a href="{{ SITEURL }}/{{ page.url }}" title="Permalink to {{ page.title|striptags }}" rel="bookmark"><img src="{{ SITEURL }}/theme/images/projects/{{ page.thumb }}" /><span class="overlay">
                                 <span class="project"><h3 class="entry-title">{{ page.title }}</h3></span>
-                                <hr>
+                                <hr></hr>
                                 <span class="duties">{{ page.summary }}</span>
-                            </span></a>
+                            </span>
+                    </a>
                     
             </div>
         {% endfor %}
         </div>
     <hr></hr>
     </div> <!-- to end the line of projects !-->
+</div>
 </section>
 
 <section class="noTopPadding">
@@ -57,20 +59,21 @@
 
 <section id="essays" class="grey">
 <div class="row">
-    <h2>Essays</h2>
-    <h3>Sometimes I like to write some articles about what I think is important. I try to be original, so I don't publish very often.</h3>
-    <div id="container" class="cols column large-10 large-offset-1">
-        {% for article in articles_page.object_list %}
-        <div class="box one"><img src="images/thumbs/{{ article.thumb }}" alt=""></img>
-            <div class="content">
-                <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}"><h4>{{ article.title }}</h4></a> <p>{{ article.exceprt }}</p> 
+    <div class="large-12 columns projects">
+        <h2>Essays</h2>
+        <h3>Sometimes I like to write some articles about what I think is important. I try to be original, so I don't publish very often.</h3>
+        <div id="container" class="cols column large-10 large-offset-1">
+            {% for article in articles_page.object_list %}
+            <div class="box one"><img src="images/thumbs/{{ article.thumb }}" alt=""></img>
+                <div class="content">
+                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}"><h4>{{ article.title }}</h4></a> <p>{{ article.exceprt }}</p> 
+                </div>
             </div>
+            {% endfor %}
+
+
         </div>
-        {% endfor %}
-
-
     </div>
-
 </div>
 </section>
 
