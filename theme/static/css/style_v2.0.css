@@ -669,6 +669,8 @@ section hr {
 article p{
     line-height: 1.7em;
     color: #222;
+    display: block;
+    margin-bottom: 21px;
 }
 
 article h2, #comments h2{

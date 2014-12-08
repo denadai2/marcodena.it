@@ -5,7 +5,7 @@
 {% endblock %}
 
 <div class="row">
-    
+    <div class="column large-12">
         {% for article in articles_page.object_list %}
         <div class="row articleSummary">
 	        <div class="column large-offset-1 large-2 date">{{ article.date.strftime("%d %B %Y") }}</div>
@@ -15,7 +15,7 @@
 	        </div>
 	    </div>
         {% endfor %}
-
+    </div>
 </div>
 {% include 'pagination.html' %}
 
