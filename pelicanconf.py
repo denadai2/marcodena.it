@@ -41,7 +41,8 @@ PLUGIN_PATHS = ["plugins", "/srv/pelican/plugins"]
 PLUGINS = [
     'share_post',
     'sitemap',
-    'better_figures_and_images'
+    'better_figures_and_images',
+    'assets'
 ]
 
 DISQUS_SITENAME = 'marcodenait'

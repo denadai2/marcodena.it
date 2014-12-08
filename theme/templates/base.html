@@ -8,11 +8,9 @@
         <link href="//www.google-analytics.com" rel="dns-prefetch">
         <link rel="dns-prefetch" href="http://use.typekit.com">
         <link href="{{ SITEURL }}/theme/images/favicon.png" rel="shortcut icon">
-        <link rel='stylesheet' id='normalize-css'  href='{{ SITEURL }}/theme/css/normalize.css' media='all' />
-        <link rel='stylesheet' id='foundation-css'  href='{{ SITEURL }}/theme/css/foundation.min.css' media='all' />
-        <link rel='stylesheet' href='{{ SITEURL }}/theme/css/style_v2.0.css' media='all' />
-        <link rel='stylesheet' href='{{ SITEURL }}/theme/css/marcodenashare_v2.0.css' media='all' />
-        <link rel='stylesheet' href='{{ SITEURL }}/theme/css/monokai.css' media='all' />
+        {% assets filters="cssmin", output="css/assets_v.2.0.css", "css/normalize.css", "css/foundation.min.css", "css/style_v2.0.css", "css/marcodenashare_v2.0.css", "css/monokai.css" %}
+            <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+        {% endassets %}
         <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
 
         {% if output_file == 'index.html' %}
