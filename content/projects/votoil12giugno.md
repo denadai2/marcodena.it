@@ -7,7 +7,7 @@ Summary: personal project for an italian referendum
 Sortorder: 6
 
 
-[Votoil12giugno](http://www.votoil12giugno.it/) is a personal project about an italian referendum for nuclear power, public water and Berlusconi’s legitimate impediment. This referendum was REALLY important for the italian citizens, for this reason I decided to create this website and its contents. The __whole description is in italian__, I’m sorry.
+[Votoil12giugno](http://votoil12giugno.marcodena.it/) is a personal project about an italian referendum for nuclear power, public water and Berlusconi’s legitimate impediment. This referendum was REALLY important for the italian citizens, for this reason I decided to create this website and its contents. The __whole description is in italian__, I’m sorry.
 
 
 Oggi è il primo maggio 2011, tra poco più di un mese andremo a votare un importantissimo referendum su temi come acqua, giustizia e nucleare. Nell’era di Internet, è possibile che non si riesca a trovare una buona informazione imparziale (oltre a wikipedia) che spieghi in modo esaudiente i temi, andando oltre al solito spot “Vota SI/NO”??
@@ -18,7 +18,7 @@ Ho così creato un sito web semplicissimo, composto da __pagine estremamente min
 I disegni sono stati creati da Marta Lorenzon, una disegnatrice che ha dato la sua piena disponibilità alla creazione di un progetto in cui credeva.
 Il layout dei testi è stile magazine, con più colonne di contenuto, immagini, extra ed un’indentazione ottimizzata alla lettura.
 
-Con l’obiettivo di __essere imparziali__, ho cercato la collaborazione di amici e partiti politici trovando un buon riscontro da entrambi. Chiaramente la collaborazione andrà in crescendo fino al [referendum di giugno](http://www.votoil12giugno.it/).
+Con l’obiettivo di __essere imparziali__, ho cercato la collaborazione di amici e partiti politici trovando un buon riscontro da entrambi. Chiaramente la collaborazione andrà in crescendo fino al [referendum di giugno](http://votoil12giugno.marcodena.it/).
 
 Grazie a questo progetto, ho potuto sperimentare anche Facebook e la sua realtà di condivisione, raggiungendo in poco meno di tre settimane, un numero di condivisioni molto alto e circa 700 like a pagina. Notevole a mio parere.
 
