@@ -56,3 +56,4 @@ plugins/disqus_static.py
 output/
 cache/
 theme/.webassets-cache/
+.DS_Store
