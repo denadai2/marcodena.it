@@ -8,7 +8,7 @@
         <link href="//www.google-analytics.com" rel="dns-prefetch">
         <link rel="dns-prefetch" href="http://use.typekit.com">
         <link href="{{ SITEURL }}/theme/images/favicon.png" rel="shortcut icon">
-        {% assets filters="cssmin", output="css/assets_v.2.0.css", "css/normalize.css", "css/foundation.min.css", "css/style_v2.0.css", "css/marcodenashare_v2.0.css", "css/monokai.css" %}
+        {% assets filters="cssmin", output="css/assets_v.0.1.2.css", "css/foundation.min.css", "css/style_v2.0.css", "css/marcodenashare_v2.0.css", "css/monokai.css" %}
             <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
         {% endassets %}
         <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
@@ -43,30 +43,20 @@
         {% endblock head %}
 </head>
 
-<body id="index" class="home">
+<body class="home">
   <!-- header -->
                         <header class="header clear" role="banner" id="header">
                           <div class="row">
-                          <div class="large-12 column">
-                            <!-- logo -->
-                            <div class="logo">
-                                <a href="{{ SITEURL }}/" class="show-for-medium-up">
-                                    <img src="{{ SITEURL }}/theme/images/marcodena.jpg" alt="Logo" class="logo-img">
-                                </a><br />
-                            </div>
-                            <!-- /logo -->
+                          <div class="large-11 column" id="innerheader">
 
-                            <!-- nav -->
-                            <nav class="nav" role="navigation">
-                                <ul>
+                            <div class="row">
+                            <div class="large-2 column" id="home-link-container">
+                                <a href="{{ SITEURL }}/">Marcodena.it</a>
+                            </div>
+                            <nav class="nav large-8 large-offset-1 column end" role="navigation">
+                                <ul class="menu">
                                     <li><a href="{{ SITEURL }}/">Home</a></li>
                                     <li><a href="{{ SITEURL }}/blog.html">Blog</a></li>
-                                    <li><a href="{{ SITEURL }}/about">About</a></li>
-                                    
-                                    <li class="social last"><a href="http://nl.linkedin.com/in/marcodenadai/"><i aria-hidden="true" class="icon-linkedin"></i></a></li>
-                                    <li class="social"><a href="http://www.marcodena.it/CV.pdf"><i aria-hidden="true" class="icon-file-pdf"></i></a></li>
-                                    <li class="social"><a href="https://github.com/denadai2"><i aria-hidden="true" class="icon-github-circled"></i></a></li>
-                                    <li class="social"><a href="http://twitter.com/denadai2"><i aria-hidden="true" class="icon-twitter"></i></a></li>
                                 </ul>
 
                             </nav>
@@ -74,18 +64,19 @@
                           </div>
                           </div>
                         </header>
-                        <!-- /header -->
-            <!--<div class="large-12 columns">
-                <div class="row">
-                    
-                    <div class="large-12 columns" style="padding-top:30px">-->
+    <section id="articleContent" class="first">
+  <div class="row">
+  {% if output_file != 'index.html' %}
+  {% include 'sidebar.html' %}
+  {% endif %}
                         {% block content %}
                         {% endblock %}
-                    <!--</div>
+  </div>
+</section>
 
 </div>
 
-</div>-->
+</div>
 <script>
   (function(d) {
     var config = {

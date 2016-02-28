@@ -1,9 +1,8 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block content %}
-	<section id="pageContent" class="first">
-  <div class="row">
-<article id="content" class="column body large-8 large-offset-2 end">
+	
+<article id="content" class="column body large-8 large-offset-1 end">
     <h1 class="entry-title">{{ page.title }}</h1>
 
     {% import 'translations.html' as translations with context %}
@@ -18,5 +17,4 @@
 	{% endif %}
 	
 	</article>
-</div></section>
 {% endblock %}

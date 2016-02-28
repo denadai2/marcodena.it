@@ -27,7 +27,6 @@ Ogni pagina ha diversi call-to-action per condividere, avere maggiori informazio
 Il sito è realizzato in WordPress, con l’appoggio dei CSS3 (sopratutto per i font-face via [Typekit](http://typekit.com/) e per le colonne multiple di testo), Hypernate e la griglia web 960gs.
 
 __Aggiornamento__: Il sito ha avuto ottimi pareri da parte di moltissime persone più o meno importanti, è stato utilissimo a chi necessitava di una sorta di guida al voto ed è stato segnalato da molti siti web e giornali. Stupefacente se pensiamo all’età del sito. E’ stato inoltre presentato dall’Italia dei Valori FVG tramite una conferenza stampa, dedicata all’informazione pre-referendum.
-
 ![12giugno](/images/projects/12giugno1.jpg)
 ![12giugno](/images/projects/12giugno2.jpg)
 ![12giugno](/images/projects/12giugno3.jpg)

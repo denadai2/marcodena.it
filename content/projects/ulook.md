@@ -13,7 +13,6 @@ Sortorder: 9
 I developed the application, the design and the API system. The first one was made for iOS 6/7, using: [RestKit](http://restkit.org/), [CrittercismSDK](https://www.crittercism.com/), [FastImageCache](https://github.com/path/FastImageCache), [TestFlight](http://testflightapp.com/) and [Flurry](http://www.flurry.com/). The API system is built on top of PHP Zend Framework.
 
 Update: the application was recognized as the best application in the "Community and Social" category by the "Smau Mob App Awards" that took place during the Smau 2014.
-
 ![westgate1.jpg](/images/projects/ulook1.jpg)
 ![westgate2.jpg](/images/projects/ulook2.jpg)
 ![westgate3.jpg](/images/projects/ulook3.jpg)

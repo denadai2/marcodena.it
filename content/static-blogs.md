@@ -5,16 +5,14 @@ Thumb: wordpress.png
 Exceprt: How to move your (Wordpress) blog into a static HTML website and host it for free.
 
 I was a PHP developer and I lived the blog fashion bubble when everyone made blogs, 
-even talking about non-sense. Since that "era" [Wordpress](http://www.wordpress.org)
-established the "standard de-facto" of the blogging platforms. Wordpress is highly
-customizable (it has more than 15'000 of plugins), it is used by high profile
+even talking about non-sense. Since that "era", [Wordpress](http://www.wordpress.org)
+established the "standard de-facto" among the blogging platforms. Wordpress has been highly
+customizable (it has more than 15'000 of plugins), it is still used by high profile
 websites like [The New York Observer](http://www.observer.com/) and someone is even
 using it as CMS.
-
-As I said I am a developer since many years ago and I barely managed to build this
-portfolio, because usually we have time for others but not for ourselves. Moreover I 
-easily get tired: upgrades? bugs? exploits? I really can't handle all these things
-anymore, also because I don't use Wordpress anywhere but here.
+Being a developer doesn't mean that you have time to make your own projects. In fact, we usually have time for the others but not for ourselves.
+Personally, I also get easily tired by upgrades, bugs, exploits that I could encounter building a simple personal portfolio website;
+I really can't handle all these things anymore, especially because I usually don't develop Wordpress websites, so I'm not continuosly updated.
 
 I also saw the evolution of Wordpress: from a small and not well written script, 
 it became a fancy not well written OOP script. 

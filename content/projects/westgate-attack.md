@@ -20,7 +20,6 @@ The project uses the analysis of Tweets related to the case of the Westgate, tha
 The results are illustred in [this paper](http://www.marcodena.it/wp-content/uploads/2014/05/InfoVis-Final-Report.pdf) we wrote. The resulting visualization can be seen in [this website](https://lstout.github.io/westgate/html/) (only avaiable for Chrome and Firefox).
 
 The tools used were Python, [scikit-learn](http://scikit-learn.org/stable/) for the data cleaning pre-process and for the data mining algorithms. We used [D3.js](http://d3js.org/), html, SCSS, CSS3 and HTML5 for the visualization part.
-
 ![westgate1.jpg](/images/projects/westgate1.jpg)
 ![westgate2.jpg](/images/projects/westgate2.jpg)
 ![westgate3.jpg](/images/projects/westgate3.jpg)

@@ -18,7 +18,6 @@ The anime and manga enciclopedia was build with the scope of containing many cat
 As a result of all this work, we had 50’000 unique visitors and a big an active community which followed us in all the italian events.
 
 The website was realized with WordPress, PHP Zend Framework, 960gs and Sphinx for the search.
-
 ![komixjam](/images/projects/komixjam1.jpg)
 ![komixjam](/images/projects/komixjam2.jpg)
 ![komixjam](/images/projects/komixjam3.jpg)
