@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Marco De Nadai'
 SITENAME = u'Marco De Nadai'
-#SITEURL = 'http://www.marcodena.it'
-SITEURL = ''
+SITEURL = 'http://www.marcodena.it'
+#SITEURL = ''
 
 PATH = 'content'
 
