@@ -5,36 +5,29 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.marcodena.it/</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.marcodena.it/archives.html</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.marcodena.it/tags.html</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.marcodena.it/categories.html</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.marcodena.it/about/</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
-<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -47,35 +40,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.marcodena.it/projects/komixjam</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.marcodena.it/projects/mcz</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.marcodena.it/projects/mczservice</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.marcodena.it/projects/red365</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.marcodena.it/projects/sunday</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -89,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.marcodena.it/projects/votoil12giugno</loc>
-<lastmod>2015-04-27T13:56:46-00:00</lastmod>
+<lastmod>2016-02-28T13:28:03-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -97,13 +90,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.marcodena.it/projects/westgate-attack</loc>
 <lastmod>2010-12-03T10:20:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.marcodena.it/blog/detecting-anomalies-with-neural-newtorks</loc>
-<lastmod>2014-09-07T10:20:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -123,13 +109,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.marcodena.it/category/data-mining.html</loc>
-<lastmod>2014-09-07T10:20:00+00:09</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://www.marcodena.it/category/programming.html</loc>
 <lastmod>2014-08-09T10:20:00+00:09</lastmod>
 <changefreq>daily</changefreq>
@@ -145,7 +124,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.marcodena.it/author/marco-de-nadai.html</loc>
-<lastmod>2014-09-07T10:20:00+00:09</lastmod>
+<lastmod>2014-09-02T10:20:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

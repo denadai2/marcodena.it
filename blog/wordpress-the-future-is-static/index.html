@@ -7,7 +7,7 @@
         <link href="//www.google-analytics.com" rel="dns-prefetch">
         <link rel="dns-prefetch" href="http://use.typekit.com">
         <link href="http://www.marcodena.it/theme/images/favicon.png" rel="shortcut icon">
-            <link rel="stylesheet" href="http://www.marcodena.it/theme/css/assets_v.2.0.css?17c8ab31">
+            <link rel="stylesheet" href="http://www.marcodena.it/theme/css/assets_v.0.1.2.css?f828d20e">
         <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
 
 
@@ -16,30 +16,20 @@
 
 </head>
 
-<body id="index" class="home">
+<body class="home">
   <!-- header -->
                         <header class="header clear" role="banner" id="header">
                           <div class="row">
-                          <div class="large-12 column">
-                            <!-- logo -->
-                            <div class="logo">
-                                <a href="http://www.marcodena.it/" class="show-for-medium-up">
-                                    <img src="http://www.marcodena.it/theme/images/marcodena.jpg" alt="Logo" class="logo-img">
-                                </a><br />
-                            </div>
-                            <!-- /logo -->
+                          <div class="large-11 column" id="innerheader">
 
-                            <!-- nav -->
-                            <nav class="nav" role="navigation">
-                                <ul>
+                            <div class="row">
+                            <div class="large-2 column" id="home-link-container">
+                                <a href="http://www.marcodena.it/">Marcodena.it</a>
+                            </div>
+                            <nav class="nav large-8 large-offset-1 column end" role="navigation">
+                                <ul class="menu">
                                     <li><a href="http://www.marcodena.it/">Home</a></li>
                                     <li><a href="http://www.marcodena.it/blog.html">Blog</a></li>
-                                    <li><a href="http://www.marcodena.it/about">About</a></li>
-                                    
-                                    <li class="social last"><a href="http://nl.linkedin.com/in/marcodenadai/"><i aria-hidden="true" class="icon-linkedin"></i></a></li>
-                                    <li class="social"><a href="http://www.marcodena.it/CV.pdf"><i aria-hidden="true" class="icon-file-pdf"></i></a></li>
-                                    <li class="social"><a href="https://github.com/denadai2"><i aria-hidden="true" class="icon-github-circled"></i></a></li>
-                                    <li class="social"><a href="http://twitter.com/denadai2"><i aria-hidden="true" class="icon-twitter"></i></a></li>
                                 </ul>
 
                             </nav>
@@ -47,14 +37,25 @@
                           </div>
                           </div>
                         </header>
-                        <!-- /header -->
-            <!--<div class="large-12 columns">
-                <div class="row">
-                    
-                    <div class="large-12 columns" style="padding-top:30px">-->
-<section id="articleContent" class="first">
+    <section id="articleContent" class="first">
   <div class="row">
-<article id="content" class="body column large-8 large-offset-2 end">
+<div id="article-author-side" class="column large-2">
+    <div style="text-align:center">
+    <img src="http://www.marcodena.it/theme/images/marcodena.jpg" class="bio-photo" alt="Marco De Nadai bio photo">
+    </div>
+    <h3>Marco De Nadai</h3>
+    <p id="personal-description">Data Scientist and Ph.D. student at University of Trento, Italy.</p>
+
+    <ul id="social-info">
+      <li><i aria-hidden="true" class="icon-twitter"></i> <a href="http://twitter.com/denadai2">Twitter</a></li>
+      <li><i aria-hidden="true" class="icon-github-circled"></i> <a href="https://github.com/denadai2">GitHub</a></li>
+      <li><i aria-hidden="true" class="icon-linkedin"></i> <a href="http://nl.linkedin.com/in/marcodenadai/">LinkedIn</a></li>
+      <li><i aria-hidden="true" class="icon-file-pdf"></i> <a href="http://www.marcodena.it/CV.pdf">Curriculum Vitae</a></li>
+    </ul>
+    
+</div>
+  
+<article id="content" class="body column large-8 large-offset-1 end">
   <header>
     <h1 class="entry-title">Wordpress? The future is static</h1>
  
@@ -63,15 +64,14 @@
   
   <div class="entry-content">
     <p>I was a PHP developer and I lived the blog fashion bubble when everyone made blogs, 
-even talking about non-sense. Since that "era" <a href="http://www.wordpress.org">Wordpress</a>
-established the "standard de-facto" of the blogging platforms. Wordpress is highly
-customizable (it has more than 15'000 of plugins), it is used by high profile
+even talking about non-sense. Since that "era", <a href="http://www.wordpress.org">Wordpress</a>
+established the "standard de-facto" among the blogging platforms. Wordpress has been highly
+customizable (it has more than 15'000 of plugins), it is still used by high profile
 websites like <a href="http://www.observer.com/">The New York Observer</a> and someone is even
-using it as CMS.</p>
-<p>As I said I am a developer since many years ago and I barely managed to build this
-portfolio, because usually we have time for others but not for ourselves. Moreover I 
-easily get tired: upgrades? bugs? exploits? I really can't handle all these things
-anymore, also because I don't use Wordpress anywhere but here.</p>
+using it as CMS.
+Being a developer doesn't mean that you have time to make your own projects. In fact, we usually have time for the others but not for ourselves.
+Personally, I also get easily tired by upgrades, bugs, exploits that I could encounter building a simple personal portfolio website;
+I really can't handle all these things anymore, especially because I usually don't develop Wordpress websites, so I'm not continuosly updated.</p>
 <p>I also saw the evolution of Wordpress: from a small and not well written script, 
 it became a fancy not well written OOP script. </p>
 <p>Here are some <strong>cons about Wordpress</strong>:</p>
@@ -149,16 +149,15 @@ of the test. The peak in the end is probably caused by this. I am sorry but I co
 <p>The sources of this website are available <a href="https://github.com/denadai2/marcodena.it">here</a>.</p>
   </div><!-- /.entry-content -->
 </article>
-</div>
-</section>
+
 
 <section class="noTopPadding">
   <div class="row">
-  <div class="column large-8 large-offset-2 end">
+  <div class="column large-8 large-offset-3 end">
     <div id="share-containter">
         <ul class="social-tools-bottom inline">
           <li class="left facebook">
-            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/blog/wordpress-the-future-is-static/&p[images][0]=&p[title]=Wordpress%3F%20The%20future%20is%20static%20&p[summary]=%3Cp%3EI%20was%20a%20PHP%20developer%20and%20I%20lived%20the%20blog%20fashion%20bubble%20when%20everyone%20made%20blogs%2C%20%0Aeven%20talking%20about%20non-sense.%20Since%20that%20%22era%22%20%3Ca%20href%3D%22http%3A//www.wordpress.org%22%3EWordpress%3C/a%3E%0Aestablished%20the%20%22standard%20de-facto%22%20of%20the%20blogging%20platforms.%20Wordpress%20is%20highly%0Acustomizable%20%28it%20has%20more%20than%2015%27000%20of%20plugins%29%2C%20it%20is%20used%20by%20high%20profile%20...%3C/p%3E" class="facebook" target="_blank" title="Share on Facebook">
+            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/blog/wordpress-the-future-is-static/&p[images][0]=&p[title]=Wordpress%3F%20The%20future%20is%20static%20&p[summary]=%3Cp%3EI%20was%20a%20PHP%20developer%20and%20I%20lived%20the%20blog%20fashion%20bubble%20when%20everyone%20made%20blogs%2C%20%0Aeven%20talking%20about%20non-sense.%20Since%20that%20%22era%22%2C%20%3Ca%20href%3D%22http%3A//www.wordpress.org%22%3EWordpress%3C/a%3E%0Aestablished%20the%20%22standard%20de-facto%22%20among%20the%20blogging%20platforms.%20Wordpress%20has%20been%20highly%0Acustomizable%20%28it%20has%20more%20than%2015%27000%20of%20plugins%29%2C%20it%20is%20still%20used%20by%20...%3C/p%3E" class="facebook" target="_blank" title="Share on Facebook">
               <i class="icon-facebook"></i><span>Share on Facebook</span>
             </a>
           </li>
@@ -177,7 +176,7 @@ of the test. The peak in the end is probably caused by this. I am sorry but I co
 
 <section class="comments noTopPadding" id="comments">
   <div class="row">
-  <div class="column large-8 large-offset-2 end">
+  <div class="column large-8 large-offset-3 end">
 <h2>Comments</h2>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -205,11 +204,12 @@ Disqus.</a></noscript>
 </section>
 
 
-                    <!--</div>
+  </div>
+</section>
 
 </div>
 
-</div>-->
+</div>
 <script>
   (function(d) {
     var config = {
