@@ -57,3 +57,5 @@ output/
 cache/
 theme/.webassets-cache/
 .DS_Store
+include/
+pip-selfcheck.json
