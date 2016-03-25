@@ -68,7 +68,7 @@ I have been through a lot of difficulties in my early times in academia and even
 <h2>Packages</h2>
 <p>I will not try to explain the reason why Latex is so popular in academia but if you are still reluctant about learning it, I suggest you this article.</p>
 <h3>The indispensable</h3>
-<div class="highlight"><pre>\usepackage{graphicx} 
+<div class="highlight"><pre><span></span>\usepackage{graphicx} 
 \usepackage[pdftex]{hyperref}
 \usepackage{cleveref}
 \usepackage{booktabs}
@@ -78,13 +78,13 @@ I have been through a lot of difficulties in my early times in academia and even
 
 <p>graphicx allows to include, shrink and rotate figures inside the text. It accepts vector files as input.
 hyperref is a great tool to include links which I usually add in the text with the <code>\url</code> command, appending the accessing date information as well.</p>
-<div class="highlight"><pre>\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
+<div class="highlight"><pre><span></span>\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
 </pre></div>
 
 
 <p>This allows readers to know the availability of the resource and search for it (maybe in archive.org?). 
 If you want to refer to sections, tables and images without even writing the element type name you are referring to, you can use cleveref. For example this code</p>
-<div class="highlight"><pre>\begin{figure}
+<div class="highlight"><pre><span></span>\begin{figure}
    \includegraphics{image.pdf}
    \label{fig:randomName}
 \end{figure}
@@ -106,13 +106,13 @@ Which one would you prefer? The second one is very neat, isn't it? However, the 
 </ul>
 <p>Hence, the next step is using the <a href="http://texcatalogue.sarovar.org/entries/booktabs.html">booktabs</a> package, which provides some nice commands for the lines we will add to the tables. Then, we will increase the space between rows with the command <code>\ra{1.2}</code> and remove the space to the vertical edges (the first and the last column will not have unnecessary paddings anymore) with the <code>@{}</code> in the column specification (<code>\begin{tabularx}{\columnwidth}{@{}Xccc@{}}</code>).
 Hence, in the header of your document include:</p>
-<div class="highlight"><pre>\usepackage{booktabs}
+<div class="highlight"><pre><span></span>\usepackage{booktabs}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 </pre></div>
 
 
 <p>Then make the table in this way:</p>
-<div class="highlight"><pre>\begin{table}[ht]
+<div class="highlight"><pre><span></span>\begin{table}[ht]
     \centering
     \ra{1.2}
     \begin{tabularx}{\columnwidth}{@{}Xccc@{}}
@@ -146,7 +146,7 @@ Hence, in the header of your document include:</p>
 <p>Although there are a lot of websites which allows people to collaborate online and write documents together, I usually have to share PDF documents with my colleagues. Sending PDF documents creates a strange sense of officiality even if the content is still a draft. Thus, the package I personally like the most is todonotes. This package allows to create colored notes all around the pages, enclosed by nice boxes, allowing authors to share ideas, concepts and warnings that are not part of the real content.
 <img alt="Nice table" src="/images/latex_todonotes.png" /></p>
 <p>I usually add this code to the preamble, which creates four commands for different purpose boxes that are self explainable from their names.</p>
-<div class="highlight"><pre>\usepackage{xargs} 
+<div class="highlight"><pre><span></span>\usepackage{xargs} 
 \usepackage[colorinlistoftodos,prependcaption,textsize=normal]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
 \newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}

@@ -100,19 +100,19 @@ that I don't know Ruby and that I prefer the <a href="http://docs.getpelican.com
 </ul>
 <h2>How to start</h2>
 <p>The best way to start is understanding how easy is to make a blog. The <a href="http://docs.getpelican.com/en/3.4.0/quickstart.html">quickstart</a> is very comprensive. First of all some Python packages are necessary.</p>
-<div class="highlight"><pre>pip install pelican markdown
+<div class="highlight"><pre><span></span>pip install pelican markdown
 </pre></div>
 
 
 <p>The second step is generating the basic structure of the blog.</p>
-<div class="highlight"><pre><span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">projects</span><span class="o">/</span><span class="n">yoursite</span>
+<div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">projects</span><span class="o">/</span><span class="n">yoursite</span>
 <span class="n">cd</span> <span class="o">~/</span><span class="n">projects</span><span class="o">/</span><span class="n">yoursite</span>
 <span class="n">pelican</span><span class="o">-</span><span class="n">quickstart</span>
 </pre></div>
 
 
 <p>Now it is time to write the <strong>first article</strong> in Markdown:</p>
-<div class="highlight"><pre><span class="n">Title</span><span class="o">:</span> <span class="n">My</span> <span class="n">First</span> <span class="n">Review</span>
+<div class="highlight"><pre><span></span><span class="n">Title</span><span class="o">:</span> <span class="n">My</span> <span class="n">First</span> <span class="n">Review</span>
 <span class="n">Date</span><span class="o">:</span> <span class="mi">2010</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">03</span> <span class="mi">10</span><span class="o">:</span><span class="mi">20</span>
 <span class="n">Category</span><span class="o">:</span> <span class="n">Review</span>
 
@@ -124,13 +124,13 @@ that I don't know Ruby and that I prefer the <a href="http://docs.getpelican.com
 directory is made for all the posts and pages and it will not change even if the
 blog will be revolutionized.
 From the "~/projects/yoursite/" directory, you can launch</p>
-<div class="highlight"><pre>pelican content
+<div class="highlight"><pre><span></span>pelican content
 </pre></div>
 
 
 <p>The static HTML files will be generated in the output directory. To visit your new
 website, just launch</p>
-<div class="highlight"><pre>cd ~/projects/yoursite/output
+<div class="highlight"><pre><span></span>cd ~/projects/yoursite/output
 python -m SimpleHTTPServer
 </pre></div>
 
