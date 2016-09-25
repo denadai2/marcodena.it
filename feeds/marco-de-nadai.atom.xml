@@ -1,5 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai</title><link href="http://www.marcodena.it/" rel="alternate"></link><link href="http://www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>http://www.marcodena.it/</id><updated>2014-09-02T10:20:00+02:00</updated><entry><title>Stop remembering passwords</title><link href="http://www.marcodena.it/blog/stop-remembering-passwords/" rel="alternate"></link><updated>2014-09-02T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-09-02:blog/stop-remembering-passwords/</id><summary type="html">&lt;p&gt;Everyday we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez and many others. Nevertheless we continue to somehow trust the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we often forget them and, finally, we complain when someone hacks our E-mail or Facebook account. Ask yourself:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai</title><link href="http://www.marcodena.it/" rel="alternate"></link><link href="http://www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>http://www.marcodena.it/</id><updated>2016-09-25T10:20:00+02:00</updated><entry><title>Professional paper writing in Latex [2016]</title><link href="http://www.marcodena.it/blog/professional-paper-writing-in-latex-2016/" rel="alternate"></link><updated>2016-09-25T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-09-25:blog/professional-paper-writing-in-latex-2016/</id><summary type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew from the start. &lt;/p&gt;
+&lt;h2&gt;Packages&lt;/h2&gt;
+&lt;p&gt;I don't even try to explain the reason why Latex is so popular in academia. But, if you are still hesitant about it, I suggest to look at these slides before continuing.&lt;/p&gt;
+&lt;h3&gt;The indispensable&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;\usepackage{graphicx} 
+\usepackage[pdftex]{hyperref}
+\usepackage{cleveref}
+
+\usepackage{booktabs}
+\usepackage{tabularx}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;graphicx allows to include, shrink and rotate figures inside the text. It accepts vector files as input.
+hyperref is a great tool to include links which I usually add in the text with the &lt;code&gt;\url&lt;/code&gt; command, appending the accessing date information as well.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This allows readers to know the availability of the resource and search for it (maybe in archive.org?). 
+If you want to refer to sections, tables and images without even writing the element type name you are referring to, you can use cleveref. For example this code&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;\begin{figure}
+   \includegraphics{image.pdf}
+   \label{fig:randomName}
+\end{figure}
+
+See \cref{fig:randomName}. \Cref{fig:randomName} is really cool!
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;will generate “See figure 1. Figure 1 is really cool!”. Cool, isn’t it?&lt;/p&gt;
+&lt;h4&gt;Tables&lt;/h4&gt;
+&lt;p&gt;Default tables in Latex are UGLY, writers even worse, because they don't care about the visual aspect of the information they are putting in the tables.
+&lt;img alt="Latex table comparison" src="/images/tables_comparison.png" /&gt;
+Which one would you prefer? The second one is very neat, isn't it? However, the information displayed is the same. Hence, the difference stands on some nice visual rules&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; that have to be applied in (IMHO) every article you write from now to the end of time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid vertical lines;&lt;/li&gt;
+&lt;li&gt;Avoid lines between rows different from the heading and the footer;&lt;/li&gt;
+&lt;li&gt;Avoid the false-fancy-looking double horizontal lines;&lt;/li&gt;
+&lt;li&gt;If in doubt, align left.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hence, the next step is using the &lt;a href="http://texcatalogue.sarovar.org/entries/booktabs.html"&gt;booktabs&lt;/a&gt; package, which provides some nice commands for the lines we will add to the tables. Then, we will increase the space between rows with the command &lt;code&gt;\ra{1.2}&lt;/code&gt; and remove the space to the vertical edges (the first and the last column will not have unnecessary paddings anymore) with the &lt;code&gt;@{}&lt;/code&gt; in the column specification (&lt;code&gt;\begin{tabularx}{\columnwidth}{@{}Xccc@{}}&lt;/code&gt;).
+Hence, in the header of your document include:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;\usepackage{booktabs}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then make the table in this way:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;\begin{table}[ht]
+    \centering
+    \ra{1.2}
+    \begin{tabularx}{\columnwidth}{@{}Xccc@{}}
+        \midrule
+        \textbf{City} &amp;amp; \textbf{\#Districts} &amp;amp; \textbf{Size (avg)} &amp;amp; \textbf{Population (avg)} \\ \toprule
+        Bologna &amp;amp; 23 &amp;amp; 3.34 &amp;amp; 15,918
+        \\
+        Florence &amp;amp; 21 &amp;amp; 2.89 &amp;amp; 16,633
+        \\
+        Milan &amp;amp; 85 &amp;amp; 1.72 &amp;amp; 14,551
+        \\
+        Palermo &amp;amp; 43 &amp;amp; 2.01 &amp;amp; 15,075 
+        \\
+        Rome &amp;amp; 146 &amp;amp; 3.24 &amp;amp; 17,312 
+        \\
+        Turin &amp;amp; 56 &amp;amp; 2.00 &amp;amp; 15,543 
+        \\
+         \bottomrule
+    \end{tabularx}
+    \caption{Number, average size and population of districts in the analyzed cities.}
+\end{table}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The result is this, instead of the second one:
+&lt;img alt="Nice table" src="/images/table_nice.png" /&gt;
+&lt;img alt="Not so nice table" src="/images/table_not_so_nice.png" /&gt;&lt;/p&gt;
+&lt;h3&gt;The nice to have&lt;/h3&gt;
+&lt;p&gt;Some packages are not necessary, but still useful for everyday use.&lt;/p&gt;
+&lt;h4&gt;Notes&lt;/h4&gt;
+&lt;p&gt;Although there are a lot of websites which allows people to collaborate online and write documents together, I usually have to share PDF documents with my colleagues. Sending PDF documents creates a strange sense of officiality even if the content is still a draft. Thus, the package I personally like the most is todonotes. This package allows to create colored notes all around the pages, enclosed by nice boxes, allowing authors to share ideas, concepts and warnings that are not part of the real content.
+&lt;img alt="Nice table" src="/images/latex_todonotes.png" /&gt;&lt;/p&gt;
+&lt;p&gt;I usually add this code to the preamble, which creates four commands for different purpose boxes that are self explainable from their names.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;\usepackage{xargs} 
+\usepackage[colorinlistoftodos,prependcaption,textsize=normal]{todonotes}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Microtype&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://ctan.org/tex-archive/macros/latex/contrib/microtype"&gt;Microtype&lt;/a&gt; is one of the most useful packages, but it is known by too few people. It greatly improves general appearance of the text using different techniques, such as margin kerning (protrusion), extra kerning, expansion, tracking, and spacing&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;. With the default configuration, Microtype optimize the text readability, and you can compare the effect by observing these two texts, where in the second one Microtype was applied:
+&lt;img alt="Microtype off" src="/images/latex-writing/Microtype_example_off.png" /&gt;
+&lt;img alt="Microtype on" src="/images/latex-writing/Microtype_example_on.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Typesetting experts can observe the total interword spacing and appreciate the improved readability. Others can believe in the more positive effect in the reader when he faces the entire, optimized, document. Moreover, it is important to notice that text takes less space, an important feature when you don't have enough space in your papers.&lt;/p&gt;
+&lt;h4&gt;siunitx&lt;/h4&gt;
+&lt;p&gt;Shall you write in your paper km^2 or &amp;#13218;? I prefer the second one. This is where &lt;a href="https://www.ctan.org/pkg/siunitx"&gt;siunitx&lt;/a&gt; operates in two ways:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;\SI{10}{\metre}
+\si{\kilogram\metre\per\second} % Note no `\usk&amp;#39; here
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and it has many standard units, including the ones coming from Computer science like MB, Gb etc.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;p&gt;Academic references have to be modernized&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; and the best way is to learn and share some general notions to create a better academia.
+First, keep in mind that references in CrossRef, Mendeley and Google Scholar are incomplete and often bloated with unnecessary information&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. Then, remember that Google Scholar might be wrong and inconsistent, so don't blindly copy-paste the bibtex items from the website.
+So, be sure to collect these details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Authors should be listed last name first, followed by a comma and initials (followed by full stops, ‘.’) of given names. This has to be repeated for all the authors up to a limit (usually five), and then use et al.;&lt;/li&gt;
+&lt;li&gt;Full title of the book or conference/report/journal article;&lt;/li&gt;
+&lt;li&gt;Name of the conference or journal where it is published;&lt;/li&gt;
+&lt;li&gt;The date of publication if known, otherwise only the year. For books you can cite only the year;&lt;/li&gt;
+&lt;li&gt;The number of publication / volume (for books and journal articles);&lt;/li&gt;
+&lt;li&gt;The start page and end page numbers (in full). Write in a transparent way without abbreviations, for instance: pp. 150–179;&lt;/li&gt;
+&lt;li&gt;The DOI permanent URL to the commercial text or article. If the open access version is available, put "Also available as...";&lt;/li&gt;
+&lt;li&gt;The URL where readers can find the reference. This is (preferably) the author’s home university e-depository version, or other open access version, like &lt;a href="http://academia.edu"&gt;academia.edu&lt;/a&gt; or &lt;a href="https://www.researchgate.net/"&gt;Research Gate&lt;/a&gt;. If the URL is not permanent, then give a shortened, non-permanent URL then add "Accessed on [give full date]".&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Moreover, please remember that citations are not words, so instead of "The algorithm performed in [15]", write instead "Gigi et al [15] performed the algorithm". 
+Finally, some tips: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use non-breaking spaces before citation, to avoid linebreaks between text and citations: &lt;code&gt;Gigetti et al.~\cite{gigetti2015}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Group multiple citations and order them alphabetically. So, instead of &lt;code&gt;\cite{gigetti2015}\cite{brunelli1960}&lt;/code&gt; do &lt;code&gt;\cite{brunelli1960, gigetti2015}&lt;/code&gt;. Always alphabetize grouped citations so they appear in numerical order ([6,13] instead of [13,6]).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnote"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-should-you-be-recording-citations-in-the-digital-era-97550a7c3da6#.heytswkvu"&gt;How should you be recording citations in the digital era?&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/05/21/academic-citation-practices-need-to-be-modernized/"&gt;Academic citation practices need to be modernized so that all references are digital and lead to full texts.&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Rules learned thanks to this &lt;a href="https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf"&gt;nice presentation&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;I suggest everyone to read &lt;a href="http://www.khirevich.com/latex/microtype/"&gt;this wounderful post&lt;/a&gt; about Microtype.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</summary></entry><entry><title>Stop remembering passwords</title><link href="http://www.marcodena.it/blog/stop-remembering-passwords/" rel="alternate"></link><updated>2014-09-02T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-09-02:blog/stop-remembering-passwords/</id><summary type="html">&lt;p&gt;Everyday we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez and many others. Nevertheless we continue to somehow trust the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we often forget them and, finally, we complain when someone hacks our E-mail or Facebook account. Ask yourself:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;What can happen and how much time will your waste with a stolen Facebook account? &lt;/li&gt;
 &lt;li&gt;Are you using the same password everywhere? If so, do you know how dangerous is it?&lt;/li&gt;
