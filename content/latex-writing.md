@@ -1,20 +1,20 @@
-Title: Professional paper writing in Latex [2015]
-Date: 2015-01-01 10:20
+Title: Professional paper writing in Latex [2016]
+Date: 2016-09-25 10:20
 Category: Research
-status: draft
-Exceprt: Passwords are a "pain in the ass" and hackers continue stealing them. With a password manager like Mitro it's possible to stop remembering passwords and having the security of a bullet proof Open Source system.
+Exceprt: The definite guide to write articles and papers in Latex. This article helps you to design nice tables, avoid errors etc.
 
-This article has the purpose to give some guideline about paper writing in Latex, I wish I knew from the start. 
-I have been through a lot of difficulties in my early times in academia and even now, after having learned something, I have still some problems to remember some packages or methods. Thus, I want to organize this article for the myself and for everyone who is starting the academic adventure.
+I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew from the start. 
+
 
 ## Packages
-I will not try to explain the reason why Latex is so popular in academia but if you are still reluctant about learning it, I suggest you this article.
+I don't even try to explain the reason why Latex is so popular in academia. But, if you are still hesitant about it, I suggest to look at these slides before continuing.
 
 ### The indispensable
 
     \usepackage{graphicx} 
 	\usepackage[pdftex]{hyperref}
 	\usepackage{cleveref}
+
 	\usepackage{booktabs}
 	\usepackage{tabularx}
 
@@ -110,7 +110,12 @@ Typesetting experts can observe the total interword spacing and appreciate the i
 
 #### siunitx
 
-asdasd
+Shall you write in your paper km^2 or &#13218;? I prefer the second one. This is where [siunitx](https://www.ctan.org/pkg/siunitx) operates in two ways:
+
+	\SI{10}{\metre}
+	\si{\kilogram\metre\per\second} % Note no `\usk' here
+
+and it has many standard units, including the ones coming from Computer science like MB, Gb etc.
 
 
 ## References
