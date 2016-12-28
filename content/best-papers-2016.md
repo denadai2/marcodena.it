@@ -18,9 +18,7 @@ If you find this list (or idea) interesting, I ask you to write your personal li
 
 5. [Prediction policy problems](https://www.aeaweb.org/articles?id=10.1257/aer.p20151023)[^5]. Right after Galit's paper[^4], this is a must-read article to understand the role of predictions for policy-makers.
 
-6. [The Atlas of Economic Complexity: Mapping Paths to Prosperity](https://www.hks.harvard.edu/centers/cid/publications/books/atlas)[^11]. This book is from 2013, but is a cristal-clear explanation of the economic complexity theory by Hidalgo *et al.*[^12]. I also suggest you [their visualization](http://atlas.cid.harvard.edu/) tool if you want to understand the exports of your country. Do you want a general-purpose explanation of this? There is also a [book](http://www.goodreads.com/book/show/20763722-why-information-grows)!
-
-![Hidalgo-book](/images/whyinformationgrows2.jpg)
+6. [The Atlas of Economic Complexity: Mapping Paths to Prosperity](https://www.hks.harvard.edu/centers/cid/publications/books/atlas)[^11]. This book is from 2013, but is a cristal-clear explanation of the economic complexity theory by Hidalgo *et al.*[^12]. I also suggest you [their visualization](http://atlas.cid.harvard.edu/) tool if you want to understand the exports of your country. Do you want a general-purpose explanation of this? There is also a [book](http://www.goodreads.com/book/show/20763722-why-information-grows)! ![Hidalgo-book](/images/whyinformationgrows2.jpg)
 
 7. [Understanding congested travel in urban areas](http://www.nature.com/articles/ncomms10793)[^6]. Should everyone choose the optimal route? Should drivers try to reach Nash equilibrium in the city? Should some drivers adjust routing behaviour to achieve social good at the expense of their time? Super super enjoyable paper to read! Grande Antonio!
 
