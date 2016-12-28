@@ -7,7 +7,7 @@
         <link href="//www.google-analytics.com" rel="dns-prefetch">
         <link rel="dns-prefetch" href="http://use.typekit.com">
         <link href="http://www.marcodena.it/theme/images/favicon.png" rel="shortcut icon">
-            <link rel="stylesheet" href="http://www.marcodena.it/theme/css/assets_v.0.1.2.css?f828d20e">
+            <link rel="stylesheet" href="http://www.marcodena.it/theme/css/assets_v.0.1.2.css?fc1f743b">
         <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
 
 
@@ -100,19 +100,19 @@ that I don't know Ruby and that I prefer the <a href="http://docs.getpelican.com
 </ul>
 <h2>How to start</h2>
 <p>The best way to start is understanding how easy is to make a blog. The <a href="http://docs.getpelican.com/en/3.4.0/quickstart.html">quickstart</a> is very comprensive. First of all some Python packages are necessary.</p>
-<div class="highlight"><pre>pip install pelican markdown
+<div class="highlight"><pre><span></span>pip install pelican markdown
 </pre></div>
 
 
 <p>The second step is generating the basic structure of the blog.</p>
-<div class="highlight"><pre><span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">projects</span><span class="o">/</span><span class="n">yoursite</span>
+<div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">projects</span><span class="o">/</span><span class="n">yoursite</span>
 <span class="n">cd</span> <span class="o">~/</span><span class="n">projects</span><span class="o">/</span><span class="n">yoursite</span>
 <span class="n">pelican</span><span class="o">-</span><span class="n">quickstart</span>
 </pre></div>
 
 
 <p>Now it is time to write the <strong>first article</strong> in Markdown:</p>
-<div class="highlight"><pre><span class="n">Title</span><span class="o">:</span> <span class="n">My</span> <span class="n">First</span> <span class="n">Review</span>
+<div class="highlight"><pre><span></span><span class="n">Title</span><span class="o">:</span> <span class="n">My</span> <span class="n">First</span> <span class="n">Review</span>
 <span class="n">Date</span><span class="o">:</span> <span class="mi">2010</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">03</span> <span class="mi">10</span><span class="o">:</span><span class="mi">20</span>
 <span class="n">Category</span><span class="o">:</span> <span class="n">Review</span>
 
@@ -124,13 +124,13 @@ that I don't know Ruby and that I prefer the <a href="http://docs.getpelican.com
 directory is made for all the posts and pages and it will not change even if the
 blog will be revolutionized.
 From the "~/projects/yoursite/" directory, you can launch</p>
-<div class="highlight"><pre>pelican content
+<div class="highlight"><pre><span></span>pelican content
 </pre></div>
 
 
 <p>The static HTML files will be generated in the output directory. To visit your new
 website, just launch</p>
-<div class="highlight"><pre>cd ~/projects/yoursite/output
+<div class="highlight"><pre><span></span>cd ~/projects/yoursite/output
 python -m SimpleHTTPServer
 </pre></div>
 
@@ -139,7 +139,7 @@ python -m SimpleHTTPServer
 <h2>Performances</h2>
 <p>I am a nerd, I like performances benchmarks. In this plot it is possible to find the performance
 of Wordpress and Pelican in a simple hosting of gandi.net, but also Pelican (stati HTMLs) in Amazon S3.</p>
-<p><img alt="benchmarks" src="/images/benchmark.png" /></p>
+<p><img alt="benchmarks" src="/images/benchmark.png"></p>
 <p><strong>Notes:</strong> the tests are made with <a href="http://httpd.apache.org/docs/2.2/programs/ab.html">Apache ab</a> via Internet,
 so the performance is also affected by the speed of the connection and the congestion on the moment
 of the test. The peak in the end is probably caused by this. I am sorry but I could not set up a local server in my PC. </p>
@@ -157,7 +157,7 @@ of the test. The peak in the end is probably caused by this. I am sorry but I co
     <div id="share-containter">
         <ul class="social-tools-bottom inline">
           <li class="left facebook">
-            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/blog/wordpress-the-future-is-static/&p[images][0]=&p[title]=Wordpress%3F%20The%20future%20is%20static%20&p[summary]=%3Cp%3EI%20was%20a%20PHP%20developer%20and%20I%20lived%20the%20blog%20fashion%20bubble%20when%20everyone%20made%20blogs%2C%20%0Aeven%20talking%20about%20non-sense.%20Since%20that%20%22era%22%2C%20%3Ca%20href%3D%22http%3A//www.wordpress.org%22%3EWordpress%3C/a%3E%0Aestablished%20the%20%22standard%20de-facto%22%20among%20the%20blogging%20platforms.%20Wordpress%20has%20been%20highly%0Acustomizable%20%28it%20has%20more%20than%2015%27000%20of%20plugins%29%2C%20it%20is%20still%20used%20by%20...%3C/p%3E" class="facebook" target="_blank" title="Share on Facebook">
+            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/blog/wordpress-the-future-is-static/&p[images][0]=&p[title]=Wordpress%3F%20The%20future%20is%20static%20&p[summary]=%3Cp%3EI%20was%20a%20PHP%20developer%20and%20I%20lived%20the%20blog%20fashion%20bubble%20when%20everyone%20made%20blogs%2C%20%0Aeven%20talking%20about%20non-sense.%20Since%20that%20%22era%22%2C%20%3Ca%20href%3D%22http%3A//www.wordpress.org%22%3EWordpress%3C/a%3E%0Aestablished%20the%20%22standard%20de-facto%22%20among%20the%20blogging%20platforms.%20Wordpress%20has%20been%20highly%0Acustomizable%20%28it%20has%20more%20than%2015%27000%20of%20plugins%29%2C%20it%20is%20still%20used%20by%20high%20%E2%80%A6%3C/p%3E" class="facebook" target="_blank" title="Share on Facebook">
               <i class="icon-facebook"></i><span>Share on Facebook</span>
             </a>
           </li>

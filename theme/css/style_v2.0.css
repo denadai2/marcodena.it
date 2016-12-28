@@ -690,9 +690,11 @@ article p, article ul, article li{
     line-height: 1.5em;
 }
 
+/*
 article p + p {
     text-indent: 20px;
 }
+*/
 
 article ul{
     padding-left:40px;

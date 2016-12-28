@@ -1,9 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai</title><link href="http://www.marcodena.it/" rel="alternate"></link><link href="http://www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>http://www.marcodena.it/</id><updated>2016-09-25T10:20:00+02:00</updated><entry><title>Professional paper writing in Latex [2016]</title><link href="http://www.marcodena.it/blog/professional-paper-writing-in-latex-2016/" rel="alternate"></link><updated>2016-09-25T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-09-25:blog/professional-paper-writing-in-latex-2016/</id><summary type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew from the start. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai - Marco De Nadai</title><link href="http://www.marcodena.it/" rel="alternate"></link><link href="http://www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>http://www.marcodena.it/</id><updated>2016-12-28T14:00:00+01:00</updated><entry><title>My favorite scientific papers of 2016</title><link href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/" rel="alternate"></link><published>2016-12-28T14:00:00+01:00</published><updated>2016-12-28T14:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-12-28:/blog/my-favorite-scientific-papers-of-2016/</id><summary type="html">&lt;p&gt;It is almost the end of 2016 and I started my Ph.D. more than one year ago. 2016 was a busy year for me, continuosly travelling travelling all over the world for conferences and new (scientific?) experiences. Thus, I want to share some of my favourite papers published this …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It is almost the end of 2016 and I started my Ph.D. more than one year ago. 2016 was a busy year for me, continuosly travelling travelling all over the world for conferences and new (scientific?) experiences. Thus, I want to share some of my favourite papers published this year.&lt;/p&gt;
+&lt;p&gt;If you find this list (or idea) intersting, I ask you to write your personal list of favourite papers and share it with me! I am always intersted in exploring others' scientific interests.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.pnas.org/content/113/37/E5370.abstract"&gt;The TimeGeo modeling framework for urban mobility without travel surveys&lt;/a&gt;&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. This paper is the &lt;em&gt;nec plus ultra&lt;/em&gt; of the urban mobility modelization through mobile phone data. It starts with a simple flow-chart that describes people's mobility, then it flies to a flexible extraction and simulation of daily trajectories. As always, Supporting Materials are painful to read :)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.pnas.org/content/113/37/E5370.abstract"&gt;Scaling identity connects human mobility and social interactions&lt;/a&gt;&lt;sup id="fnref-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;. Our mobility and communication patterns are extremely connected: one influences the other. We had a glimpse of it in the past literature&lt;sup id="fnref-14"&gt;&lt;a class="footnote-ref" href="#fn-14"&gt;14&lt;/a&gt;&lt;/sup&gt;, but this paper establishes the formal link between them. Moreover, this work allows also to approximate social fluxes from mobility and viceversa. This is great at a macroscopic scale, but what if we look at socio-demographic information or different cultures?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.nature.com/articles/ncomms9166"&gt;Returners and explorers dichotomy in human mobility&lt;/a&gt;&lt;sup id="fnref-3"&gt;&lt;a class="footnote-ref" href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt;. Power/scaling laws and macroscopic scales always look at universal behavior. What I like the most of this paper is that it looks at differences. Particularly, by looking at people's recurrent movements it finds that two well-separated mobility profiles of people emerge: returners and explorers. The formers are inclined to go to previously visited places, while the latters have a tendency to wander between a larger number of different locations. This has a great impact on spending patterns, hasn't it?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.jstor.org/stable/41058949"&gt;To explain or to predict?&lt;/a&gt;&lt;sup id="fnref-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt;. Have you ever wondered what are the differences between models that explains and models trying to predict future outcomes? This paper should be read by all data mining, machine learning and econometrics students!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.aeaweb.org/articles?id=10.1257/aer.p20151023"&gt;Prediction policy problems&lt;/a&gt;&lt;sup id="fnref-5"&gt;&lt;a class="footnote-ref" href="#fn-5"&gt;5&lt;/a&gt;&lt;/sup&gt;. Right after Galit's paper&lt;sup id="fnref-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt;, this is a must-read article to understand the role of predictions for policy-makers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.hks.harvard.edu/centers/cid/publications/books/atlas"&gt;The Atlas of Economic Complexity: Mapping Paths to Prosperity&lt;/a&gt;&lt;sup id="fnref-11"&gt;&lt;a class="footnote-ref" href="#fn-11"&gt;11&lt;/a&gt;&lt;/sup&gt;. This book is from 2013, but is a cristal-clear explanation of the economic complexity theory by Hidalgo &lt;em&gt;et al.&lt;/em&gt;&lt;sup id="fnref-12"&gt;&lt;a class="footnote-ref" href="#fn-12"&gt;12&lt;/a&gt;&lt;/sup&gt;. I also suggest you &lt;a href="http://atlas.cid.harvard.edu/"&gt;their visualizaiton&lt;/a&gt; tool if you want to understand the exports of your country. Do you want a general-purpose explanation of this? There is also a &lt;a href="http://www.goodreads.com/book/show/20763722-why-information-grows"&gt;book&lt;/a&gt;!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Hidalgo-book" src="/images/whyinformationgrows2.jpg"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.nature.com/articles/ncomms10793"&gt;Understanding congested travel in urban areas&lt;/a&gt;&lt;sup id="fnref-6"&gt;&lt;a class="footnote-ref" href="#fn-6"&gt;6&lt;/a&gt;&lt;/sup&gt;. Should everyone choose the optimal route? Should drivers try to reach Nash equilibrium in the city? Should some drivers adjust routing behaviour to achieve social good at the expense of their time? Super super enjoyable paper to read! Grande Antonio!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://dl.acm.org/citation.cfm?id=2883065"&gt;Measuring Urban Social Diversity Using Interconnected Geo-Social Networks&lt;/a&gt;&lt;sup id="fnref-7"&gt;&lt;a class="footnote-ref" href="#fn-7"&gt;7&lt;/a&gt;&lt;/sup&gt;. This paper aims at distinguishing between places that bring together strangers versus those which tend to bring together friends. Something in-between socal science, urban theory and computer science. Nice!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1604.02872"&gt;Is this scaling nonlinear?&lt;/a&gt;&lt;sup id="fnref-8"&gt;&lt;a class="footnote-ref" href="#fn-8"&gt;8&lt;/a&gt;&lt;/sup&gt;. Finally! FINALLY! After some evidence of the weak systematic acceleration (deceleration) of urban life in cities&lt;sup id="fnref-9"&gt;&lt;a class="footnote-ref" href="#fn-9"&gt;9&lt;/a&gt;&lt;/sup&gt;, here we have a clear statistical analysis against Bettencourt's work&lt;sup id="fnref-10"&gt;&lt;a class="footnote-ref" href="#fn-10"&gt;10&lt;/a&gt;&lt;/sup&gt;. City scientists, read it!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1611.07004"&gt;Image-to-Image Translation with Conditional Adversarial Networks&lt;/a&gt;&lt;sup id="fnref-13"&gt;&lt;a class="footnote-ref" href="#fn-13"&gt;13&lt;/a&gt;&lt;/sup&gt;. Mind-blowing paper that could be the future of computer science and machine learning. Just look at the image below to understand the capabilites!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="GANs" src="/images/image-to-image-GANs-paper.png"&gt;&lt;/p&gt;
+&lt;p&gt;The special mention, of course, goes to Jane Jacobs' &lt;a href="http://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities"&gt;The Death and Life of Great American Cities&lt;/a&gt;. Thanks to it I had the change to open my computer-scientist mind, work with Daniele Quercia, Cesar Hidalgo, and get to know a lot of people and researchers. Thanks Jane!&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;
+&lt;p&gt;Jiang, Shan, et al. "The TimeGeo modeling framework for urban mobility without travel surveys." Proceedings of the National Academy of Sciences (2016): 201524261.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-2"&gt;
+&lt;p&gt;Deville, Pierre, et al. "Scaling identity connects human mobility and social interactions." Proceedings of the National Academy of Sciences (2016): 201525443.&amp;#160;&lt;a class="footnote-backref" href="#fnref-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-3"&gt;
+&lt;p&gt;Pappalardo, Luca, et al. "Returners and explorers dichotomy in human mobility." Nature communications 6 (2015).&amp;#160;&lt;a class="footnote-backref" href="#fnref-3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-4"&gt;
+&lt;p&gt;Shmueli, Galit. "To explain or to predict?." Statistical science (2010): 289-310.&amp;#160;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-5"&gt;
+&lt;p&gt;Kleinberg, Jon, et al. "Prediction policy problems." The American economic review 105.5 (2015): 491-495.&amp;#160;&lt;a class="footnote-backref" href="#fnref-5" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-6"&gt;
+&lt;p&gt;Çolak, Serdar, Antonio Lima, and Marta C. González. "Understanding congested travel in urban areas." Nature communications 7 (2016).&amp;#160;&lt;a class="footnote-backref" href="#fnref-6" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-7"&gt;
+&lt;p&gt;Hristova, Desislava, et al. "Measuring Urban Social Diversity Using Interconnected Geo-Social Networks." Proceedings of the 25th International Conference on World Wide Web. International World Wide Web Conferences Steering Committee, 2016.&amp;#160;&lt;a class="footnote-backref" href="#fnref-7" title="Jump back to footnote 7 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-8"&gt;
+&lt;p&gt;Leitao, J. C., et al. "Is this scaling nonlinear?." arXiv preprint arXiv:1604.02872 (2016).&amp;#160;&lt;a class="footnote-backref" href="#fnref-8" title="Jump back to footnote 8 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-9"&gt;
+&lt;p&gt;Strano, Emanuele, and Vishal Sood. "&lt;a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0159465"&gt;Rich and poor cities in Europe. An urban scaling approach to mapping the European economic transition&lt;/a&gt;." PloS one 11.8 (2016): e0159465.&amp;#160;&lt;a class="footnote-backref" href="#fnref-9" title="Jump back to footnote 9 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-10"&gt;
+&lt;p&gt;Bettencourt, Luís MA. "&lt;a href="http://science.sciencemag.org/content/340/6139/1438"&gt;The origins of scaling in cities&lt;/a&gt;." science 340.6139 (2013): 1438-1441.&amp;#160;&lt;a class="footnote-backref" href="#fnref-10" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-11"&gt;
+&lt;p&gt;Hausmann, Ricardo, et al. The atlas of economic complexity: Mapping paths to prosperity. Mit Press, 2014.&amp;#160;&lt;a class="footnote-backref" href="#fnref-11" title="Jump back to footnote 11 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-12"&gt;
+&lt;p&gt;Hidalgo, César A., and Ricardo Hausmann. "&lt;a href="http://www.pnas.org/content/106/26/10570.short"&gt;The building blocks of economic complexity&lt;/a&gt;." proceedings of the national academy of sciences 106.26 (2009): 10570-10575.&amp;#160;&lt;a class="footnote-backref" href="#fnref-12" title="Jump back to footnote 12 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-13"&gt;
+&lt;p&gt;Isola, Phillip, et al. "Image-to-Image Translation with Conditional Adversarial Networks." arXiv preprint arXiv:1611.07004 (2016).&amp;#160;&lt;a class="footnote-backref" href="#fnref-13" title="Jump back to footnote 13 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-14"&gt;
+&lt;p&gt;Calabrese, Francesco, et al. "&lt;a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020814"&gt;Interplay between telecommunications and face-to-face interactions: A study using mobile phone data&lt;/a&gt;." PloS one 6.7 (2011): e20814.&amp;#160;&lt;a class="footnote-backref" href="#fnref-14" title="Jump back to footnote 14 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content></entry><entry><title>Professional paper writing in Latex [2016]</title><link href="http://www.marcodena.it/blog/professional-paper-writing-in-latex-2016/" rel="alternate"></link><published>2016-09-25T10:20:00+02:00</published><updated>2016-09-25T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-09-25:/blog/professional-paper-writing-in-latex-2016/</id><summary type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew from the start. &lt;/p&gt;
 &lt;h2&gt;Packages&lt;/h2&gt;
 &lt;p&gt;I don't even try to explain the reason why Latex is so popular in academia. But, if you are still hesitant about it, I suggest to look at these slides before continuing.&lt;/p&gt;
 &lt;h3&gt;The indispensable&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;\usepackage{graphicx} 
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\usepackage{graphicx} 
 \usepackage[pdftex]{hyperref}
 \usepackage{cleveref}
 
@@ -14,13 +99,13 @@
 
 &lt;p&gt;graphicx allows to include, shrink and rotate figures inside the text. It accepts vector files as input.
 hyperref is a great tool to include links which I usually add in the text with the &lt;code&gt;\url&lt;/code&gt; command, appending the accessing date information as well.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;This allows readers to know the availability of the resource and search for it (maybe in archive.org?). 
 If you want to refer to sections, tables and images without even writing the element type name you are referring to, you can use cleveref. For example this code&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;\begin{figure}
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\begin{figure}
    \includegraphics{image.pdf}
    \label{fig:randomName}
 \end{figure}
@@ -32,8 +117,8 @@ See \cref{fig:randomName}. \Cref{fig:randomName} is really cool!
 &lt;p&gt;will generate “See figure 1. Figure 1 is really cool!”. Cool, isn’t it?&lt;/p&gt;
 &lt;h4&gt;Tables&lt;/h4&gt;
 &lt;p&gt;Default tables in Latex are UGLY, writers even worse, because they don't care about the visual aspect of the information they are putting in the tables.
-&lt;img alt="Latex table comparison" src="/images/tables_comparison.png" /&gt;
-Which one would you prefer? The second one is very neat, isn't it? However, the information displayed is the same. Hence, the difference stands on some nice visual rules&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; that have to be applied in (IMHO) every article you write from now to the end of time.&lt;/p&gt;
+&lt;img alt="Latex table comparison" src="/images/tables_comparison.png"&gt;
+Which one would you prefer? The second one is very neat, isn't it? However, the information displayed is the same. Hence, the difference stands on some nice visual rules&lt;sup id="fnref-3"&gt;&lt;a class="footnote-ref" href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt; that have to be applied in (IMHO) every article you write from now to the end of time.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Avoid vertical lines;&lt;/li&gt;
 &lt;li&gt;Avoid lines between rows different from the heading and the footer;&lt;/li&gt;
@@ -42,13 +127,13 @@ Which one would you prefer? The second one is very neat, isn't it? However, the 
 &lt;/ul&gt;
 &lt;p&gt;Hence, the next step is using the &lt;a href="http://texcatalogue.sarovar.org/entries/booktabs.html"&gt;booktabs&lt;/a&gt; package, which provides some nice commands for the lines we will add to the tables. Then, we will increase the space between rows with the command &lt;code&gt;\ra{1.2}&lt;/code&gt; and remove the space to the vertical edges (the first and the last column will not have unnecessary paddings anymore) with the &lt;code&gt;@{}&lt;/code&gt; in the column specification (&lt;code&gt;\begin{tabularx}{\columnwidth}{@{}Xccc@{}}&lt;/code&gt;).
 Hence, in the header of your document include:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;\usepackage{booktabs}
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\usepackage{booktabs}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Then make the table in this way:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;\begin{table}[ht]
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\begin{table}[ht]
     \centering
     \ra{1.2}
     \begin{tabularx}{\columnwidth}{@{}Xccc@{}}
@@ -74,15 +159,15 @@ Hence, in the header of your document include:&lt;/p&gt;
 
 
 &lt;p&gt;The result is this, instead of the second one:
-&lt;img alt="Nice table" src="/images/table_nice.png" /&gt;
-&lt;img alt="Not so nice table" src="/images/table_not_so_nice.png" /&gt;&lt;/p&gt;
+&lt;img alt="Nice table" src="/images/table_nice.png"&gt;
+&lt;img alt="Not so nice table" src="/images/table_not_so_nice.png"&gt;&lt;/p&gt;
 &lt;h3&gt;The nice to have&lt;/h3&gt;
 &lt;p&gt;Some packages are not necessary, but still useful for everyday use.&lt;/p&gt;
 &lt;h4&gt;Notes&lt;/h4&gt;
 &lt;p&gt;Although there are a lot of websites which allows people to collaborate online and write documents together, I usually have to share PDF documents with my colleagues. Sending PDF documents creates a strange sense of officiality even if the content is still a draft. Thus, the package I personally like the most is todonotes. This package allows to create colored notes all around the pages, enclosed by nice boxes, allowing authors to share ideas, concepts and warnings that are not part of the real content.
-&lt;img alt="Nice table" src="/images/latex_todonotes.png" /&gt;&lt;/p&gt;
+&lt;img alt="Nice table" src="/images/latex_todonotes.png"&gt;&lt;/p&gt;
 &lt;p&gt;I usually add this code to the preamble, which creates four commands for different purpose boxes that are self explainable from their names.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;\usepackage{xargs} 
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\usepackage{xargs} 
 \usepackage[colorinlistoftodos,prependcaption,textsize=normal]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
 \newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
@@ -93,21 +178,21 @@ Hence, in the header of your document include:&lt;/p&gt;
 
 
 &lt;h4&gt;Microtype&lt;/h4&gt;
-&lt;p&gt;&lt;a href="http://ctan.org/tex-archive/macros/latex/contrib/microtype"&gt;Microtype&lt;/a&gt; is one of the most useful packages, but it is known by too few people. It greatly improves general appearance of the text using different techniques, such as margin kerning (protrusion), extra kerning, expansion, tracking, and spacing&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;. With the default configuration, Microtype optimize the text readability, and you can compare the effect by observing these two texts, where in the second one Microtype was applied:
-&lt;img alt="Microtype off" src="/images/latex-writing/Microtype_example_off.png" /&gt;
-&lt;img alt="Microtype on" src="/images/latex-writing/Microtype_example_on.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ctan.org/tex-archive/macros/latex/contrib/microtype"&gt;Microtype&lt;/a&gt; is one of the most useful packages, but it is known by too few people. It greatly improves general appearance of the text using different techniques, such as margin kerning (protrusion), extra kerning, expansion, tracking, and spacing&lt;sup id="fnref-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt;. With the default configuration, Microtype optimize the text readability, and you can compare the effect by observing these two texts, where in the second one Microtype was applied:
+&lt;img alt="Microtype off" src="/images/latex-writing/Microtype_example_off.png"&gt;
+&lt;img alt="Microtype on" src="/images/latex-writing/Microtype_example_on.png"&gt;&lt;/p&gt;
 &lt;p&gt;Typesetting experts can observe the total interword spacing and appreciate the improved readability. Others can believe in the more positive effect in the reader when he faces the entire, optimized, document. Moreover, it is important to notice that text takes less space, an important feature when you don't have enough space in your papers.&lt;/p&gt;
 &lt;h4&gt;siunitx&lt;/h4&gt;
 &lt;p&gt;Shall you write in your paper km^2 or &amp;#13218;? I prefer the second one. This is where &lt;a href="https://www.ctan.org/pkg/siunitx"&gt;siunitx&lt;/a&gt; operates in two ways:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;\SI{10}{\metre}
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\SI{10}{\metre}
 \si{\kilogram\metre\per\second} % Note no `\usk&amp;#39; here
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;and it has many standard units, including the ones coming from Computer science like MB, Gb etc.&lt;/p&gt;
 &lt;h2&gt;References&lt;/h2&gt;
-&lt;p&gt;Academic references have to be modernized&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; and the best way is to learn and share some general notions to create a better academia.
-First, keep in mind that references in CrossRef, Mendeley and Google Scholar are incomplete and often bloated with unnecessary information&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. Then, remember that Google Scholar might be wrong and inconsistent, so don't blindly copy-paste the bibtex items from the website.
+&lt;p&gt;Academic references have to be modernized&lt;sup id="fnref-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; and the best way is to learn and share some general notions to create a better academia.
+First, keep in mind that references in CrossRef, Mendeley and Google Scholar are incomplete and often bloated with unnecessary information&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. Then, remember that Google Scholar might be wrong and inconsistent, so don't blindly copy-paste the bibtex items from the website.
 So, be sure to collect these details:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Authors should be listed last name first, followed by a comma and initials (followed by full stops, ‘.’) of given names. This has to be repeated for all the authors up to a limit (usually five), and then use et al.;&lt;/li&gt;
@@ -126,22 +211,22 @@ Finally, some tips: &lt;/p&gt;
 &lt;li&gt;Group multiple citations and order them alphabetically. So, instead of &lt;code&gt;\cite{gigetti2015}\cite{brunelli1960}&lt;/code&gt; do &lt;code&gt;\cite{brunelli1960, gigetti2015}&lt;/code&gt;. Always alphabetize grouped citations so they appear in numerical order ([6,13] instead of [13,6]).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="footnote"&gt;
-&lt;hr /&gt;
+&lt;hr&gt;
 &lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;&lt;a href="https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-should-you-be-recording-citations-in-the-digital-era-97550a7c3da6#.heytswkvu"&gt;How should you be recording citations in the digital era?&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn-1"&gt;
+&lt;p&gt;&lt;a href="https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-should-you-be-recording-citations-in-the-digital-era-97550a7c3da6#.heytswkvu"&gt;How should you be recording citations in the digital era?&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn:2"&gt;
-&lt;p&gt;&lt;a href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/05/21/academic-citation-practices-need-to-be-modernized/"&gt;Academic citation practices need to be modernized so that all references are digital and lead to full texts.&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn-2"&gt;
+&lt;p&gt;&lt;a href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/05/21/academic-citation-practices-need-to-be-modernized/"&gt;Academic citation practices need to be modernized so that all references are digital and lead to full texts.&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn:3"&gt;
-&lt;p&gt;Rules learned thanks to this &lt;a href="https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf"&gt;nice presentation&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn-3"&gt;
+&lt;p&gt;Rules learned thanks to this &lt;a href="https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf"&gt;nice presentation&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref-3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn:4"&gt;
-&lt;p&gt;I suggest everyone to read &lt;a href="http://www.khirevich.com/latex/microtype/"&gt;this wounderful post&lt;/a&gt; about Microtype.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn-4"&gt;
+&lt;p&gt;I suggest everyone to read &lt;a href="http://www.khirevich.com/latex/microtype/"&gt;this wounderful post&lt;/a&gt; about Microtype.&amp;#160;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary></entry><entry><title>Stop remembering passwords</title><link href="http://www.marcodena.it/blog/stop-remembering-passwords/" rel="alternate"></link><updated>2014-09-02T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-09-02:blog/stop-remembering-passwords/</id><summary type="html">&lt;p&gt;Everyday we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez and many others. Nevertheless we continue to somehow trust the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we often forget them and, finally, we complain when someone hacks our E-mail or Facebook account. Ask yourself:&lt;/p&gt;
+&lt;/div&gt;</content></entry><entry><title>Stop remembering passwords</title><link href="http://www.marcodena.it/blog/stop-remembering-passwords/" rel="alternate"></link><published>2014-09-02T10:20:00+02:00</published><updated>2014-09-02T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-09-02:/blog/stop-remembering-passwords/</id><summary type="html">&lt;p&gt;Everyday we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez and many others. Nevertheless we continue to somehow trust the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we often …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Everyday we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez and many others. Nevertheless we continue to somehow trust the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we often forget them and, finally, we complain when someone hacks our E-mail or Facebook account. Ask yourself:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;What can happen and how much time will your waste with a stolen Facebook account? &lt;/li&gt;
 &lt;li&gt;Are you using the same password everywhere? If so, do you know how dangerous is it?&lt;/li&gt;
@@ -155,17 +240,17 @@ Finally, some tips: &lt;/p&gt;
 &lt;p&gt;(Extra: &lt;a href="https://howsecureismypassword.net/"&gt;is your password secure?&lt;/a&gt;. This method only checks the length of the password, comparing it with a normal PC attack. It is simplistic.)&lt;/p&gt;
 &lt;h2&gt;What's the solution&lt;/h2&gt;
 &lt;p&gt;My solution is to use &lt;a href="https://www.mitro.co/"&gt;Mitro&lt;/a&gt;, a project that allows you to generate, store and use different passwords in the websites you normally use. Let me explain better: let's say you want to create a Facebook account. In this case you go to the registration page and Mitro will generate for you a password, which is very difficult and random. This password will be stored in Mitro and the next time you login in Facebook, it will fill the login form for you. &lt;strong&gt;You don't even need to know your own password!!&lt;/strong&gt; Mitro will also generate for you a truly random password, which is not dependent on any personal information or existing word.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Mitro screenshot" src="/images/mitro.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mitro screenshot" src="/images/mitro.png"&gt;&lt;/p&gt;
 &lt;p&gt;I never trusted password managers: &lt;strong&gt;what if someone hacks or find the list of my passwords?&lt;/strong&gt; It's a single point of failure, right? With Mitro this is theoretically not possible. As their &lt;a href="https://www.mitro.co/secure.html"&gt;Security FAQ&lt;/a&gt; says: "Mitro is designed so that only you, and the people you share with, have access to your secrets. Your passwords never leave your computer without being encrypted, so no one, not even Mitro, has access to them". Great!!&lt;/p&gt;
 &lt;p&gt;From the moment I gave a try to Mitro, &lt;strong&gt;I deleted all the cookies and changed all the passwords&lt;/strong&gt; of the website I normally use. Mitro saved me!&lt;/p&gt;
 &lt;p&gt;Let's try!! First of all I will change the password of Facebook, just to show you how the system works. I generate the password with Mitro and I copy-paste it in the Facebook form. It's a strong password!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Facebook change password" src="/images/stop-password1.png" /&gt;
-&lt;img alt="Mitro password generator" src="/images/mitro-passowrd-generation.png" /&gt;
-&lt;img alt="Facebook change password2" src="/images/stop-password2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Facebook change password" src="/images/stop-password1.png"&gt;
+&lt;img alt="Mitro password generator" src="/images/mitro-passowrd-generation.png"&gt;
+&lt;img alt="Facebook change password2" src="/images/stop-password2.png"&gt;&lt;/p&gt;
 &lt;p&gt;At this point I login. In my case I had a different password saved in Mitro, so I will memorize the new one.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Facebook login" src="/images/stop-password3.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Facebook login" src="/images/stop-password3.png"&gt;&lt;/p&gt;
 &lt;p&gt;Now, when you need to login again in the website, Mitro will take care of the rest&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Mitro Facebook login" src="/images/stop-password4.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mitro Facebook login" src="/images/stop-password4.png"&gt;&lt;/p&gt;
 &lt;p&gt;So you will not care about remembering passwords anymore and your internet life will gain a new type of security. You don't trust me? Try it with one website! Try to change a password and use Mitro from that moment, please! After this, share your thoughts with me please. I'm curious/interested :)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Mitro was recently bought by Twitter&lt;/strong&gt;. The extensions are for Chrome, Safari and Firefox. There is also an iOS app.&lt;/p&gt;
 &lt;h2&gt;Why Mitro and not the others?&lt;/h2&gt;
@@ -175,7 +260,10 @@ Finally, some tips: &lt;/p&gt;
 &lt;h2&gt;Is it the future?&lt;/h2&gt;
 &lt;p&gt;Yes and no. Mitro attacks the problem on the "password side": it allows you to use the websites in the old way, storing your passwords and increasing the security. The future will probably be about using different types of access methods, like &lt;a href="http://oauth.net/"&gt;OAuth&lt;/a&gt;, &lt;a href="https://www.mozilla.org/en-US/persona/"&gt;Mozilla Persona&lt;/a&gt; or &lt;a href="https://medium.com/@ninjudd/passwords-are-obsolete-9ed56d483eb"&gt;considering obsolte the passwords&lt;/a&gt;. All these methods depends on the websites we use, so we can't do anything but wait. &lt;/p&gt;
 &lt;p&gt;We just need to wait, using Mitro meanwhile.&lt;/p&gt;
-&lt;p&gt;Please, give it a try and share your thoughts :)&lt;/p&gt;</summary></entry><entry><title>Wordpress? The future is static</title><link href="http://www.marcodena.it/blog/wordpress-the-future-is-static/" rel="alternate"></link><updated>2014-08-09T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-08-09:blog/wordpress-the-future-is-static/</id><summary type="html">&lt;p&gt;I was a PHP developer and I lived the blog fashion bubble when everyone made blogs, 
+&lt;p&gt;Please, give it a try and share your thoughts :)&lt;/p&gt;</content></entry><entry><title>Wordpress? The future is static</title><link href="http://www.marcodena.it/blog/wordpress-the-future-is-static/" rel="alternate"></link><published>2014-08-09T10:20:00+02:00</published><updated>2014-08-09T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-08-09:/blog/wordpress-the-future-is-static/</id><summary type="html">&lt;p&gt;I was a PHP developer and I lived the blog fashion bubble when everyone made blogs, 
+even talking about non-sense. Since that "era", &lt;a href="http://www.wordpress.org"&gt;Wordpress&lt;/a&gt;
+established the "standard de-facto" among the blogging platforms. Wordpress has been highly
+customizable (it has more than 15'000 of plugins), it is still used by high …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was a PHP developer and I lived the blog fashion bubble when everyone made blogs, 
 even talking about non-sense. Since that "era", &lt;a href="http://www.wordpress.org"&gt;Wordpress&lt;/a&gt;
 established the "standard de-facto" among the blogging platforms. Wordpress has been highly
 customizable (it has more than 15'000 of plugins), it is still used by high profile
@@ -212,19 +300,19 @@ that I don't know Ruby and that I prefer the &lt;a href="http://docs.getpelican.
 &lt;/ul&gt;
 &lt;h2&gt;How to start&lt;/h2&gt;
 &lt;p&gt;The best way to start is understanding how easy is to make a blog. The &lt;a href="http://docs.getpelican.com/en/3.4.0/quickstart.html"&gt;quickstart&lt;/a&gt; is very comprensive. First of all some Python packages are necessary.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;pip install pelican markdown
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install pelican markdown
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;The second step is generating the basic structure of the blog.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;projects&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;yoursite&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;projects&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;yoursite&lt;/span&gt;
 &lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;projects&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;yoursite&lt;/span&gt;
 &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;quickstart&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Now it is time to write the &lt;strong&gt;first article&lt;/strong&gt; in Markdown:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
 &lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2010&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
 &lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
 
@@ -236,13 +324,13 @@ that I don't know Ruby and that I prefer the &lt;a href="http://docs.getpelican.
 directory is made for all the posts and pages and it will not change even if the
 blog will be revolutionized.
 From the "~/projects/yoursite/" directory, you can launch&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;pelican content
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pelican content
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;The static HTML files will be generated in the output directory. To visit your new
 website, just launch&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;cd ~/projects/yoursite/output
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd ~/projects/yoursite/output
 python -m SimpleHTTPServer
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -251,11 +339,11 @@ python -m SimpleHTTPServer
 &lt;h2&gt;Performances&lt;/h2&gt;
 &lt;p&gt;I am a nerd, I like performances benchmarks. In this plot it is possible to find the performance
 of Wordpress and Pelican in a simple hosting of gandi.net, but also Pelican (stati HTMLs) in Amazon S3.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="benchmarks" src="/images/benchmark.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="benchmarks" src="/images/benchmark.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt; the tests are made with &lt;a href="http://httpd.apache.org/docs/2.2/programs/ab.html"&gt;Apache ab&lt;/a&gt; via Internet,
 so the performance is also affected by the speed of the connection and the congestion on the moment
 of the test. The peak in the end is probably caused by this. I am sorry but I could not set up a local server in my PC. &lt;/p&gt;
 &lt;h2&gt;Host your website for free&lt;/h2&gt;
 &lt;p&gt;If you want to host a website for free, use Github pages. &lt;a href="http://www.circuidipity.com/github-pages.html"&gt;Here&lt;/a&gt; you find a nice tutorial.&lt;/p&gt;
 &lt;h2&gt;Sources of this website&lt;/h2&gt;
-&lt;p&gt;The sources of this website are available &lt;a href="https://github.com/denadai2/marcodena.it"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary></entry></feed>
+&lt;p&gt;The sources of this website are available &lt;a href="https://github.com/denadai2/marcodena.it"&gt;here&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>

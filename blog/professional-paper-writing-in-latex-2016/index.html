@@ -7,7 +7,7 @@
         <link href="//www.google-analytics.com" rel="dns-prefetch">
         <link rel="dns-prefetch" href="http://use.typekit.com">
         <link href="http://www.marcodena.it/theme/images/favicon.png" rel="shortcut icon">
-            <link rel="stylesheet" href="http://www.marcodena.it/theme/css/assets_v.0.1.2.css?f828d20e">
+            <link rel="stylesheet" href="http://www.marcodena.it/theme/css/assets_v.0.1.2.css?fc1f743b">
         <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
 
 
@@ -67,7 +67,7 @@
 <h2>Packages</h2>
 <p>I don't even try to explain the reason why Latex is so popular in academia. But, if you are still hesitant about it, I suggest to look at these slides before continuing.</p>
 <h3>The indispensable</h3>
-<div class="highlight"><pre>\usepackage{graphicx} 
+<div class="highlight"><pre><span></span>\usepackage{graphicx} 
 \usepackage[pdftex]{hyperref}
 \usepackage{cleveref}
 
@@ -78,13 +78,13 @@
 
 <p>graphicx allows to include, shrink and rotate figures inside the text. It accepts vector files as input.
 hyperref is a great tool to include links which I usually add in the text with the <code>\url</code> command, appending the accessing date information as well.</p>
-<div class="highlight"><pre>\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
+<div class="highlight"><pre><span></span>\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
 </pre></div>
 
 
 <p>This allows readers to know the availability of the resource and search for it (maybe in archive.org?). 
 If you want to refer to sections, tables and images without even writing the element type name you are referring to, you can use cleveref. For example this code</p>
-<div class="highlight"><pre>\begin{figure}
+<div class="highlight"><pre><span></span>\begin{figure}
    \includegraphics{image.pdf}
    \label{fig:randomName}
 \end{figure}
@@ -96,8 +96,8 @@ See \cref{fig:randomName}. \Cref{fig:randomName} is really cool!
 <p>will generate “See figure 1. Figure 1 is really cool!”. Cool, isn’t it?</p>
 <h4>Tables</h4>
 <p>Default tables in Latex are UGLY, writers even worse, because they don't care about the visual aspect of the information they are putting in the tables.
-<img alt="Latex table comparison" src="/images/tables_comparison.png" />
-Which one would you prefer? The second one is very neat, isn't it? However, the information displayed is the same. Hence, the difference stands on some nice visual rules<sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup> that have to be applied in (IMHO) every article you write from now to the end of time.</p>
+<img alt="Latex table comparison" src="/images/tables_comparison.png">
+Which one would you prefer? The second one is very neat, isn't it? However, the information displayed is the same. Hence, the difference stands on some nice visual rules<sup id="fnref-3"><a class="footnote-ref" href="#fn-3">3</a></sup> that have to be applied in (IMHO) every article you write from now to the end of time.</p>
 <ul>
 <li>Avoid vertical lines;</li>
 <li>Avoid lines between rows different from the heading and the footer;</li>
@@ -106,13 +106,13 @@ Which one would you prefer? The second one is very neat, isn't it? However, the 
 </ul>
 <p>Hence, the next step is using the <a href="http://texcatalogue.sarovar.org/entries/booktabs.html">booktabs</a> package, which provides some nice commands for the lines we will add to the tables. Then, we will increase the space between rows with the command <code>\ra{1.2}</code> and remove the space to the vertical edges (the first and the last column will not have unnecessary paddings anymore) with the <code>@{}</code> in the column specification (<code>\begin{tabularx}{\columnwidth}{@{}Xccc@{}}</code>).
 Hence, in the header of your document include:</p>
-<div class="highlight"><pre>\usepackage{booktabs}
+<div class="highlight"><pre><span></span>\usepackage{booktabs}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 </pre></div>
 
 
 <p>Then make the table in this way:</p>
-<div class="highlight"><pre>\begin{table}[ht]
+<div class="highlight"><pre><span></span>\begin{table}[ht]
     \centering
     \ra{1.2}
     \begin{tabularx}{\columnwidth}{@{}Xccc@{}}
@@ -138,15 +138,15 @@ Hence, in the header of your document include:</p>
 
 
 <p>The result is this, instead of the second one:
-<img alt="Nice table" src="/images/table_nice.png" />
-<img alt="Not so nice table" src="/images/table_not_so_nice.png" /></p>
+<img alt="Nice table" src="/images/table_nice.png">
+<img alt="Not so nice table" src="/images/table_not_so_nice.png"></p>
 <h3>The nice to have</h3>
 <p>Some packages are not necessary, but still useful for everyday use.</p>
 <h4>Notes</h4>
 <p>Although there are a lot of websites which allows people to collaborate online and write documents together, I usually have to share PDF documents with my colleagues. Sending PDF documents creates a strange sense of officiality even if the content is still a draft. Thus, the package I personally like the most is todonotes. This package allows to create colored notes all around the pages, enclosed by nice boxes, allowing authors to share ideas, concepts and warnings that are not part of the real content.
-<img alt="Nice table" src="/images/latex_todonotes.png" /></p>
+<img alt="Nice table" src="/images/latex_todonotes.png"></p>
 <p>I usually add this code to the preamble, which creates four commands for different purpose boxes that are self explainable from their names.</p>
-<div class="highlight"><pre>\usepackage{xargs} 
+<div class="highlight"><pre><span></span>\usepackage{xargs} 
 \usepackage[colorinlistoftodos,prependcaption,textsize=normal]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
 \newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
@@ -157,21 +157,21 @@ Hence, in the header of your document include:</p>
 
 
 <h4>Microtype</h4>
-<p><a href="http://ctan.org/tex-archive/macros/latex/contrib/microtype">Microtype</a> is one of the most useful packages, but it is known by too few people. It greatly improves general appearance of the text using different techniques, such as margin kerning (protrusion), extra kerning, expansion, tracking, and spacing<sup id="fnref:4"><a class="footnote-ref" href="#fn:4" rel="footnote">4</a></sup>. With the default configuration, Microtype optimize the text readability, and you can compare the effect by observing these two texts, where in the second one Microtype was applied:
-<img alt="Microtype off" src="/images/latex-writing/Microtype_example_off.png" />
-<img alt="Microtype on" src="/images/latex-writing/Microtype_example_on.png" /></p>
+<p><a href="http://ctan.org/tex-archive/macros/latex/contrib/microtype">Microtype</a> is one of the most useful packages, but it is known by too few people. It greatly improves general appearance of the text using different techniques, such as margin kerning (protrusion), extra kerning, expansion, tracking, and spacing<sup id="fnref-4"><a class="footnote-ref" href="#fn-4">4</a></sup>. With the default configuration, Microtype optimize the text readability, and you can compare the effect by observing these two texts, where in the second one Microtype was applied:
+<img alt="Microtype off" src="/images/latex-writing/Microtype_example_off.png">
+<img alt="Microtype on" src="/images/latex-writing/Microtype_example_on.png"></p>
 <p>Typesetting experts can observe the total interword spacing and appreciate the improved readability. Others can believe in the more positive effect in the reader when he faces the entire, optimized, document. Moreover, it is important to notice that text takes less space, an important feature when you don't have enough space in your papers.</p>
 <h4>siunitx</h4>
 <p>Shall you write in your paper km^2 or &#13218;? I prefer the second one. This is where <a href="https://www.ctan.org/pkg/siunitx">siunitx</a> operates in two ways:</p>
-<div class="highlight"><pre>\SI{10}{\metre}
+<div class="highlight"><pre><span></span>\SI{10}{\metre}
 \si{\kilogram\metre\per\second} % Note no `\usk&#39; here
 </pre></div>
 
 
 <p>and it has many standard units, including the ones coming from Computer science like MB, Gb etc.</p>
 <h2>References</h2>
-<p>Academic references have to be modernized<sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup> and the best way is to learn and share some general notions to create a better academia.
-First, keep in mind that references in CrossRef, Mendeley and Google Scholar are incomplete and often bloated with unnecessary information<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>. Then, remember that Google Scholar might be wrong and inconsistent, so don't blindly copy-paste the bibtex items from the website.
+<p>Academic references have to be modernized<sup id="fnref-2"><a class="footnote-ref" href="#fn-2">2</a></sup> and the best way is to learn and share some general notions to create a better academia.
+First, keep in mind that references in CrossRef, Mendeley and Google Scholar are incomplete and often bloated with unnecessary information<sup id="fnref-1"><a class="footnote-ref" href="#fn-1">1</a></sup>. Then, remember that Google Scholar might be wrong and inconsistent, so don't blindly copy-paste the bibtex items from the website.
 So, be sure to collect these details:</p>
 <ul>
 <li>Authors should be listed last name first, followed by a comma and initials (followed by full stops, ‘.’) of given names. This has to be repeated for all the authors up to a limit (usually five), and then use et al.;</li>
@@ -190,19 +190,19 @@ Finally, some tips: </p>
 <li>Group multiple citations and order them alphabetically. So, instead of <code>\cite{gigetti2015}\cite{brunelli1960}</code> do <code>\cite{brunelli1960, gigetti2015}</code>. Always alphabetize grouped citations so they appear in numerical order ([6,13] instead of [13,6]).</li>
 </ul>
 <div class="footnote">
-<hr />
+<hr>
 <ol>
-<li id="fn:1">
-<p><a href="https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-should-you-be-recording-citations-in-the-digital-era-97550a7c3da6#.heytswkvu">How should you be recording citations in the digital era?</a>.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<li id="fn-1">
+<p><a href="https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-should-you-be-recording-citations-in-the-digital-era-97550a7c3da6#.heytswkvu">How should you be recording citations in the digital era?</a>.&#160;<a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
-<li id="fn:2">
-<p><a href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/05/21/academic-citation-practices-need-to-be-modernized/">Academic citation practices need to be modernized so that all references are digital and lead to full texts.</a>.&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<li id="fn-2">
+<p><a href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/05/21/academic-citation-practices-need-to-be-modernized/">Academic citation practices need to be modernized so that all references are digital and lead to full texts.</a>.&#160;<a class="footnote-backref" href="#fnref-2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
-<li id="fn:3">
-<p>Rules learned thanks to this <a href="https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf">nice presentation</a>.&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<li id="fn-3">
+<p>Rules learned thanks to this <a href="https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf">nice presentation</a>.&#160;<a class="footnote-backref" href="#fnref-3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
-<li id="fn:4">
-<p>I suggest everyone to read <a href="http://www.khirevich.com/latex/microtype/">this wounderful post</a> about Microtype.&#160;<a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<li id="fn-4">
+<p>I suggest everyone to read <a href="http://www.khirevich.com/latex/microtype/">this wounderful post</a> about Microtype.&#160;<a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -216,7 +216,7 @@ Finally, some tips: </p>
     <div id="share-containter">
         <ul class="social-tools-bottom inline">
           <li class="left facebook">
-            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/blog/professional-paper-writing-in-latex-2016/&p[images][0]=&p[title]=Professional%20paper%20writing%20in%20Latex%20%5B2016%5D%20&p[summary]=%3Cp%3EI%20have%20been%20through%20a%20lot%20of%20problems%20in%20my%20early%20times%20in%20academia%20and%20even%20now%2C%20I%20still%20don%27t%20remember%20some%20packages%20or%20methods%20to%20write%20a%20good%20article.%20For%20this%20reason%2C%20I%20here%20present%20some%20technical%20guidelines%20to%20write%20a%20paper%20in%20LaTex%2C%20some%20I%20wish%20I%20...%3C/p%3E" class="facebook" target="_blank" title="Share on Facebook">
+            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/blog/professional-paper-writing-in-latex-2016/&p[images][0]=&p[title]=Professional%20paper%20writing%20in%20Latex%20%5B2016%5D%20&p[summary]=%3Cp%3EI%20have%20been%20through%20a%20lot%20of%20problems%20in%20my%20early%20times%20in%20academia%20and%20even%20now%2C%20I%20still%20don%27t%20remember%20some%20packages%20or%20methods%20to%20write%20a%20good%20article.%20For%20this%20reason%2C%20I%20here%20present%20some%20technical%20guidelines%20to%20write%20a%20paper%20in%20LaTex%2C%20some%20I%20wish%20I%20knew%20%E2%80%A6%3C/p%3E" class="facebook" target="_blank" title="Share on Facebook">
               <i class="icon-facebook"></i><span>Share on Facebook</span>
             </a>
           </li>
