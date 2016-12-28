@@ -3,22 +3,22 @@ Date: 2016-12-28 14:00
 Category: Research
 Exceprt: The definite guide to write articles and papers in Latex. This article helps you to design nice tables, avoid errors etc.
 
-It is almost the end of 2016 and I started my Ph.D. more than one year ago. 2016 was a busy year for me, continuosly travelling travelling all over the world for conferences and new (scientific?) experiences. Thus, I want to share some of my favourite papers published this year.
+It is almost the end of 2016 and I started my Ph.D. more than one year ago. 2016 was a busy year for me, continuously travelling all over the world for conferences and new (scientific?) experiences. Thus, I want to share some of my favourite papers published this year.
 
-If you find this list (or idea) intersting, I ask you to write your personal list of favourite papers and share it with me! I am always intersted in exploring others' scientific interests.
+If you find this list (or idea) interesting, I ask you to write your personal list of favourite papers and share it with me! I am always interested in exploring others' scientific interests.
 
 
 1. [The TimeGeo modeling framework for urban mobility without travel surveys](http://www.pnas.org/content/113/37/E5370.abstract)[^1]. This paper is the *nec plus ultra* of the urban mobility modelization through mobile phone data. It starts with a simple flow-chart that describes people's mobility, then it flies to a flexible extraction and simulation of daily trajectories. As always, Supporting Materials are painful to read :)
 
 2. [Scaling identity connects human mobility and social interactions](http://www.pnas.org/content/113/37/E5370.abstract)[^2]. Our mobility and communication patterns are extremely connected: one influences the other. We had a glimpse of it in the past literature[^14], but this paper establishes the formal link between them. Moreover, this work allows also to approximate social fluxes from mobility and viceversa. This is great at a macroscopic scale, but what if we look at socio-demographic information or different cultures?
 
-3. [Returners and explorers dichotomy in human mobility](http://www.nature.com/articles/ncomms9166)[^3]. Power/scaling laws and macroscopic scales always look at universal behavior. What I like the most of this paper is that it looks at differences. Particularly, by looking at people's recurrent movements it finds that two well-separated mobility profiles of people emerge: returners and explorers. The formers are inclined to go to previously visited places, while the latters have a tendency to wander between a larger number of different locations. This has a great impact on spending patterns, hasn't it?
+3. [Returners and explorers dichotomy in human mobility](http://www.nature.com/articles/ncomms9166)[^3]. Power/scaling laws and macroscopic scales always look at universal behavior. What I like the most of this paper is that it looks at differences. Particularly, by looking at people's recurrent movements it finds that two well-separated mobility profiles of people emerge: returners and explorers. The former are inclined to go to previously visited places, while the latter have a tendency to wander between a larger number of different locations. This has a great impact on spending patterns, hasn't it?
 
-4. [To explain or to predict?](http://www.jstor.org/stable/41058949)[^4]. Have you ever wondered what are the differences between models that explains and models trying to predict future outcomes? This paper should be read by all data mining, machine learning and econometrics students!
+4. [To explain or to predict?](http://www.jstor.org/stable/41058949)[^4]. Have you ever wondered what are the differences between models that explains and models trying to predict future outcomes? This paper should be read by all data mining, machine learning and econometric students!
 
 5. [Prediction policy problems](https://www.aeaweb.org/articles?id=10.1257/aer.p20151023)[^5]. Right after Galit's paper[^4], this is a must-read article to understand the role of predictions for policy-makers.
 
-6. [The Atlas of Economic Complexity: Mapping Paths to Prosperity](https://www.hks.harvard.edu/centers/cid/publications/books/atlas)[^11]. This book is from 2013, but is a cristal-clear explanation of the economic complexity theory by Hidalgo *et al.*[^12]. I also suggest you [their visualizaiton](http://atlas.cid.harvard.edu/) tool if you want to understand the exports of your country. Do you want a general-purpose explanation of this? There is also a [book](http://www.goodreads.com/book/show/20763722-why-information-grows)!
+6. [The Atlas of Economic Complexity: Mapping Paths to Prosperity](https://www.hks.harvard.edu/centers/cid/publications/books/atlas)[^11]. This book is from 2013, but is a cristal-clear explanation of the economic complexity theory by Hidalgo *et al.*[^12]. I also suggest you [their visualization](http://atlas.cid.harvard.edu/) tool if you want to understand the exports of your country. Do you want a general-purpose explanation of this? There is also a [book](http://www.goodreads.com/book/show/20763722-why-information-grows)!
 
 ![Hidalgo-book](/images/whyinformationgrows2.jpg)
 
