@@ -1,9 +1,9 @@
 Title: My favorite scientific papers of 2016
 Date: 2016-12-28 14:00
 Category: Research
-Exceprt: The definite guide to write articles and papers in Latex. This article helps you to design nice tables, avoid errors etc.
+Exceprt: After one year of Ph.D., this are my favourite scientific papers. They come from computer science, computational social science and urban planning. 
 
-It is almost the end of 2016 and I started my Ph.D. more than one year ago. 2016 was a busy year for me, continuously travelling all over the world for conferences and new (scientific?) experiences. Thus, I want to share some of my favourite papers published this year.
+It is almost the end of 2016 and this was a busy year for me, continuously travelling all over the world for conferences and new (scientific?) experiences. Despite my inexperience, I want to share some of my favourite papers published this year.
 
 If you find this list (or idea) interesting, I ask you to write your personal list of favourite papers and share it with me! I am always interested in exploring others' scientific interests.
 
