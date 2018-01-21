@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Marco De Nadai'
 SITENAME = u'Marco De Nadai'
-SITEURL = 'http://www.marcodena.it'
-#SITEURL = ''
+#SITEURL = 'http://www.marcodena.it'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -51,14 +51,14 @@ THEME = 'theme'
 
 STATIC_PATHS = [
     'extra/robots.txt',
-    'extra/CV.pdf',
+    'extra/resume_Marco_De_Nadai.pdf',
     'extra/CNAME',
     'images/'
     ]
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/CV.pdf': {'path': 'CV.pdf'},
+    'extra/resume_Marco_De_Nadai.pdf': {'path': 'resume_Marco_De_Nadai.pdf'},
     'extra/CNAME': {'path': 'CNAME'},
     }
 

@@ -1,21 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="row">
-<div class="column large-12 end" id="index">
-{% include 'sidebar.html' %}
 
-<section id="articles" class="body column large-8 large-offset-1 end">
+<section id="articles" class="body column large-8 large-offset-1 end index">
     <h2>Latests articles</h2>
     {% for article in articles_page.object_list %}
         <div class="row articleSummary">
-            <div class="column large-2 date">{{ article.date.strftime("%B %Y") }}</div>
+            <div class="column large-2 date">{{ article.date.strftime("%b %Y") }}</div>
             <div class="column large-10 end">
                 <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}"><h4>{{ article.title }}</h4></a>
-                <p>{{ article.exceprt }}</p>
             </div>
         </div>
-        {% endfor %}
+    {% endfor %}
 </section>
 
 <section id="publications" class="body column large-8 large-offset-3 end">
@@ -70,14 +66,12 @@ We operationalized these conditions extracting information from Open Data, Fours
             </div>
 
 </section>
-</div>
-</div>
 
 
 <section id="personal-projects" class="body column large-8 large-offset-3 end">
     <h2>Personal projects</h2>
                 <div class="row articleSummary">
-                <div class="column large-2 date">July 2013</div>
+                <div class="column large-2 date">Jul 2013</div>
                 <div class="column large-10 end">
                     <a href="https://github.com/denadai2/soccerbigdata_DEBS_analysis"><h4>A new massive data analytics approach to the football</h4></a>
                     <p>Small framework of tools which permits the coaches to base
