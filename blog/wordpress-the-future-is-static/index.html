@@ -7,7 +7,8 @@
         <link href="//www.google-analytics.com" rel="dns-prefetch">
         <link rel="dns-prefetch" href="http://use.typekit.com">
         <link href="http://www.marcodena.it/theme/images/favicon.png" rel="shortcut icon">
-            <link rel="stylesheet" href="http://www.marcodena.it/theme/css/assets_v.0.1.2.css?fc1f743b">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,700|Roboto:300,300i,400" rel="stylesheet"> 
+            <link rel="stylesheet" href="http://www.marcodena.it/theme/css/assets_v.0.1.2.css?47db6363">
         <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
 
 
@@ -20,29 +21,22 @@
   <!-- header -->
                         <header class="header clear" role="banner" id="header">
                           <div class="row">
-                          <div class="large-11 column" id="innerheader">
-
-                            <div class="row">
-                            <div class="large-2 column" id="home-link-container">
-                                <a href="http://www.marcodena.it/">Marcodena.it</a>
-                            </div>
-                            <nav class="nav large-8 large-offset-1 column end" role="navigation">
+                            <nav class="nav large-8 large-offset-3 column end" role="navigation">
                                 <ul class="menu">
-                                    <li><a href="http://www.marcodena.it/">Home</a></li>
-                                    <li><a href="http://www.marcodena.it/blog.html">Blog</a></li>
+                                    <li class="first"><a href="http://www.marcodena.it/" >Home</a></li>
+                                    <li><a href="http://www.marcodena.it/blog.html" class="selected">Blog</a></li>
+                                    <li><a href="http://www.marcodena.it/talks.html" >Talks</a></li>
                                 </ul>
 
                             </nav>
                             <!-- /nav -->
                           </div>
-                          </div>
                         </header>
+    
     <section id="articleContent" class="first">
-  <div class="row">
+      <div class="row">
 <div id="article-author-side" class="column large-2">
-    <div style="text-align:center">
-    <img src="http://www.marcodena.it/theme/images/marcodena.jpg" class="bio-photo" alt="Marco De Nadai bio photo">
-    </div>
+    <img src="http://www.marcodena.it/theme/images/profile_picture.jpg" class="bio-photo" alt="Marco De Nadai bio photo">
     <h3>Marco De Nadai</h3>
     <p id="personal-description">Data Scientist and Ph.D. student at University of Trento, Italy.</p>
 
@@ -50,7 +44,7 @@
       <li><i aria-hidden="true" class="icon-twitter"></i> <a href="http://twitter.com/denadai2">Twitter</a></li>
       <li><i aria-hidden="true" class="icon-github-circled"></i> <a href="https://github.com/denadai2">GitHub</a></li>
       <li><i aria-hidden="true" class="icon-linkedin"></i> <a href="http://nl.linkedin.com/in/marcodenadai/">LinkedIn</a></li>
-      <li><i aria-hidden="true" class="icon-file-pdf"></i> <a href="http://www.marcodena.it/CV.pdf">Curriculum Vitae</a></li>
+      <li><i aria-hidden="true" class="icon-file-pdf"></i> <a href="http://www.marcodena.it/resume_Marco_De_Nadai.pdf">Curriculum Vitae</a></li>
     </ul>
     
 </div>
@@ -176,36 +170,38 @@ of the test. The peak in the end is probably caused by this. I am sorry but I co
 
 <section class="comments noTopPadding" id="comments">
   <div class="row">
-  <div class="column large-8 large-offset-3 end">
-<h2>Comments</h2>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'marcodenait'; // required: replace example with your forum shortname
-var disqus_identifier = 'wordpress-the-future-is-static';
-var disqus_url = 'http://www.marcodena.it/blog/wordpress-the-future-is-static/';
-var disqus_config = function () {
-this.language = "en";
-};
-/* * * DON'T EDIT BELOW THIS LINE * * */
-(function () {
-var dsq = document.createElement('script');
-dsq.type = 'text/javascript';
-dsq.async = true;
-dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
-Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-</div>
-</section>
+    <div class="column large-8 large-offset-3 end">
 
-
+      <h2>Comments</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'marcodenait'; // required: replace example with your forum shortname
+      var disqus_identifier = 'wordpress-the-future-is-static';
+      var disqus_url = 'http://www.marcodena.it/blog/wordpress-the-future-is-static/';
+      var disqus_config = function () {
+      this.language = "en";
+      };
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function () {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
   </div>
 </section>
+
+
+      </div>
+    </section>
+    
 
 </div>
 
