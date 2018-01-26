@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Marco De Nadai'
 SITENAME = u'Marco De Nadai'
-#SITEURL = 'http://www.marcodena.it'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'http://www.marcodena.it'
+#SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -41,7 +41,7 @@ PLUGIN_PATHS = ["plugins", "/srv/pelican/plugins"]
 PLUGINS = [
     'share_post',
     'sitemap',
-    'better_figures_and_images',
+    #'better_figures_and_images',
     'assets'
 ]
 
