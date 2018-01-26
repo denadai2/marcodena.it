@@ -258,74 +258,7 @@ section.grey{
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
-/*
-section h2, section h3{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    max-width: 40em;
-    text-align: center;
-    text-transform: none;
-    color: #444951;
-}
 
-section h2{
-    font-size: 2.5em;
-    margin: 0px auto 0.65em;
-}
-
-section h3{
-    color: #444951;
-    font-size: 1em;
-    margin: 0px auto 1.5em;
-}
-
-section hr {
-    border-style: solid;
-    border-color: #DDD;
-    -moz-border-top-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    border-image: none;
-    border-width: 1px 0px 0px;
-    clear: both;
-    margin: 2.6rem 0px;
-    height: 0px;
-}
-*/
-#post-list {
-    margin:0;
-    padding:0;
-    list-style: none;
-}
-
-#post-list article{
-    margin-bottom: 35px;
-}
-
-#post-list header{
-    text-align: left;
-    padding:0;
-}
-
-#post-list header h2{
-    margin:0;
-    font-size: 36px;
-}
-
-#post-list abbr{
-    font-family: 'AvenirNextLTW01-Regular';
-    font-size: 12px;
-    text-transform: uppercase;
-    line-height: 1.5;
-    display: block;
-    text-align: right;
-    border:none;
-}
-
-#post-list p{
-    margin-top: 0;
-}
 
 
 /*------------------------------------*\
