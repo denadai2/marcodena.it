@@ -673,7 +673,7 @@ article h4{
 
 .social-tools-bottom li{
     border-radius: 0.333em;
-    width: 49.5%;
+    width: 48.5%;
     padding: 10px 0;
     margin: 0;
     text-align: center;
@@ -739,7 +739,7 @@ article h4{
 	font-size: .8em;
 }
 .footnote p {
-	margin-bottom: 0px;
+	margin: 5px 0;
 }
 .footnote ol{
 	margin-top: 1rem;
