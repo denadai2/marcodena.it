@@ -693,6 +693,11 @@ article h4{
     color: #FFF;
 }
 
+.social-tools-bottom li a:hover{
+    color: #c0392b;
+    text-decoration: none;
+}
+
 .social-tools-bottom i{
     font-size: 20px;
     position: relative;
