@@ -1,16 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
-<section id="content" class="body column large-8 large-offset-1 end">
+<section id="content" class="body cell large-8 large-offset-1 end">
 {% block content_title %}
 {% endblock %}
 
-<div class="row">
-    <div class="column large-12">
+<div class="grid-x">
+    <div class="cell large-12">
     	<h2 class="first">Blog articles</h2>
         {% for article in articles_page.object_list %}
-        <div class="row articleSummary">
-	        <div class="column large-2 date">{{ article.date.strftime("%b %Y") }}</div>
-	        <div class="column large-10 end">
+        <div class="grid-x articleSummary">
+	        <div class="cell large-2 date">{{ article.date.strftime("%b %Y") }}</div>
+	        <div class="cell large-10 end">
 	            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}"><h4>{{ article.title }}</h4></a>
 	        </div>
 	    </div>

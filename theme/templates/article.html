@@ -19,7 +19,7 @@
 {% block content %}
 
   
-<article id="content" class="body column large-8 large-offset-1 end">
+<article id="content" class="body cell large-8 large-offset-1 end">
   <header>
     <h1 class="entry-title">{{ article.title }}</h1>
  {% import 'translations.html' as translations with context %}
@@ -34,10 +34,8 @@
 
 
 {% if article.share_post and article.status != 'draft' %}
-<section class="noTopPadding">
-  <div class="row">
-  <div class="column large-8 large-offset-3 end">
-    <div id="share-containter">
+<section class="noTopPadding cell large-8 large-offset-3 end">
+  <div id="share-containter">
         <ul class="social-tools-bottom inline">
           <li class="left facebook">
             <a href="{{article.share_post['facebook']}}" class="facebook" target="_blank" title="Share on Facebook">
@@ -52,16 +50,12 @@
         </ul>
         <div style="clear:both"></div>
     </div>
-  </div>
-</div>
 </section>
 {% endif %}
 
 
 {% if DISQUS_SITENAME %}
-<section class="comments noTopPadding" id="comments">
-  <div class="row">
-    <div class="column large-8 large-offset-3 end">
+<section class="comments noTopPadding cell large-8 large-offset-3 end" id="comments">
 
       <h2>Comments</h2>
       <div id="disqus_thread"></div>
@@ -94,8 +88,7 @@
       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
       Disqus.</a></noscript>
       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    </div>
-  </div>
+    
 </section>
 {% endif %}
 
