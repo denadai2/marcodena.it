@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>Telegram logging handler for Python, Java, Bash</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="//www.googletagmanager.com" rel="dns-prefetch">
+        <link href="http://www.marcodena.it/theme/images/favicon.png" rel="shortcut icon">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,700|Roboto:300,300i,400" rel="stylesheet"> 
+            <link rel="stylesheet" href="http://www.marcodena.it/theme/css/assets_v.0.1.4.css?9ad41b8e">
+
+
+
+
+
+</head>
+
+<body class="home">
+  <!-- header -->
+                        <header class="header clear grid-container" role="banner" id="header">
+                          <div class="grid-x">
+                            <nav class="nav large-8 large-offset-3 cell end" role="navigation">
+                                <ul class="menu">
+                                    <li class="first"><a href="http://www.marcodena.it/" >Home</a></li>
+                                    <li><a href="http://www.marcodena.it/blog.html" class="selected">Blog</a></li>
+                                    <li><a href="http://www.marcodena.it/talks.html" >Talks</a></li>
+                                </ul>
+
+                            </nav>
+                            <!-- /nav -->
+                          </div>
+                        </header>
+    
+    <section id="articleContent" class="first grid-container">
+      <div class="grid-x">
+<div id="article-author-side" class="cell large-2">
+	<div class="grid-x">
+		<div class="cell small-5 large-12">
+			<img src="http://www.marcodena.it/theme/images/profile_picture.jpg" class="bio-photo" alt="Marco De Nadai bio photo">
+    		<h3>Marco De Nadai</h3>
+		</div>
+		<div class="cell small-7 large-12 hide-for-small-only">
+			<p id="personal-description">Data Scientist and Ph.D. student at University of Trento, Italy.</p>
+		</div>
+      	<div class="cell small-6 large-12">
+      		<ul id="social-info">
+		      <li><i aria-hidden="true" class="icon-twitter"></i> <a href="http://twitter.com/denadai2">Twitter</a></li>
+		      <li><i aria-hidden="true" class="icon-github-circled"></i> <a href="https://github.com/denadai2">GitHub</a></li>
+		      <li><i aria-hidden="true" class="icon-linkedin"></i> <a href="http://nl.linkedin.com/in/marcodenadai/">LinkedIn</a></li>
+		      <li><i aria-hidden="true" class="icon-file-pdf"></i> <a href="http://www.marcodena.it/resume_Marco_De_Nadai.pdf">Curriculum Vitae</a></li>
+		    </ul>
+
+		</div>
+	</div>
+</div>
+  
+<article id="content" class="body cell large-8 large-offset-1 end">
+  <header>
+    <h1 class="entry-title">Telegram logging handler for Python, Java, Bash</h1>
+ 
+  <span class="date text-right">Mon 01 January 2018</span>
+  </header>
+  
+  <div class="entry-content">
+    <p>Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason, <a href="">Daniele</a> and myself developed a first, naive version of a Telegram logging system that alerts you whenever something happens. These are the use cases:</p>
+<ul>
+<li>Critical software: send me a Telegram message (and push notification on my phone) whenever something bad happens</li>
+<li>Errors: push a message on errors</li>
+<li>Info: send me a message to my phone when the longest-running software in history (my script let's say) ended.</li>
+</ul>
+<h2>Requisites</h2>
+<ul>
+<li><a href="https://telegram.org/">Telegram messanger</a>. I suggest to download the app from the phone as well.</li>
+</ul>
+<h2>Configuration</h2>
+<p>Search the BotFather, the official bot that allows you to create bots :))</p>
+<p><img alt="Telegram BotFather" src="/images/telegram_notificator2.jpg"></p>
+<p>Then, create a new bot:</p>
+<div class="highlight"><pre><span></span>/newbot
+</pre></div>
+
+
+<p>Choose a name for your bot</p>
+<div class="highlight"><pre><span></span>UltraNotifier
+</pre></div>
+
+
+<p>Choose a username for your bot, which must end with "_bot"</p>
+<div class="highlight"><pre><span></span>ultranotifier_bot
+</pre></div>
+
+
+<p>Once the bot is created, you will have a long string that is the TOKENID. The message will be similar to:</p>
+<div class="highlight"><pre><span></span>Use this token to access the HTTP API:
+</pre></div>
+
+
+<p>Now, the bot is only the "guy" who will send you the messages. It has to know the chat where to send them. For this reason, got to the search bar of Telegram, and search your bot. Then, start the bot:</p>
+<div class="highlight"><pre><span></span>/start
+</pre></div>
+
+
+<p>You can now go to the website <code>https://api.telegram.org/bot[TOKENID]/getUpdates</code> (replacing <code>[TOKENID]</code> with the ID you received before) and search for your id.</p>
+<p><img alt="Telegram chat id" src="/images/telegram_notificator3.png"></p>
+<p>Now you are ready to use a command line code to send your first notification</p>
+<div class="highlight"><pre><span></span>$ curl -s -X POST https://api.telegram.org/bot<span class="o">[</span>TOKENID<span class="o">]</span>/sendMessage -d <span class="nv">chat_id</span><span class="o">=[</span>ID<span class="o">]</span> -d <span class="nv">text</span><span class="o">=</span><span class="s2">&quot;Hello world&quot;</span>
+</pre></div>
+
+
+<h2>Python logger</h2>
+<p>I decided to write a simple Python logger that sends you a notification/message whenever something happens. Here you have the simple code, with the configuration before the class.</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">logging</span> <span class="kn">import</span> <span class="n">Handler</span><span class="p">,</span> <span class="n">Formatter</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+
+<span class="n">TELEGRAM_TOKEN</span> <span class="o">=</span> <span class="s1">&#39;PUT HERE YOUR TOKENID&#39;</span>
+<span class="n">TELEGRAM_CHAT_ID</span> <span class="o">=</span> <span class="s1">&#39;PUT HERE YOUR CHATID&#39;</span>
+
+<span class="k">class</span> <span class="nc">RequestsHandler</span><span class="p">(</span><span class="n">Handler</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">emit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">record</span><span class="p">):</span>
+        <span class="n">log_entry</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+        <span class="n">payload</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;chat_id&#39;</span><span class="p">:</span> <span class="n">TELEGRAM_CHAT_ID</span><span class="p">,</span>
+            <span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="n">log_entry</span><span class="p">,</span>
+            <span class="s1">&#39;parse_mode&#39;</span><span class="p">:</span> <span class="s1">&#39;HTML&#39;</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://api.telegram.org/bot{token}/sendMessage&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">token</span><span class="o">=</span><span class="n">TELEGRAM_TOKEN</span><span class="p">),</span>
+                             <span class="n">data</span><span class="o">=</span><span class="n">payload</span><span class="p">)</span><span class="o">.</span><span class="n">content</span>
+
+<span class="k">class</span> <span class="nc">LogstashFormatter</span><span class="p">(</span><span class="n">Formatter</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">LogstashFormatter</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">format</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">record</span><span class="p">):</span>
+        <span class="n">t</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="s2">&quot;&lt;i&gt;{datetime}&lt;/i&gt;&lt;pre&gt;</span><span class="se">\n</span><span class="s2">{message}&lt;/pre&gt;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">message</span><span class="o">=</span><span class="n">record</span><span class="o">.</span><span class="n">msg</span><span class="p">,</span> <span class="n">datetime</span><span class="o">=</span><span class="n">t</span><span class="p">)</span>
+</pre></div>
+
+
+<p>It can be simply used as all the usual logger handlers:</p>
+<div class="highlight"><pre><span></span>logger = logging.getLogger(&#39;trymeApp&#39;)
+logger.setLevel(logging.WARNING)
+
+handler = RequestsHandler()
+formatter = LogstashFormatter()
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
+logger.setLevel(logging.WARNING)
+
+logger.error(&#39;We have a problem&#39;)
+</pre></div>
+
+
+<p>The message will be:</p>
+<p><img alt="Telegram error notification" src="/images/telegram_notificator1.png"></p>
+<h2>Java, Bash, others</h2>
+<p>Thanks to Daniele, now we have <a href="https://github.com/forons/telegram-log">a new repo with other languages as well</a>. I hope you will enjoy it. Thanks!</p>
+  </div><!-- /.entry-content -->
+</article>
+
+
+<section class="noTopPadding cell large-8 large-offset-3 end">
+  <div id="share-containter">
+        <ul class="social-tools-bottom inline">
+          <li class="left facebook">
+            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A//www.marcodena.it/blog/telegram-logging-handler-for-python-java-bash/&p[images][0]=&p[title]=Telegram%20logging%20handler%20for%20Python%2C%20Java%2C%20Bash%20&p[summary]=%3Cp%3EDid%20you%20ever%20have%20a%20piece%20of%20code%20that%20lasted%20hours%3F%20I%20did%20%28and%20do%29.%20The%20problem%20is%20that%20I%20am%20usually%20obsessed%20with%20the%20question%20%22did%20it%20finish%3F%3F%22.%20So%2C%20I%20log%20into%20my%20server%2C%20and%20I%20check%20whether%20the%20code%20is%20running.%20This%20had%20to%20stop.%20For%20this%20reason%20%E2%80%A6%3C/p%3E" class="facebook" target="_blank" title="Share on Facebook">
+              <i class="icon-facebook"></i><span>Share on Facebook</span>
+            </a>
+          </li>
+          <li class="right twitter">
+            <a href="http://twitter.com/home?status=Telegram%20logging%20handler%20for%20Python%2C%20Java%2C%20Bash%20 http%3A//www.marcodena.it/blog/telegram-logging-handler-for-python-java-bash/" class="twitter" target="_blank" title="Share on Twitter">
+              <i class="icon-twitter"></i><span>Share on Twitter</span>
+            </a>
+          </li>
+        </ul>
+        <div style="clear:both"></div>
+    </div>
+</section>
+
+
+<section class="comments noTopPadding cell large-8 large-offset-3 end" id="comments">
+
+      <h2>Comments</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'marcodenait'; // required: replace example with your forum shortname
+      var disqus_identifier = 'telegram-logging-handler-for-python-java-bash';
+      var disqus_url = 'http://www.marcodena.it/blog/telegram-logging-handler-for-python-java-bash/';
+      var disqus_config = function () {
+      this.language = "en";
+      };
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function () {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+</section>
+
+
+      </div>
+    </section>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113144060-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113144060-1');
+</script>
+</body>
+</html>

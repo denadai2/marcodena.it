@@ -1,5 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai - Marco De Nadai</title><link href="http://www.marcodena.it/" rel="alternate"></link><link href="http://www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>http://www.marcodena.it/</id><updated>2016-12-28T14:00:00+01:00</updated><entry><title>My favorite scientific papers of 2016</title><link href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/" rel="alternate"></link><published>2016-12-28T14:00:00+01:00</published><updated>2016-12-28T14:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-12-28:/blog/my-favorite-scientific-papers-of-2016/</id><summary type="html">&lt;p&gt;It is almost the end of 2016 and this was a busy year for me, continuously traveling all over the world for conferences and new (scientific?) experiences. Despite my inexperience, I want to share some of my favorite papers published this year.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai - Marco De Nadai</title><link href="http://www.marcodena.it/" rel="alternate"></link><link href="http://www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>http://www.marcodena.it/</id><updated>2018-01-27T17:00:00+01:00</updated><entry><title>My favorite scientific papers of 2017</title><link href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/" rel="alternate"></link><published>2018-01-27T17:00:00+01:00</published><updated>2018-01-27T17:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-01-27:/blog/my-favorite-scientific-papers-of-2017/</id><summary type="html">&lt;p&gt;Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is &lt;a href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;the list of 2016&lt;/a&gt;, and 2017 follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41562-017-0092"&gt;Connective recovery in social …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is &lt;a href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;the list of 2016&lt;/a&gt;, and 2017 follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41562-017-0092"&gt;Connective recovery in social networks after the death of a friend&lt;/a&gt;&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. What's the resilience of social networks after a death? Do individuals communicate more with friends who did not know the person who died? Do people try to create new interactions to "compensate" the friend? How is the number of interactions dependent on age and cause of death? This is the classic paper that only Facebook can write. A masterpiece just because is the first time we can track this kind of information from a large number of people. I hope to see future similar works, controlling for culture co-variates as well. &lt;img alt="ego network death facebook" src="/images/ego-network-death-facebook.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1712.02224"&gt;Human Perception of Performance&lt;/a&gt;&lt;sup id="fnref-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;. Very beautiful analysis of human evaluation in a sport. With a framework called observe-predict-explain they analyze football data through objective metrics and subjective evaluations of sports experts, then they predict the performance and explain factors that influence it. This paper suggests that contextual information influence evaluations of performance and that human judge performance on a limited number of heuristics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://dl.acm.org/citation.cfm?id=3098045"&gt;Luck is Hard to Beat: The Difficulty of Sports Prediction&lt;/a&gt;&lt;sup id="fnref-3"&gt;&lt;a class="footnote-ref" href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt;. "Sports outcomes is a mix of skills and good and bad luck. This mix is responsible for large part of the sports appeal". The paper starts with these phrases and creates a Bayesian model that fits the data of four different sports (basketball, soccer, volleyball, and handball) to explore the role of luck and skills in the outcome of games. Elegant idea, very well written. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.pnas.org/content/114/29/7571.short"&gt;Computer vision uncovers predictors of physical urban change&lt;/a&gt;&lt;sup id="fnref-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt;. Nikil and Hidalgo kick it again with a new paper linking the improvement of places with various urban theories. Are changes of physical appearance connected with socio-economical characteristics of people (e.g., education)? Is there a spillover effect on the improvement-decay of neighborhoods? This paper shows how computer vision techniques can now be applied to explore urban characteristics on time. &lt;img alt="Hidalgo street change" src="/images/streetchange.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14902"&gt;POI2Vec: Geographical Latent Representation for Predicting Future Visitors&lt;/a&gt;&lt;sup id="fnref-5"&gt;&lt;a class="footnote-ref" href="#fn-5"&gt;5&lt;/a&gt;&lt;/sup&gt;. My journey on the prediction of future locations of people thanks to Deep Learning started here. This paper tries to predict future visitors of POIs, from the perspective of the place (not of the user). However, differently from other [putsomethinghere]2vec papers, POI2Vec creates a latent representation of the geographical context, looking at POIs that are nearby. Very interesting formulation of KD-trees in a "deep learning way."&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://science.sciencemag.org/content/355/6324/486"&gt;Prediction and explanation in social systems&lt;/a&gt;&lt;sup id="fnref-6"&gt;&lt;a class="footnote-ref" href="#fn-6"&gt;6&lt;/a&gt;&lt;/sup&gt;. A must-read paper for all data-scientists working on computational social science. Metrics, predictions and best practices explained very well.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://link.springer.com/article/10.1007/s42001-017-0007-4"&gt;Computational social scientist beware: Simpson’s paradox in behavioral data&lt;/a&gt;&lt;sup id="fnref-7"&gt;&lt;a class="footnote-ref" href="#fn-7"&gt;7&lt;/a&gt;&lt;/sup&gt;. A paper explaining all the pitfalls of heterogeneous data, which can generate aggregated results that are different from those of the underlying subgroups. The author also describes some mechanisms to control for possible problems in the datasets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://dl.acm.org/citation.cfm?id=2567997"&gt;Can cascades be predicted?&lt;/a&gt;&lt;sup id="fnref-8"&gt;&lt;a class="footnote-ref" href="#fn-8"&gt;8&lt;/a&gt;&lt;/sup&gt;. Yes! I mean, we have to define prediction. This paper defines prediction of cascades answering the question "will the cascade of size k reach 2k?". In other words, can our Facebook post reach virality? Does virality depend on users/pages/type of content? If you work with social-network data, please read this paper.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41562-017-0211-5"&gt;Evidence that curtailing proactive policing can reduce major crime&lt;/a&gt;&lt;sup id="fnref-9"&gt;&lt;a class="footnote-ref" href="#fn-9"&gt;9&lt;/a&gt;&lt;/sup&gt;. A causal model that shows how low-level arrests reduce serious crime. Supported by data, and well written.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://dl.acm.org/citation.cfm?id=3098070"&gt;Using Convolutional Networks and Satellite Imagery to Identify Patterns in Urban Environments at a Large Scale&lt;/a&gt;&lt;sup id="fnref-10"&gt;&lt;a class="footnote-ref" href="#fn-10"&gt;10&lt;/a&gt;&lt;/sup&gt;. A very well written paper that uses standard Convolutional Neural Network and open data to predict land use in various cities in the world. Can we learn from one city and predict in another? How can we analyze land-use patterns automatically in different cities? A VERY well written paper with &lt;a href="https://github.com/adrianalbert/urban-environments"&gt;documented code and Jupyter notebooks&lt;/a&gt; as well!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;iframe width="637" height="315" src="https://www.youtube.com/embed/MPttLQVU_wY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;
+&lt;p&gt;Hobbs, William R., and Moira K. Burke. "Connective recovery in social networks after the death of a friend." Nature Human Behaviour 1.5 (2017): 0092.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-2"&gt;
+&lt;p&gt;Pappalardo, Luca, et al. "Human Perception of Performance." arXiv preprint arXiv:1712.02224 (2017).&amp;#160;&lt;a class="footnote-backref" href="#fnref-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-3"&gt;
+&lt;p&gt;Aoki, Raquel, Renato M. Assuncao, and Pedro OS Vaz de Melo. "Luck is hard to beat: The difficulty of sports prediction." Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref-3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-4"&gt;
+&lt;p&gt;Naik, Nikhil, et al. "Computer vision uncovers predictors of physical urban change." Proceedings of the National Academy of Sciences 114.29 (2017): 7571-7576.&amp;#160;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-5"&gt;
+&lt;p&gt;Feng, Shanshan, et al. "POI2Vec: Geographical Latent Representation for Predicting Future Visitors." AAAI. 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref-5" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-6"&gt;
+&lt;p&gt;Hofman, Jake M., Amit Sharma, and Duncan J. Watts. "Prediction and explanation in social systems." Science 355.6324 (2017): 486-488.&amp;#160;&lt;a class="footnote-backref" href="#fnref-6" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-7"&gt;
+&lt;p&gt;Lerman, Kristina. "Computational social scientist beware: Simpson’s paradox in behavioral data." Journal of Computational Social Science (2017): 1-10.&amp;#160;&lt;a class="footnote-backref" href="#fnref-7" title="Jump back to footnote 7 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-8"&gt;
+&lt;p&gt;Cheng, Justin, et al. "Can cascades be predicted?." Proceedings of the 23rd international conference on World wide web. ACM, 2014.&amp;#160;&lt;a class="footnote-backref" href="#fnref-8" title="Jump back to footnote 8 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-9"&gt;
+&lt;p&gt;Sullivan, Christopher M., and Zachary P. O’Keeffe. "Evidence that curtailing proactive policing can reduce major crime." Nature Human Behaviour 1.10 (2017): 730.&amp;#160;&lt;a class="footnote-backref" href="#fnref-9" title="Jump back to footnote 9 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-10"&gt;
+&lt;p&gt;Albert, Adrian, Jasleen Kaur, and Marta C. Gonzalez. "Using convolutional networks and satellite imagery to identify patterns in urban environments at a large scale." Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref-10" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content></entry><entry><title>Telegram logging handler for Python, Java, Bash</title><link href="http://www.marcodena.it/blog/telegram-logging-handler-for-python-java-bash/" rel="alternate"></link><published>2018-01-01T10:20:00+01:00</published><updated>2018-01-01T10:20:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-01-01:/blog/telegram-logging-handler-for-python-java-bash/</id><summary type="html">&lt;p&gt;Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason, &lt;a href=""&gt;Daniele&lt;/a&gt; and myself developed a first, naive version of a Telegram logging system that alerts you whenever something happens. These are the use cases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Critical software: send me a Telegram message (and push notification on my phone) whenever something bad happens&lt;/li&gt;
+&lt;li&gt;Errors: push a message on errors&lt;/li&gt;
+&lt;li&gt;Info: send me a message to my phone when the longest-running software in history (my script let's say) ended.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Requisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://telegram.org/"&gt;Telegram messanger&lt;/a&gt;. I suggest to download the app from the phone as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Configuration&lt;/h2&gt;
+&lt;p&gt;Search the BotFather, the official bot that allows you to create bots :))&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Telegram BotFather" src="/images/telegram_notificator2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Then, create a new bot:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/newbot
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Choose a name for your bot&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;UltraNotifier
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Choose a username for your bot, which must end with "_bot"&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ultranotifier_bot
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Once the bot is created, you will have a long string that is the TOKENID. The message will be similar to:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Use this token to access the HTTP API:
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now, the bot is only the "guy" who will send you the messages. It has to know the chat where to send them. For this reason, got to the search bar of Telegram, and search your bot. Then, start the bot:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/start
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You can now go to the website &lt;code&gt;https://api.telegram.org/bot[TOKENID]/getUpdates&lt;/code&gt; (replacing &lt;code&gt;[TOKENID]&lt;/code&gt; with the ID you received before) and search for your id.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Telegram chat id" src="/images/telegram_notificator3.png"&gt;&lt;/p&gt;
+&lt;p&gt;Now you are ready to use a command line code to send your first notification&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ curl -s -X POST https://api.telegram.org/bot&lt;span class="o"&gt;[&lt;/span&gt;TOKENID&lt;span class="o"&gt;]&lt;/span&gt;/sendMessage -d &lt;span class="nv"&gt;chat_id&lt;/span&gt;&lt;span class="o"&gt;=[&lt;/span&gt;ID&lt;span class="o"&gt;]&lt;/span&gt; -d &lt;span class="nv"&gt;text&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Hello world&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Python logger&lt;/h2&gt;
+&lt;p&gt;I decided to write a simple Python logger that sends you a notification/message whenever something happens. Here you have the simple code, with the configuration before the class.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;requests&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;logging&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Handler&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Formatter&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;logging&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+
+&lt;span class="n"&gt;TELEGRAM_TOKEN&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;PUT HERE YOUR TOKENID&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;TELEGRAM_CHAT_ID&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;PUT HERE YOUR CHATID&amp;#39;&lt;/span&gt;
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;RequestsHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Handler&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;emit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;log_entry&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;payload&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;chat_id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;TELEGRAM_CHAT_ID&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;text&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;log_entry&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;parse_mode&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;HTML&amp;#39;&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://api.telegram.org/bot{token}/sendMessage&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;token&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;TELEGRAM_TOKEN&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+                             &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;payload&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;LogstashFormatter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Formatter&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="fm"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="nb"&gt;super&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;LogstashFormatter&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="fm"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;utcnow&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;%Y-%m-&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s1"&gt; %H:%M:%S&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;i&amp;gt;{datetime}&amp;lt;/i&amp;gt;&amp;lt;pre&amp;gt;&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;{message}&amp;lt;/pre&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;It can be simply used as all the usual logger handlers:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;logger = logging.getLogger(&amp;#39;trymeApp&amp;#39;)
+logger.setLevel(logging.WARNING)
+
+handler = RequestsHandler()
+formatter = LogstashFormatter()
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
+logger.setLevel(logging.WARNING)
+
+logger.error(&amp;#39;We have a problem&amp;#39;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The message will be:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Telegram error notification" src="/images/telegram_notificator1.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Java, Bash, others&lt;/h2&gt;
+&lt;p&gt;Thanks to Daniele, now we have &lt;a href="https://github.com/forons/telegram-log"&gt;a new repo with other languages as well&lt;/a&gt;. I hope you will enjoy it. Thanks!&lt;/p&gt;</content></entry><entry><title>My favorite scientific papers of 2016</title><link href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/" rel="alternate"></link><published>2016-12-28T14:00:00+01:00</published><updated>2016-12-28T14:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-12-28:/blog/my-favorite-scientific-papers-of-2016/</id><summary type="html">&lt;p&gt;It is almost the end of 2016 and this was a busy year for me, continuously traveling all over the world for conferences and new (scientific?) experiences. Despite my inexperience, I want to share some of my favorite papers published this year.&lt;/p&gt;
 &lt;p&gt;If you find this list (or idea) interesting …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It is almost the end of 2016 and this was a busy year for me, continuously traveling all over the world for conferences and new (scientific?) experiences. Despite my inexperience, I want to share some of my favorite papers published this year.&lt;/p&gt;
 &lt;p&gt;If you find this list (or idea) interesting, I ask you to write your list of favorite papers and share it with me! I am always interested in exploring others' scientific interests.&lt;/p&gt;
 &lt;ol&gt;
