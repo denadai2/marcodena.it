@@ -34,6 +34,8 @@ body {
     text-rendering: optimizeLegibility;
     font-weight: 400;
     font-size: 1.125em;
+    background: #FFF;
+    border-top: 7px solid #C0392B;
 }
 /* clear */
 .clear:before,
@@ -113,7 +115,7 @@ h4{
     display:inline;
 }
 
-p{
+p, li{
     color: #333;
 }
 
@@ -876,6 +878,10 @@ article h1 {
     position: relative;
     top: -1px;
     margin: 0 3px 0 0;
+}
+
+.talk-slide{
+    min-height: 330px;
 }
 
 
