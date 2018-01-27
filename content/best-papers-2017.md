@@ -3,7 +3,7 @@ Date: 2018-01-27 17:00
 Category: Research
 
 
-Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is [the list of 2016](http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/), and 2017 follows:
+Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is [the list for 2016](http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/), and 2017 follows:
 
 
 1. [Connective recovery in social networks after the death of a friend](https://www.nature.com/articles/s41562-017-0092)[^1]. What's the resilience of social networks after a death? Do individuals communicate more with friends who did not know the person who died? Do people try to create new interactions to "compensate" the friend? How is the number of interactions dependent on age and cause of death? This is the classic paper that only Facebook can write. A masterpiece just because is the first time we can track this kind of information from a large number of people. I hope to see future similar works, controlling for culture co-variates as well. ![ego network death facebook](/images/ego-network-death-facebook.png)
