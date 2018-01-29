@@ -1,6 +1,8 @@
-Title: Telegram logging handler for Python, Java, Bash
+Title: Send a Telegram notification when a script is done
 Date: 2018-01-01 10:20
 Category: Programming
+url: blog/telegram-logging-handler-for-python-java-bash/
+save_as: blog/telegram-logging-handler-for-python-java-bash/index.html
 
 Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason, [Daniele](http://disi.unitn.it/~foroni/) and myself developed a first, naive version of a Telegram logging system that alerts you whenever something happens. These are the use cases:
 
