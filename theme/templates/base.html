@@ -43,28 +43,25 @@
 </head>
 
 <body class="home">
-  <!-- header -->
-                        <header class="header clear grid-container" role="banner" id="header">
-                          <div class="grid-x">
-                            <nav class="nav large-8 large-offset-3 cell end" role="navigation">
-                                <ul class="menu">
-                                    <li class="first"><a href="{{ SITEURL }}/" {% if output_file == 'index.html' %}class="selected"{% endif %}>Home</a></li>
-                                    <li><a href="{{ SITEURL }}/blog.html" {% if output_file not in ('index.html', 'talks.html') %}class="selected"{% endif %}>Blog</a></li>
-                                    <li><a href="{{ SITEURL }}/talks.html" {% if output_file == 'talks.html' %}class="selected"{% endif %}>Talks</a></li>
-                                </ul>
-
-                            </nav>
-                            <!-- /nav -->
-                          </div>
-                        </header>
+    <header class="header clear grid-container" role="banner" id="header">
+        <div class="grid-x grid-padding-x">
+            <nav class="nav large-8 large-offset-3 cell end" role="navigation">
+                <ul class="menu">
+                    <li class="first"><a href="{{ SITEURL }}/" {% if output_file == 'index.html' %}class="selected"{% endif %}>Home</a></li>
+                    <li><a href="{{ SITEURL }}/blog.html" {% if output_file not in ('index.html', 'talks.html') %}class="selected"{% endif %}>Blog</a></li>
+                    <li><a href="{{ SITEURL }}/talks.html" {% if output_file == 'talks.html' %}class="selected"{% endif %}>Talks</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     
     <section id="articleContent" class="first grid-container">
       <div class="grid-x">
         {% if output_file != 'talks.html' %}
             {% include 'sidebar.html' %}
         {% endif %}
-                            {% block content %}
-                            {% endblock %}
+        {% block content %}
+        {% endblock %}
       </div>
     </section>
         <!-- Global site tag (gtag.js) - Google Analytics -->

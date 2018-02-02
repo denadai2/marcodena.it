@@ -244,11 +244,9 @@ nav li{
 
 section.first{
     background: white;
+    padding-top: 6rem;
 }
 
-section.first{
-    padding-top: 6em;
-}
 section.noTopPadding{
     padding-top:0;
 }
@@ -606,7 +604,7 @@ section hr {
     font-weight: 200;
     font-family: 'Fira Sans',sans-serif;
     text-transform: none;
-    font-size: 2.2em;
+    font-size: 2.2rem;
     margin: 0;
     line-height: 1.2em;
 }
@@ -886,13 +884,47 @@ article h1 {
 
 
 
+/*------------------------------------*\
+    MEDIA
+\*------------------------------------*/
 
-@media only screen and (max-width: 40em) { 
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    section.first {
+        padding-top: 0;
+      }
 
-  section.first {
-    padding-top: 0;
+    header#header{
+        margin-top: 0;
+    }
 
-  }
+    #profile_picture {
+        text-align: left;
+    }
+
+    #article-author-side h3#profile-name {
+        margin-top: 0;
+    }
+
+    #article-author-side {
+        margin-top: 10px;
+    }
+
+    #profile-content{
+        text-align: left;
+    }
 }
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
 
 
