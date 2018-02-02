@@ -137,7 +137,7 @@ header #home-link-container{
 }
 
 header#header > div{
-    padding: 5px;
+    padding: 5px 0;
 }
 
 header#header nav ul {
