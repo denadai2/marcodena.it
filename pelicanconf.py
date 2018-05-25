@@ -42,7 +42,8 @@ PLUGINS = [
     'share_post',
     'sitemap',
     #'better_figures_and_images',
-    'assets'
+    'assets',
+    'photos'
 ]
 
 DISQUS_SITENAME = 'marcodenait'
@@ -80,3 +81,11 @@ DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
 PAGINATED_DIRECT_TEMPLATES = ('index', 'blog',)
 ARTICLE_URL = 'blog/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
+
+# Photos
+#PHOTO_LIBRARY = "content/images/papers/"
+PHOTO_LIBRARY = "/Users/marco/Documents/marcodena.it/content/images/papers/"
+PHOTO_THUMB = (140, 180, 80)
+PHOTO_WATERMARK = True
+
+

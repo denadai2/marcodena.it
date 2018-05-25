@@ -45,7 +45,7 @@
 <body class="home">
     <header class="header clear grid-container" role="banner" id="header">
         <div class="grid-x">
-            <nav class="nav large-8 large-offset-3 cell end" role="navigation">
+            <nav class="nav large-8 {% if output_file != 'talks.html' and (not page or not page.paper_url) %}large-offset-3{% else %}large-offset-1{% endif %} cell end" role="navigation">
                 <ul class="menu">
                     <li class="first"><a href="{{ SITEURL }}/" {% if output_file == 'index.html' %}class="selected"{% endif %}>Home</a></li>
                     <li><a href="{{ SITEURL }}/blog.html" {% if output_file not in ('index.html', 'talks.html') %}class="selected"{% endif %}>Blog</a></li>
@@ -57,7 +57,7 @@
     
     <section id="articleContent" class="first grid-container">
       <div class="grid-x">
-        {% if output_file != 'talks.html' %}
+        {% if output_file != 'talks.html' and (not page or not page.paper_url) %}
             {% include 'sidebar.html' %}
         {% endif %}
         {% block content %}
