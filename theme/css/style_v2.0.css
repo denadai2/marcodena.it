@@ -463,6 +463,17 @@ section h4, section .date{
     line-height: 1.2em;
     margin-bottom: 5px;
 }
+
+#authors{
+    margin: 1em 0 3em;
+    text-align: left;
+    text-align: right;
+}
+
+.gallery a:hover{
+    text-decoration: none;
+}
+
 /*section p{
     display: inline;
 }
