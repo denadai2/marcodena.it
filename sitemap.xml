@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.marcodena.it/</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/archives.html</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/tags.html</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/categories.html</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,21 +40,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.marcodena.it/projects/komixjam</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/projects/mcz</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/projects/mczservice</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -62,6 +62,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//www.marcodena.it/pages/are-safer-looking-neighborhoods-more-lively-a-multimodal-investigation-into-urban-life.html</loc>
 <lastmod>2016-08-10T10:20:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.marcodena.it/pages/the-economic-value-of-neighborhoods-predicting-real-estate-prices-from-the-urban-environment.html</loc>
+<lastmod>2018-08-19T10:20:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -75,14 +82,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.marcodena.it/projects/red365</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/projects/sunday</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -103,7 +110,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.marcodena.it/projects/votoil12giugno</loc>
-<lastmod>2018-05-26T01:23:39-00:00</lastmod>
+<lastmod>2018-08-19T22:54:05-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
