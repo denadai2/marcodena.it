@@ -16,6 +16,7 @@ paper_url: https://arxiv.org/abs/1603.04012
 * [MIT Technology Review](https://www.technologyreview.com/s/601107/data-mining-reveals-the-four-urban-conditions-that-create-vibrant-city-life/)
 * [Fast Company](https://www.fastcompany.com/3058864/jane-jacobs-was-right-about-what-makes-a-great-city-and-mobile-phone-data-proves-it)
 * [Next City](https://nextcity.org/daily/entry/jane-jacobs-city-ideas-tested-italy)
+* [CityLab](https://www.citylab.com/life/2016/05/the-complex-relationship-between-data-and-cities/483303/)
 
 ## Cite
 
