@@ -76,7 +76,7 @@ We operationalized these conditions extracting information from Open Data, Fours
 </section>
 
 
-<section id="personal-projects" class="body cell large-8 large-offset-3 end">
+<section id="personal-projects2" class="body cell large-8 large-offset-3 end">
     <h2>Personal projects</h2>
                 <div class="grid-x articleSummary">
                 <div class="cell large-2 date">Jul 2013</div>
@@ -135,7 +135,7 @@ We operationalized these conditions extracting information from Open Data, Fours
         <div class="large-12 cells projects projectsList end">
         <h2>Other projects I've done in the past</h2>
         {% for page in pages|sort(attribute='sortorder', reverse=True) if page.category == 'Projects' %}
-        <a href="{{ SITEURL }}/{{ page.url }}" title="Permalink to {{ page.title|striptags }}" rel="bookmark" class="thumbnail"><img src="{{ SITEURL }}/theme/images/projects/{{ page.thumb }}" /><span class="overlay">
+        <a href="{{ SITEURL }}/{{ page.url }}" title="Permalink to {{ page.title|striptags }}" rel="bookmark" class="thumbnail"><img src="{{ SITEURL }}/theme/images/projects/{{ page.thumb }}" alt="Project {{ page.title }}" /><span class="overlay">
                                 <span class="project"><h3 class="entry-title">{{ page.title }}</h3></span>
                                 <hr>
                                 <span class="duties">{{ page.summary }}</span>
