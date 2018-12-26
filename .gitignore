@@ -60,3 +60,4 @@ theme/.webassets-cache/
 include/
 pip-selfcheck.json
 .idea
+Pipfile
