@@ -675,6 +675,13 @@ article h4{
 	font-style: normal;
 }
 
+article blockquote {
+    border-left: 3px solid #DDD;
+    margin-left: 0;
+    padding-left: 40px;
+    font-style: italic;
+}
+
 .social-tools-bottom{
     list-style: none;
     padding:0;
