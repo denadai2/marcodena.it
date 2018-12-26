@@ -133,7 +133,7 @@
     <span class="k">def</span> <span class="nf">format</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">record</span><span class="p">):</span>
         <span class="n">t</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span>
 
-        <span class="k">return</span> <span class="s2">&quot;&lt;i&gt;{datetime}&lt;/i&gt;&lt;pre&gt;</span><span class="se">\n</span><span class="s2">{message}&lt;/pre&gt;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">message</span><span class="o">=</span><span class="n">record</span><span class="o">.</span><span class="n">msg</span><span class="p">,</span> <span class="n">datetime</span><span class="o">=</span><span class="n">t</span><span class="p">)</span>
+        <span class="k">return</span> <span class="s2">&quot;&amp;lt;i&amp;gt;{datetime}&amp;lt;/i&amp;gt;&amp;lt;pre&amp;gt;</span><span class="se">\n</span><span class="s2">{message}&amp;lt;/pre&amp;gt;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">message</span><span class="o">=</span><span class="n">record</span><span class="o">.</span><span class="n">msg</span><span class="p">,</span> <span class="n">datetime</span><span class="o">=</span><span class="n">t</span><span class="p">)</span>
 </pre></div>
 
 

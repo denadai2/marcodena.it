@@ -1,38 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai - Marco De Nadai</title><link href="//www.marcodena.it/" rel="alternate"></link><link href="//www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>//www.marcodena.it/</id><updated>2018-01-27T17:00:00+01:00</updated><entry><title>My favorite scientific papers of 2017</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/" rel="alternate"></link><published>2018-01-27T17:00:00+01:00</published><updated>2018-01-27T17:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-01-27:/blog/my-favorite-scientific-papers-of-2017/</id><summary type="html">&lt;p&gt;Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is &lt;a href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;the list for 2016&lt;/a&gt;, and 2017 follows:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai - Marco De Nadai</title><link href="//www.marcodena.it/" rel="alternate"></link><link href="//www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>//www.marcodena.it/</id><updated>2018-12-26T11:00:00+01:00</updated><entry><title>My favorite scientific papers of 2018</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2018/" rel="alternate"></link><published>2018-12-26T11:00:00+01:00</published><updated>2018-12-26T11:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-12-26:/blog/my-favorite-scientific-papers-of-2018/</id><summary type="html">&lt;p&gt;My last year of Ph.D. is ended. Before knowing what to do next, it's time to write my annual review of the papers I read in the last year. You can find the previous lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41586-018-0095-1"&gt;Addressing the minimum fleet problem in on-demand urban mobility&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1 …&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;My last year of Ph.D. is ended. Before knowing what to do next, it's time to write my annual review of the papers I read in the last year. You can find the previous lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41586-018-0095-1"&gt;Addressing the minimum fleet problem in on-demand urban mobility&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. Autonomous cars and sharing economy are believed to simplify the reduction of gas emission without compromising the economy. However, it is not clear whether they also reduce traffic and vehicles on the road. Here we have a wonderful piece describing a method to reduce a taxi fleet by 30% just with math! By converting taxi trajectories in an optimization problem, Vazifeh et al. were able to optimize the paths covered by taxis on-demand. I am curious to know what Uber and Lyft think about it. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://science.sciencemag.org/content/359/6373/325"&gt;Improving refugee integration through data-driven algorithmic assignment&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;. In times of politics against immigrants and integration, this paper shows hope for better integration of immigrants through predictive models.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Refugees are among the world’s most vulnerable populations (1, 2). After experiencing war, violence, and years of living in overcrowded refugee camps, refugees arrive in a new country with few resources and must acclimate to an unfamiliar local language, economy, and culture.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;While many countries assign refugees according to the capacity of local settlements without considering other factors, this framework can leverage refugees' attitudes and qualities. This model leads to better employment rates thus, integration,
+&lt;img alt="relocation of immigrants" src="/images/relocation-immigrants.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://science.sciencemag.org/content/early/2018/11/07/science.aau7224"&gt;Quantifying reputation and success in art&lt;/a&gt;&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;. This is the classic paper that game me the reaction "Why didn't I think about it?". By analyzing a dataset of artists' exhibitions, auction&lt;br&gt;
+sales, and primary market quotes, they assessed the critical role of high-prestige venues and institutions in the success of artistic success.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.pnas.org/content/115/50/12603"&gt;The chaperone effect in scientific publishing&lt;/a&gt;&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;. Chaperones are authors that had gone through the (exhausting) process of writing, shaping and (the almost infinite) editing a paper for a high impact journal. Does a chaperone author allow a more accessible publication to new authors? Yes, it seems that especially in medical and biological sciences, this effect is pronounced. Thus, involve a PI with a long experience of high-impact journals if you want to publish in them! Sad? I do not think so. Maybe it is just about knowing the community and the requirements where you want to publish.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14902"&gt;DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs&lt;/a&gt;&lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5" rel="footnote"&gt;5&lt;/a&gt;&lt;/sup&gt;. A must-read paper about segmentation, which is the task of assigning a class for each pixel of an image. Although there is also an &lt;a href="https://arxiv.org/abs/1802.02611"&gt;updated version of this paper&lt;/a&gt;, DeepLab v2 is very well written and with a rather elegant way to classify pixel through a Fully Connected Conditional Random Field, and &lt;a href="https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d"&gt;Atrous Convolutions&lt;/a&gt;. If you are somehow interested in the recent advancements of deep learning and images segmentation, please read it!
+&lt;img alt="Instance Segmentation" src="/images/segmentation-CRF.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ieeexplore.ieee.org/abstract/document/8237589/"&gt;TorontoCity: Seeing the World with a Million Eyes&lt;/a&gt;&lt;sup id="fnref:6"&gt;&lt;a class="footnote-ref" href="#fn:6" rel="footnote"&gt;6&lt;/a&gt;&lt;/sup&gt;. Since I work on satellite imagery and instance segmentation, I came across this very nice paper that describes the practical challenges of many tasks in the urban environment. For example: how good is land use segmentation when you try to apply it? How well can we recognize buildings and streets? What about the 3D reconstruction of buildings? What I liked the most is that they apply many tasks to the same city, with various data sources.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41586-018-0637-6/"&gt;The Moral Machine experiment&lt;/a&gt;&lt;sup id="fnref:7"&gt;&lt;a class="footnote-ref" href="#fn:7" rel="footnote"&gt;7&lt;/a&gt;&lt;/sup&gt;. Chapeau Iyad Rahwan! This paper describes the moral dilemma that autonomous driving is facing: in case of an accident, would you choose to put at risk the driver or the person on the street? What if the person on the street crossed it with the red light? What if she is old? What if... These answers depend on the culture? We need only consider that Western culture usually spares young people, while Eastern culture does not! &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;What's the best way to describe an academic paper? A youtuber ahaha!&lt;/p&gt;
+&lt;iframe width="637" height="315" src="https://www.youtube.com/embed/9VVqYmf5s18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="http://moralmachine.mit.edu/"&gt;Try it yourself&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://royalsocietypublishing.org/doi/full/10.1098/rsif.2017.0946"&gt;Small cities face greater impact from automation&lt;/a&gt;&lt;sup id="fnref:8"&gt;&lt;a class="footnote-ref" href="#fn:8" rel="footnote"&gt;8&lt;/a&gt;&lt;/sup&gt;. Are you interested in ethical questions about Artificial Intelligence? This paper is perfect for you. Some skills are at higher risk of computerization than others. However, education and a highly diversified job market are expected to help people to find a new job. Are all cities created equal? Do some cities face higher risk from automation? By using a nation-wide dataset of occupation, Frank et al. used an elegant and simple combination of entropy metrics to define this risk. Nice!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.goodreads.com/book/show/21558327-introduction-to-probability"&gt;Introduction to probability&lt;/a&gt;&lt;sup id="fnref:9"&gt;&lt;a class="footnote-ref" href="#fn:9" rel="footnote"&gt;9&lt;/a&gt;&lt;/sup&gt;. This is not an article but a masterpiece of scientific literature! I strongly recommend this book for whoever wants to refine probability. I particularly like how simple is written!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Vazifeh, Mohammed M., et al. "Addressing the minimum fleet problem in on-demand urban mobility." Nature 557.7706 (2018): 534.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Bansak, Kirk, et al. "Improving refugee integration through data-driven algorithmic assignment." Science 359.6373 (2018): 325-329.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Fraiberger, Samuel P., et al. "Quantifying reputation and success in art." Science 362.6416 (2018): 825-829.&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;Sekara, Vedran, et al. "The chaperone effect in scientific publishing." Proceedings of the National Academy of Sciences 115.50 (2018): 12603-12607.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;Chen, Liang-Chieh, et al. "Deeplab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected crfs." IEEE transactions on pattern analysis and machine intelligence 40.4 (2018): 834-848.&amp;#160;&lt;a class="footnote-backref" href="#fnref:5" rev="footnote" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:6"&gt;
+&lt;p&gt;Wang, Shenlong, et al. "Torontocity: Seeing the world with a million eyes." 2017 IEEE International Conference on Computer Vision (ICCV). IEEE, 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref:6" rev="footnote" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:7"&gt;
+&lt;p&gt;Awad, Edmond, et al. "The Moral Machine experiment." Nature 563.7729 (2018): 59.&amp;#160;&lt;a class="footnote-backref" href="#fnref:7" rev="footnote" title="Jump back to footnote 7 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:8"&gt;
+&lt;p&gt;Frank, Morgan R., et al. "Small cities face greater impact from automation." Journal of The Royal Society Interface 15.139 (2018): 20170946.&amp;#160;&lt;a class="footnote-backref" href="#fnref:8" rev="footnote" title="Jump back to footnote 8 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:9"&gt;
+&lt;p&gt;Blitzstein, Joseph K., and Jessica Hwang. Introduction to probability. Chapman and Hall/CRC, 2014.&amp;#160;&lt;a class="footnote-backref" href="#fnref:9" rev="footnote" title="Jump back to footnote 9 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content></entry><entry><title>My favorite scientific papers of 2017</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/" rel="alternate"></link><published>2018-01-27T17:00:00+01:00</published><updated>2018-01-27T17:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-01-27:/blog/my-favorite-scientific-papers-of-2017/</id><summary type="html">&lt;p&gt;Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is &lt;a href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;the list for 2016&lt;/a&gt;, and 2017 follows:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://www.nature.com/articles/s41562-017-0092"&gt;Connective recovery in social …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is &lt;a href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;the list for 2016&lt;/a&gt;, and 2017 follows:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41562-017-0092"&gt;Connective recovery in social networks after the death of a friend&lt;/a&gt;&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. What's the resilience of social networks after a death? Do individuals communicate more with friends who did not know the person who died? Do people try to create new interactions to "compensate" the friend? How is the number of interactions dependent on age and cause of death? This is the classic paper that only Facebook can write. A masterpiece just because is the first time we can track this kind of information from a large number of people. I hope to see future similar works, controlling for culture co-variates as well. &lt;img alt="ego network death facebook" src="/images/ego-network-death-facebook.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41562-017-0092"&gt;Connective recovery in social networks after the death of a friend&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. What's the resilience of social networks after a death? Do individuals communicate more with friends who did not know the person who died? Do people try to create new interactions to "compensate" the friend? How is the number of interactions dependent on age and cause of death? This is the classic paper that only Facebook can write. A masterpiece just because is the first time we can track this kind of information from a large number of people. I hope to see future similar works, controlling for culture co-variates as well. &lt;img alt="ego network death facebook" src="/images/ego-network-death-facebook.png"&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/1712.02224"&gt;Human Perception of Performance&lt;/a&gt;&lt;sup id="fnref-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;. Very beautiful analysis of human evaluation in a sport. With a framework called observe-predict-explain they analyze football data through objective metrics and subjective evaluations of sports experts, then they predict the performance and explain factors that influence it. This paper suggests that contextual information influence evaluations of performance and that human judge performance on a limited number of heuristics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1712.02224"&gt;Human Perception of Performance&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;. Very beautiful analysis of human evaluation in a sport. With a framework called observe-predict-explain they analyze football data through objective metrics and subjective evaluations of sports experts, then they predict the performance and explain factors that influence it. This paper suggests that contextual information influence evaluations of performance and that human judge performance on a limited number of heuristics.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://dl.acm.org/citation.cfm?id=3098045"&gt;Luck is Hard to Beat: The Difficulty of Sports Prediction&lt;/a&gt;&lt;sup id="fnref-3"&gt;&lt;a class="footnote-ref" href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt;. "Sports outcomes is a mix of skills and good and bad luck. This mix is responsible for large part of the sports appeal". The paper starts with these phrases and creates a Bayesian model that fits the data of four different sports (basketball, soccer, volleyball, and handball) to explore the role of luck and skills in the outcome of games. Elegant idea, very well written. &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dl.acm.org/citation.cfm?id=3098045"&gt;Luck is Hard to Beat: The Difficulty of Sports Prediction&lt;/a&gt;&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;. "Sports outcomes is a mix of skills and good and bad luck. This mix is responsible for large part of the sports appeal". The paper starts with these phrases and creates a Bayesian model that fits the data of four different sports (basketball, soccer, volleyball, and handball) to explore the role of luck and skills in the outcome of games. Elegant idea, very well written. &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.pnas.org/content/114/29/7571.short"&gt;Computer vision uncovers predictors of physical urban change&lt;/a&gt;&lt;sup id="fnref-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt;. Nikil and Hidalgo succeed again with a new paper linking the improvement of places with various urban theories. Are changes of physical appearance connected with socio-economical characteristics of people (e.g., education)? Is there a spillover effect on the improvement-decay of neighborhoods? This paper shows how computer vision techniques can now be applied to explore urban characteristics over time. &lt;img alt="Hidalgo street change" src="/images/streetchange.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.pnas.org/content/114/29/7571.short"&gt;Computer vision uncovers predictors of physical urban change&lt;/a&gt;&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;. Nikil and Hidalgo succeed again with a new paper linking the improvement of places with various urban theories. Are changes of physical appearance connected with socio-economical characteristics of people (e.g., education)? Is there a spillover effect on the improvement-decay of neighborhoods? This paper shows how computer vision techniques can now be applied to explore urban characteristics over time. &lt;img alt="Hidalgo street change" src="/images/streetchange.jpg"&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14902"&gt;POI2Vec: Geographical Latent Representation for Predicting Future Visitors&lt;/a&gt;&lt;sup id="fnref-5"&gt;&lt;a class="footnote-ref" href="#fn-5"&gt;5&lt;/a&gt;&lt;/sup&gt;. My journey on future locations prediction with Deep Learning started here. This paper tries to predict future visitors of POIs, from the perspective of the place (not of the user). However, differently from other [putsomethinghere]2vec papers, POI2Vec creates a latent representation of the geographical context, looking at POIs that are nearby. Very interesting formulation of KD-trees in a "deep learning way."&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14902"&gt;POI2Vec: Geographical Latent Representation for Predicting Future Visitors&lt;/a&gt;&lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5" rel="footnote"&gt;5&lt;/a&gt;&lt;/sup&gt;. My journey on future locations prediction with Deep Learning started here. This paper tries to predict future visitors of POIs, from the perspective of the place (not of the user). However, differently from other [putsomethinghere]2vec papers, POI2Vec creates a latent representation of the geographical context, looking at POIs that are nearby. Very interesting formulation of KD-trees in a "deep learning way."&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://science.sciencemag.org/content/355/6324/486"&gt;Prediction and explanation in social systems&lt;/a&gt;&lt;sup id="fnref-6"&gt;&lt;a class="footnote-ref" href="#fn-6"&gt;6&lt;/a&gt;&lt;/sup&gt;. A must-read paper for all data-scientists working on computational social science. Metrics, predictions and best practices explained very well.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://science.sciencemag.org/content/355/6324/486"&gt;Prediction and explanation in social systems&lt;/a&gt;&lt;sup id="fnref:6"&gt;&lt;a class="footnote-ref" href="#fn:6" rel="footnote"&gt;6&lt;/a&gt;&lt;/sup&gt;. A must-read paper for all data-scientists working on computational social science. Metrics, predictions and best practices explained very well.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://link.springer.com/article/10.1007/s42001-017-0007-4"&gt;Computational social scientist beware: Simpson’s paradox in behavioral data&lt;/a&gt;&lt;sup id="fnref-7"&gt;&lt;a class="footnote-ref" href="#fn-7"&gt;7&lt;/a&gt;&lt;/sup&gt;. A paper explaining all the pitfalls of heterogeneous data, which can generate aggregated results that are different from those of the underlying subgroups. The author also describes some mechanisms to control for possible problems in the datasets.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://link.springer.com/article/10.1007/s42001-017-0007-4"&gt;Computational social scientist beware: Simpson’s paradox in behavioral data&lt;/a&gt;&lt;sup id="fnref:7"&gt;&lt;a class="footnote-ref" href="#fn:7" rel="footnote"&gt;7&lt;/a&gt;&lt;/sup&gt;. A paper explaining all the pitfalls of heterogeneous data, which can generate aggregated results that are different from those of the underlying subgroups. The author also describes some mechanisms to control for possible problems in the datasets.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://dl.acm.org/citation.cfm?id=2567997"&gt;Can cascades be predicted?&lt;/a&gt;&lt;sup id="fnref-8"&gt;&lt;a class="footnote-ref" href="#fn-8"&gt;8&lt;/a&gt;&lt;/sup&gt;. Yes! I mean, first we have to define prediction. This paper defines prediction of cascades answering the question "will the cascade of size k reach 2k?". In other words, can our Facebook post reach virality? Does virality depend on users/pages/type of content? If you work with social-network data, please read this paper.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dl.acm.org/citation.cfm?id=2567997"&gt;Can cascades be predicted?&lt;/a&gt;&lt;sup id="fnref:8"&gt;&lt;a class="footnote-ref" href="#fn:8" rel="footnote"&gt;8&lt;/a&gt;&lt;/sup&gt;. Yes! I mean, first we have to define prediction. This paper defines prediction of cascades answering the question "will the cascade of size k reach 2k?". In other words, can our Facebook post reach virality? Does virality depend on users/pages/type of content? If you work with social-network data, please read this paper.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41562-017-0211-5"&gt;Evidence that curtailing proactive policing can reduce major crime&lt;/a&gt;&lt;sup id="fnref-9"&gt;&lt;a class="footnote-ref" href="#fn-9"&gt;9&lt;/a&gt;&lt;/sup&gt;. A causal model that shows how low-level arrests reduce serious crime. Supported by data, and well written.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41562-017-0211-5"&gt;Evidence that curtailing proactive policing can reduce major crime&lt;/a&gt;&lt;sup id="fnref:9"&gt;&lt;a class="footnote-ref" href="#fn:9" rel="footnote"&gt;9&lt;/a&gt;&lt;/sup&gt;. A causal model that shows how low-level arrests reduce serious crime. Supported by data, and well written.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://dl.acm.org/citation.cfm?id=3098070"&gt;Using Convolutional Networks and Satellite Imagery to Identify Patterns in Urban Environments at a Large Scale&lt;/a&gt;&lt;sup id="fnref-10"&gt;&lt;a class="footnote-ref" href="#fn-10"&gt;10&lt;/a&gt;&lt;/sup&gt;. A very well written paper that uses standard Convolutional Neural Network and open data to predict land use in various cities in the world. Can we learn from one city and predict in another? How can we analyze land-use patterns automatically in different cities? A VERY well written paper with &lt;a href="https://github.com/adrianalbert/urban-environments"&gt;documented code and Jupyter notebooks&lt;/a&gt; as well!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dl.acm.org/citation.cfm?id=3098070"&gt;Using Convolutional Networks and Satellite Imagery to Identify Patterns in Urban Environments at a Large Scale&lt;/a&gt;&lt;sup id="fnref:10"&gt;&lt;a class="footnote-ref" href="#fn:10" rel="footnote"&gt;10&lt;/a&gt;&lt;/sup&gt;. A very well written paper that uses standard Convolutional Neural Network and open data to predict land use in various cities in the world. Can we learn from one city and predict in another? How can we analyze land-use patterns automatically in different cities? A VERY well written paper with &lt;a href="https://github.com/adrianalbert/urban-environments"&gt;documented code and Jupyter notebooks&lt;/a&gt; as well!&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;iframe width="637" height="315" src="https://www.youtube.com/embed/MPttLQVU_wY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
@@ -41,35 +121,35 @@
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id="fn-1"&gt;
-&lt;p&gt;Hobbs, William R., and Moira K. Burke. "Connective recovery in social networks after the death of a friend." Nature Human Behaviour 1.5 (2017): 0092.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Hobbs, William R., and Moira K. Burke. "Connective recovery in social networks after the death of a friend." Nature Human Behaviour 1.5 (2017): 0092.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-2"&gt;
-&lt;p&gt;Pappalardo, Luca, et al. "Human Perception of Performance." arXiv preprint arXiv:1712.02224 (2017).&amp;#160;&lt;a class="footnote-backref" href="#fnref-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Pappalardo, Luca, et al. "Human Perception of Performance." arXiv preprint arXiv:1712.02224 (2017).&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-3"&gt;
-&lt;p&gt;Aoki, Raquel, Renato M. Assuncao, and Pedro OS Vaz de Melo. "Luck is hard to beat: The difficulty of sports prediction." Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref-3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Aoki, Raquel, Renato M. Assuncao, and Pedro OS Vaz de Melo. "Luck is hard to beat: The difficulty of sports prediction." Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-4"&gt;
-&lt;p&gt;Naik, Nikhil, et al. "Computer vision uncovers predictors of physical urban change." Proceedings of the National Academy of Sciences 114.29 (2017): 7571-7576.&amp;#160;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;Naik, Nikhil, et al. "Computer vision uncovers predictors of physical urban change." Proceedings of the National Academy of Sciences 114.29 (2017): 7571-7576.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-5"&gt;
-&lt;p&gt;Feng, Shanshan, et al. "POI2Vec: Geographical Latent Representation for Predicting Future Visitors." AAAI. 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref-5" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;Feng, Shanshan, et al. "POI2Vec: Geographical Latent Representation for Predicting Future Visitors." AAAI. 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref:5" rev="footnote" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-6"&gt;
-&lt;p&gt;Hofman, Jake M., Amit Sharma, and Duncan J. Watts. "Prediction and explanation in social systems." Science 355.6324 (2017): 486-488.&amp;#160;&lt;a class="footnote-backref" href="#fnref-6" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:6"&gt;
+&lt;p&gt;Hofman, Jake M., Amit Sharma, and Duncan J. Watts. "Prediction and explanation in social systems." Science 355.6324 (2017): 486-488.&amp;#160;&lt;a class="footnote-backref" href="#fnref:6" rev="footnote" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-7"&gt;
-&lt;p&gt;Lerman, Kristina. "Computational social scientist beware: Simpson’s paradox in behavioral data." Journal of Computational Social Science (2017): 1-10.&amp;#160;&lt;a class="footnote-backref" href="#fnref-7" title="Jump back to footnote 7 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:7"&gt;
+&lt;p&gt;Lerman, Kristina. "Computational social scientist beware: Simpson’s paradox in behavioral data." Journal of Computational Social Science (2017): 1-10.&amp;#160;&lt;a class="footnote-backref" href="#fnref:7" rev="footnote" title="Jump back to footnote 7 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-8"&gt;
-&lt;p&gt;Cheng, Justin, et al. "Can cascades be predicted?." Proceedings of the 23rd international conference on World wide web. ACM, 2014.&amp;#160;&lt;a class="footnote-backref" href="#fnref-8" title="Jump back to footnote 8 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:8"&gt;
+&lt;p&gt;Cheng, Justin, et al. "Can cascades be predicted?." Proceedings of the 23rd international conference on World wide web. ACM, 2014.&amp;#160;&lt;a class="footnote-backref" href="#fnref:8" rev="footnote" title="Jump back to footnote 8 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-9"&gt;
-&lt;p&gt;Sullivan, Christopher M., and Zachary P. O’Keeffe. "Evidence that curtailing proactive policing can reduce major crime." Nature Human Behaviour 1.10 (2017): 730.&amp;#160;&lt;a class="footnote-backref" href="#fnref-9" title="Jump back to footnote 9 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:9"&gt;
+&lt;p&gt;Sullivan, Christopher M., and Zachary P. O’Keeffe. "Evidence that curtailing proactive policing can reduce major crime." Nature Human Behaviour 1.10 (2017): 730.&amp;#160;&lt;a class="footnote-backref" href="#fnref:9" rev="footnote" title="Jump back to footnote 9 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-10"&gt;
-&lt;p&gt;Albert, Adrian, Jasleen Kaur, and Marta C. Gonzalez. "Using convolutional networks and satellite imagery to identify patterns in urban environments at a large scale." Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref-10" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:10"&gt;
+&lt;p&gt;Albert, Adrian, Jasleen Kaur, and Marta C. Gonzalez. "Using convolutional networks and satellite imagery to identify patterns in urban environments at a large scale." Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref:10" rev="footnote" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content></entry><entry><title>Send a Telegram notification when a script is done</title><link href="//www.marcodena.it/blog/telegram-logging-handler-for-python-java-bash/" rel="alternate"></link><published>2018-01-01T10:20:00+01:00</published><updated>2018-01-01T10:20:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-01-01:/blog/telegram-logging-handler-for-python-java-bash/</id><summary type="html">&lt;p&gt;Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason, &lt;a href="http://disi.unitn.it/~foroni/"&gt;Daniele&lt;/a&gt; and myself developed a first, naive version of a Telegram logging system that alerts you whenever something happens. These are the use cases:&lt;/p&gt;
@@ -145,7 +225,7 @@
     &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
         &lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;utcnow&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;%Y-%m-&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s1"&gt; %H:%M:%S&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;i&amp;gt;{datetime}&amp;lt;/i&amp;gt;&amp;lt;pre&amp;gt;&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;{message}&amp;lt;/pre&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;amp;lt;i&amp;amp;gt;{datetime}&amp;amp;lt;/i&amp;amp;gt;&amp;amp;lt;pre&amp;amp;gt;&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;{message}&amp;amp;lt;/pre&amp;amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -172,34 +252,34 @@ logger.error(&amp;#39;We have a problem&amp;#39;)
 &lt;p&gt;If you find this list (or idea) interesting, I ask you to write your list of favorite papers and share it with me! I am always interested in exploring others' scientific interests.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.pnas.org/content/113/37/E5370.abstract"&gt;The TimeGeo modeling framework for urban mobility without travel surveys&lt;/a&gt;&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. This paper is the &lt;em&gt;nec plus ultra&lt;/em&gt; of the urban mobility modelization through mobile phone data. It starts with a simple flow-chart that describes people's mobility, then it flies to a flexible extraction and simulation of daily trajectories. As always, Supporting Materials are painful to read :)&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.pnas.org/content/113/37/E5370.abstract"&gt;The TimeGeo modeling framework for urban mobility without travel surveys&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. This paper is the &lt;em&gt;nec plus ultra&lt;/em&gt; of the urban mobility modelization through mobile phone data. It starts with a simple flow-chart that describes people's mobility, then it flies to a flexible extraction and simulation of daily trajectories. As always, Supporting Materials are painful to read :)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.pnas.org/content/113/37/E5370.abstract"&gt;Scaling identity connects human mobility and social interactions&lt;/a&gt;&lt;sup id="fnref-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;. Our mobility and communication patterns are extremely connected: one influences the other. We had a glimpse of it in the past literature&lt;sup id="fnref-14"&gt;&lt;a class="footnote-ref" href="#fn-14"&gt;14&lt;/a&gt;&lt;/sup&gt;, but this paper establishes the formal link between them. Moreover, this work also allows to approximate social fluxes from mobility and vice-versa. This is great on a macroscopic scale, but what if we look at the socio-demographic information or different cultures?&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.pnas.org/content/113/37/E5370.abstract"&gt;Scaling identity connects human mobility and social interactions&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;. Our mobility and communication patterns are extremely connected: one influences the other. We had a glimpse of it in the past literature&lt;sup id="fnref:14"&gt;&lt;a class="footnote-ref" href="#fn:14" rel="footnote"&gt;14&lt;/a&gt;&lt;/sup&gt;, but this paper establishes the formal link between them. Moreover, this work also allows to approximate social fluxes from mobility and vice-versa. This is great on a macroscopic scale, but what if we look at the socio-demographic information or different cultures?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.nature.com/articles/ncomms9166"&gt;Returners and explorers dichotomy in human mobility&lt;/a&gt;&lt;sup id="fnref-3"&gt;&lt;a class="footnote-ref" href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt;. Power/scaling laws and macroscopic scales always look at universal behavior. What I like the most about this paper is that it looks at differences. Particularly, by looking at people's recurrent movements, it finds that two well-separated mobility profiles of people emerge: returners and explorers. The former are inclined to go to previously visited places, while the latter has a tendency to wander between a larger number of different locations. This has a great impact on spending patterns, hasn't it?&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.nature.com/articles/ncomms9166"&gt;Returners and explorers dichotomy in human mobility&lt;/a&gt;&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;. Power/scaling laws and macroscopic scales always look at universal behavior. What I like the most about this paper is that it looks at differences. Particularly, by looking at people's recurrent movements, it finds that two well-separated mobility profiles of people emerge: returners and explorers. The former are inclined to go to previously visited places, while the latter has a tendency to wander between a larger number of different locations. This has a great impact on spending patterns, hasn't it?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.jstor.org/stable/41058949"&gt;To explain or to predict?&lt;/a&gt;&lt;sup id="fnref2-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt;. Have you ever wondered what are the differences between models that explains and models trying to predict future outcomes? This paper should be read by all data mining, machine learning, and econometric students!&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.jstor.org/stable/41058949"&gt;To explain or to predict?&lt;/a&gt;&lt;sup id="fnref2:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;. Have you ever wondered what are the differences between models that explains and models trying to predict future outcomes? This paper should be read by all data mining, machine learning, and econometric students!&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.aeaweb.org/articles?id=10.1257/aer.p20151023"&gt;Prediction policy problems&lt;/a&gt;&lt;sup id="fnref-5"&gt;&lt;a class="footnote-ref" href="#fn-5"&gt;5&lt;/a&gt;&lt;/sup&gt;. Right after Galit's paper&lt;sup id="fnref-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt;, this is a must-read article to understand the role of predictions for policy-makers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.aeaweb.org/articles?id=10.1257/aer.p20151023"&gt;Prediction policy problems&lt;/a&gt;&lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5" rel="footnote"&gt;5&lt;/a&gt;&lt;/sup&gt;. Right after Galit's paper&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;, this is a must-read article to understand the role of predictions for policy-makers.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.hks.harvard.edu/centers/cid/publications/books/atlas"&gt;The Atlas of Economic Complexity: Mapping Paths to Prosperity&lt;/a&gt;&lt;sup id="fnref-11"&gt;&lt;a class="footnote-ref" href="#fn-11"&gt;11&lt;/a&gt;&lt;/sup&gt;. This book is from 2013, but is a crystal-clear explanation of the economic complexity theory by Hidalgo &lt;em&gt;et al.&lt;/em&gt;&lt;sup id="fnref-12"&gt;&lt;a class="footnote-ref" href="#fn-12"&gt;12&lt;/a&gt;&lt;/sup&gt;. I also suggest you &lt;a href="http://atlas.cid.harvard.edu/"&gt;their visualization&lt;/a&gt; tool if you want to understand the exports of your country. Do you want a general-purpose explanation of this? There is also a &lt;a href="http://www.goodreads.com/book/show/20763722-why-information-grows"&gt;book&lt;/a&gt;! &lt;img alt="Hidalgo-book" src="/images/whyinformationgrows2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.hks.harvard.edu/centers/cid/publications/books/atlas"&gt;The Atlas of Economic Complexity: Mapping Paths to Prosperity&lt;/a&gt;&lt;sup id="fnref:11"&gt;&lt;a class="footnote-ref" href="#fn:11" rel="footnote"&gt;11&lt;/a&gt;&lt;/sup&gt;. This book is from 2013, but is a crystal-clear explanation of the economic complexity theory by Hidalgo &lt;em&gt;et al.&lt;/em&gt;&lt;sup id="fnref:12"&gt;&lt;a class="footnote-ref" href="#fn:12" rel="footnote"&gt;12&lt;/a&gt;&lt;/sup&gt;. I also suggest you &lt;a href="http://atlas.cid.harvard.edu/"&gt;their visualization&lt;/a&gt; tool if you want to understand the exports of your country. Do you want a general-purpose explanation of this? There is also a &lt;a href="http://www.goodreads.com/book/show/20763722-why-information-grows"&gt;book&lt;/a&gt;! &lt;img alt="Hidalgo-book" src="/images/whyinformationgrows2.jpg"&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.nature.com/articles/ncomms10793"&gt;Understanding congested travel in urban areas&lt;/a&gt;&lt;sup id="fnref-6"&gt;&lt;a class="footnote-ref" href="#fn-6"&gt;6&lt;/a&gt;&lt;/sup&gt;. Should everyone choose the optimal route? Should drivers try to reach Nash equilibrium in the city? Should some drivers adjust routing behavior to achieve social good at the expense of their time? Super enjoyable paper to read! Grande Antonio!&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.nature.com/articles/ncomms10793"&gt;Understanding congested travel in urban areas&lt;/a&gt;&lt;sup id="fnref:6"&gt;&lt;a class="footnote-ref" href="#fn:6" rel="footnote"&gt;6&lt;/a&gt;&lt;/sup&gt;. Should everyone choose the optimal route? Should drivers try to reach Nash equilibrium in the city? Should some drivers adjust routing behavior to achieve social good at the expense of their time? Super enjoyable paper to read! Grande Antonio!&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://dl.acm.org/citation.cfm?id=2883065"&gt;Measuring Urban Social Diversity Using Interconnected Geo-Social Networks&lt;/a&gt;&lt;sup id="fnref-7"&gt;&lt;a class="footnote-ref" href="#fn-7"&gt;7&lt;/a&gt;&lt;/sup&gt;. This paper aims at distinguishing between places that bring together strangers versus those which tend to bring together friends. Something in-between social science, urban theory and computer science. Nice!&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://dl.acm.org/citation.cfm?id=2883065"&gt;Measuring Urban Social Diversity Using Interconnected Geo-Social Networks&lt;/a&gt;&lt;sup id="fnref:7"&gt;&lt;a class="footnote-ref" href="#fn:7" rel="footnote"&gt;7&lt;/a&gt;&lt;/sup&gt;. This paper aims at distinguishing between places that bring together strangers versus those which tend to bring together friends. Something in-between social science, urban theory and computer science. Nice!&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/1604.02872"&gt;Is this scaling nonlinear?&lt;/a&gt;&lt;sup id="fnref-8"&gt;&lt;a class="footnote-ref" href="#fn-8"&gt;8&lt;/a&gt;&lt;/sup&gt;. Finally! FINALLY! After some evidence of the weak systematic acceleration (deceleration) of urban life in cities&lt;sup id="fnref-9"&gt;&lt;a class="footnote-ref" href="#fn-9"&gt;9&lt;/a&gt;&lt;/sup&gt;, here we have a clear statistical analysis of Bettencourt's work&lt;sup id="fnref-10"&gt;&lt;a class="footnote-ref" href="#fn-10"&gt;10&lt;/a&gt;&lt;/sup&gt;. City scientists, read it!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1604.02872"&gt;Is this scaling nonlinear?&lt;/a&gt;&lt;sup id="fnref:8"&gt;&lt;a class="footnote-ref" href="#fn:8" rel="footnote"&gt;8&lt;/a&gt;&lt;/sup&gt;. Finally! FINALLY! After some evidence of the weak systematic acceleration (deceleration) of urban life in cities&lt;sup id="fnref:9"&gt;&lt;a class="footnote-ref" href="#fn:9" rel="footnote"&gt;9&lt;/a&gt;&lt;/sup&gt;, here we have a clear statistical analysis of Bettencourt's work&lt;sup id="fnref:10"&gt;&lt;a class="footnote-ref" href="#fn:10" rel="footnote"&gt;10&lt;/a&gt;&lt;/sup&gt;. City scientists, read it!&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/1611.07004"&gt;Image-to-Image Translation with Conditional Adversarial Networks&lt;/a&gt;&lt;sup id="fnref-13"&gt;&lt;a class="footnote-ref" href="#fn-13"&gt;13&lt;/a&gt;&lt;/sup&gt;. Mind-blowing paper that could be the future of computer science and machine learning. Just look at the image below to understand the capabilites!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1611.07004"&gt;Image-to-Image Translation with Conditional Adversarial Networks&lt;/a&gt;&lt;sup id="fnref:13"&gt;&lt;a class="footnote-ref" href="#fn:13" rel="footnote"&gt;13&lt;/a&gt;&lt;/sup&gt;. Mind-blowing paper that could be the future of computer science and machine learning. Just look at the image below to understand the capabilites!&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="GANs" src="/images/image-to-image-GANs-paper.png"&gt;&lt;/p&gt;
@@ -207,47 +287,47 @@ logger.error(&amp;#39;We have a problem&amp;#39;)
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id="fn-1"&gt;
-&lt;p&gt;Jiang, Shan, et al. "The TimeGeo modeling framework for urban mobility without travel surveys." Proceedings of the National Academy of Sciences (2016): 201524261.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Jiang, Shan, et al. "The TimeGeo modeling framework for urban mobility without travel surveys." Proceedings of the National Academy of Sciences (2016): 201524261.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-2"&gt;
-&lt;p&gt;Deville, Pierre, et al. "Scaling identity connects human mobility and social interactions." Proceedings of the National Academy of Sciences (2016): 201525443.&amp;#160;&lt;a class="footnote-backref" href="#fnref-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Deville, Pierre, et al. "Scaling identity connects human mobility and social interactions." Proceedings of the National Academy of Sciences (2016): 201525443.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-3"&gt;
-&lt;p&gt;Pappalardo, Luca, et al. "Returners and explorers dichotomy in human mobility." Nature communications 6 (2015).&amp;#160;&lt;a class="footnote-backref" href="#fnref-3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Pappalardo, Luca, et al. "Returners and explorers dichotomy in human mobility." Nature communications 6 (2015).&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-4"&gt;
-&lt;p&gt;Shmueli, Galit. "To explain or to predict?." Statistical science (2010): 289-310.&amp;#160;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;Shmueli, Galit. "To explain or to predict?." Statistical science (2010): 289-310.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:4" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-5"&gt;
-&lt;p&gt;Kleinberg, Jon, et al. "Prediction policy problems." The American economic review 105.5 (2015): 491-495.&amp;#160;&lt;a class="footnote-backref" href="#fnref-5" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;Kleinberg, Jon, et al. "Prediction policy problems." The American economic review 105.5 (2015): 491-495.&amp;#160;&lt;a class="footnote-backref" href="#fnref:5" rev="footnote" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-6"&gt;
-&lt;p&gt;Çolak, Serdar, Antonio Lima, and Marta C. González. "Understanding congested travel in urban areas." Nature communications 7 (2016).&amp;#160;&lt;a class="footnote-backref" href="#fnref-6" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:6"&gt;
+&lt;p&gt;Çolak, Serdar, Antonio Lima, and Marta C. González. "Understanding congested travel in urban areas." Nature communications 7 (2016).&amp;#160;&lt;a class="footnote-backref" href="#fnref:6" rev="footnote" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-7"&gt;
-&lt;p&gt;Hristova, Desislava, et al. "Measuring Urban Social Diversity Using Interconnected Geo-Social Networks." Proceedings of the 25th International Conference on World Wide Web. International World Wide Web Conferences Steering Committee, 2016.&amp;#160;&lt;a class="footnote-backref" href="#fnref-7" title="Jump back to footnote 7 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:7"&gt;
+&lt;p&gt;Hristova, Desislava, et al. "Measuring Urban Social Diversity Using Interconnected Geo-Social Networks." Proceedings of the 25th International Conference on World Wide Web. International World Wide Web Conferences Steering Committee, 2016.&amp;#160;&lt;a class="footnote-backref" href="#fnref:7" rev="footnote" title="Jump back to footnote 7 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-8"&gt;
-&lt;p&gt;Leitao, J. C., et al. "Is this scaling nonlinear?." arXiv preprint arXiv:1604.02872 (2016).&amp;#160;&lt;a class="footnote-backref" href="#fnref-8" title="Jump back to footnote 8 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:8"&gt;
+&lt;p&gt;Leitao, J. C., et al. "Is this scaling nonlinear?." arXiv preprint arXiv:1604.02872 (2016).&amp;#160;&lt;a class="footnote-backref" href="#fnref:8" rev="footnote" title="Jump back to footnote 8 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-9"&gt;
-&lt;p&gt;Strano, Emanuele, and Vishal Sood. "&lt;a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0159465"&gt;Rich and poor cities in Europe. An urban scaling approach to mapping the European economic transition&lt;/a&gt;." PloS one 11.8 (2016): e0159465.&amp;#160;&lt;a class="footnote-backref" href="#fnref-9" title="Jump back to footnote 9 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:9"&gt;
+&lt;p&gt;Strano, Emanuele, and Vishal Sood. "&lt;a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0159465"&gt;Rich and poor cities in Europe. An urban scaling approach to mapping the European economic transition&lt;/a&gt;." PloS one 11.8 (2016): e0159465.&amp;#160;&lt;a class="footnote-backref" href="#fnref:9" rev="footnote" title="Jump back to footnote 9 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-10"&gt;
-&lt;p&gt;Bettencourt, Luís MA. "&lt;a href="http://science.sciencemag.org/content/340/6139/1438"&gt;The origins of scaling in cities&lt;/a&gt;." science 340.6139 (2013): 1438-1441.&amp;#160;&lt;a class="footnote-backref" href="#fnref-10" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:10"&gt;
+&lt;p&gt;Bettencourt, Luís MA. "&lt;a href="http://science.sciencemag.org/content/340/6139/1438"&gt;The origins of scaling in cities&lt;/a&gt;." science 340.6139 (2013): 1438-1441.&amp;#160;&lt;a class="footnote-backref" href="#fnref:10" rev="footnote" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-11"&gt;
-&lt;p&gt;Hausmann, Ricardo, et al. The atlas of economic complexity: Mapping paths to prosperity. Mit Press, 2014.&amp;#160;&lt;a class="footnote-backref" href="#fnref-11" title="Jump back to footnote 11 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:11"&gt;
+&lt;p&gt;Hausmann, Ricardo, et al. The atlas of economic complexity: Mapping paths to prosperity. Mit Press, 2014.&amp;#160;&lt;a class="footnote-backref" href="#fnref:11" rev="footnote" title="Jump back to footnote 11 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-12"&gt;
-&lt;p&gt;Hidalgo, César A., and Ricardo Hausmann. "&lt;a href="http://www.pnas.org/content/106/26/10570.short"&gt;The building blocks of economic complexity&lt;/a&gt;." proceedings of the national academy of sciences 106.26 (2009): 10570-10575.&amp;#160;&lt;a class="footnote-backref" href="#fnref-12" title="Jump back to footnote 12 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:12"&gt;
+&lt;p&gt;Hidalgo, César A., and Ricardo Hausmann. "&lt;a href="http://www.pnas.org/content/106/26/10570.short"&gt;The building blocks of economic complexity&lt;/a&gt;." proceedings of the national academy of sciences 106.26 (2009): 10570-10575.&amp;#160;&lt;a class="footnote-backref" href="#fnref:12" rev="footnote" title="Jump back to footnote 12 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-13"&gt;
-&lt;p&gt;Isola, Phillip, et al. "Image-to-Image Translation with Conditional Adversarial Networks." arXiv preprint arXiv:1611.07004 (2016).&amp;#160;&lt;a class="footnote-backref" href="#fnref-13" title="Jump back to footnote 13 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:13"&gt;
+&lt;p&gt;Isola, Phillip, et al. "Image-to-Image Translation with Conditional Adversarial Networks." arXiv preprint arXiv:1611.07004 (2016).&amp;#160;&lt;a class="footnote-backref" href="#fnref:13" rev="footnote" title="Jump back to footnote 13 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-14"&gt;
-&lt;p&gt;Calabrese, Francesco, et al. "&lt;a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020814"&gt;Interplay between telecommunications and face-to-face interactions: A study using mobile phone data&lt;/a&gt;." PloS one 6.7 (2011): e20814.&amp;#160;&lt;a class="footnote-backref" href="#fnref-14" title="Jump back to footnote 14 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:14"&gt;
+&lt;p&gt;Calabrese, Francesco, et al. "&lt;a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020814"&gt;Interplay between telecommunications and face-to-face interactions: A study using mobile phone data&lt;/a&gt;." PloS one 6.7 (2011): e20814.&amp;#160;&lt;a class="footnote-backref" href="#fnref:14" rev="footnote" title="Jump back to footnote 14 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content></entry><entry><title>Professional paper writing in Latex [2016]</title><link href="//www.marcodena.it/blog/professional-paper-writing-in-latex-2016/" rel="alternate"></link><published>2016-09-25T10:20:00+02:00</published><updated>2016-09-25T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-09-25:/blog/professional-paper-writing-in-latex-2016/</id><summary type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew from the start. &lt;/p&gt;
@@ -284,7 +364,7 @@ See \cref{fig:randomName}. \Cref{fig:randomName} is really cool!
 &lt;h4&gt;Tables&lt;/h4&gt;
 &lt;p&gt;Default tables in Latex are UGLY, writers even worse, because they don't care about the visual aspect of the information they are putting in the tables.
 &lt;img alt="Latex table comparison" src="/images/tables_comparison.png"&gt;
-Which one would you prefer? The second one is very neat, isn't it? However, the information displayed is the same. Hence, the difference stands on some nice visual rules&lt;sup id="fnref-3"&gt;&lt;a class="footnote-ref" href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt; that have to be applied in (IMHO) every article you write from now to the end of time.&lt;/p&gt;
+Which one would you prefer? The second one is very neat, isn't it? However, the information displayed is the same. Hence, the difference stands on some nice visual rules&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; that have to be applied in (IMHO) every article you write from now to the end of time.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Avoid vertical lines;&lt;/li&gt;
 &lt;li&gt;Avoid lines between rows different from the heading and the footer;&lt;/li&gt;
@@ -304,18 +384,18 @@ Hence, in the header of your document include:&lt;/p&gt;
     \ra{1.2}
     \begin{tabularx}{\columnwidth}{@{}Xccc@{}}
         \midrule
-        \textbf{City} &amp;amp; \textbf{\#Districts} &amp;amp; \textbf{Size (avg)} &amp;amp; \textbf{Population (avg)} \\ \toprule
-        Bologna &amp;amp; 23 &amp;amp; 3.34 &amp;amp; 15,918
+        \textbf{City} &amp;amp;amp; \textbf{\#Districts} &amp;amp;amp; \textbf{Size (avg)} &amp;amp;amp; \textbf{Population (avg)} \\ \toprule
+        Bologna &amp;amp;amp; 23 &amp;amp;amp; 3.34 &amp;amp;amp; 15,918
         \\
-        Florence &amp;amp; 21 &amp;amp; 2.89 &amp;amp; 16,633
+        Florence &amp;amp;amp; 21 &amp;amp;amp; 2.89 &amp;amp;amp; 16,633
         \\
-        Milan &amp;amp; 85 &amp;amp; 1.72 &amp;amp; 14,551
+        Milan &amp;amp;amp; 85 &amp;amp;amp; 1.72 &amp;amp;amp; 14,551
         \\
-        Palermo &amp;amp; 43 &amp;amp; 2.01 &amp;amp; 15,075 
+        Palermo &amp;amp;amp; 43 &amp;amp;amp; 2.01 &amp;amp;amp; 15,075 
         \\
-        Rome &amp;amp; 146 &amp;amp; 3.24 &amp;amp; 17,312 
+        Rome &amp;amp;amp; 146 &amp;amp;amp; 3.24 &amp;amp;amp; 17,312 
         \\
-        Turin &amp;amp; 56 &amp;amp; 2.00 &amp;amp; 15,543 
+        Turin &amp;amp;amp; 56 &amp;amp;amp; 2.00 &amp;amp;amp; 15,543 
         \\
          \bottomrule
     \end{tabularx}
@@ -344,7 +424,7 @@ Hence, in the header of your document include:&lt;/p&gt;
 
 
 &lt;h4&gt;Microtype&lt;/h4&gt;
-&lt;p&gt;&lt;a href="http://ctan.org/tex-archive/macros/latex/contrib/microtype"&gt;Microtype&lt;/a&gt; is one of the most useful packages, but it is known by too few people. It greatly improves general appearance of the text using different techniques, such as margin kerning (protrusion), extra kerning, expansion, tracking, and spacing&lt;sup id="fnref-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt;. With the default configuration, Microtype optimize the text readability, and you can compare the effect by observing these two texts, where in the second one Microtype was applied:
+&lt;p&gt;&lt;a href="http://ctan.org/tex-archive/macros/latex/contrib/microtype"&gt;Microtype&lt;/a&gt; is one of the most useful packages, but it is known by too few people. It greatly improves general appearance of the text using different techniques, such as margin kerning (protrusion), extra kerning, expansion, tracking, and spacing&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;. With the default configuration, Microtype optimize the text readability, and you can compare the effect by observing these two texts, where in the second one Microtype was applied:
 &lt;img alt="Microtype off" src="/images/latex-writing/Microtype_example_off.png"&gt;
 &lt;img alt="Microtype on" src="/images/latex-writing/Microtype_example_on.png"&gt;&lt;/p&gt;
 &lt;p&gt;Typesetting experts can observe the total interword spacing and appreciate the improved readability. Others can believe in the more positive effect in the reader when he faces the entire, optimized, document. Moreover, it is important to notice that text takes less space, an important feature when you don't have enough space in your papers.&lt;/p&gt;
@@ -357,8 +437,8 @@ Hence, in the header of your document include:&lt;/p&gt;
 
 &lt;p&gt;and it has many standard units, including the ones coming from Computer science like MB, Gb, etc.&lt;/p&gt;
 &lt;h2&gt;References&lt;/h2&gt;
-&lt;p&gt;Academic references have to be modernized&lt;sup id="fnref-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;, and the best way is to learn and share some general notions to create better academic.
-First, keep in mind that references in CrossRef, Mendeley and Google Scholar are incomplete and often bloated with unnecessary information&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. Then, remember that Google Scholar might be wrong and inconsistent, so don't blindly copy-paste the BibTeX items from the website.
+&lt;p&gt;Academic references have to be modernized&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;, and the best way is to learn and share some general notions to create better academic.
+First, keep in mind that references in CrossRef, Mendeley and Google Scholar are incomplete and often bloated with unnecessary information&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. Then, remember that Google Scholar might be wrong and inconsistent, so don't blindly copy-paste the BibTeX items from the website.
 So, be sure to collect these details:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Authors should be listed last name first, followed by a comma and initials (followed by full stops, ‘.’) of given names. This has to be repeated for all the authors up to a limit (usually five), and then use et al.;&lt;/li&gt;
@@ -379,17 +459,17 @@ Finally, some tips: &lt;/p&gt;
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id="fn-1"&gt;
-&lt;p&gt;&lt;a href="https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-should-you-be-recording-citations-in-the-digital-era-97550a7c3da6#.heytswkvu"&gt;How should you be recording citations in the digital era?&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-should-you-be-recording-citations-in-the-digital-era-97550a7c3da6#.heytswkvu"&gt;How should you be recording citations in the digital era?&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-2"&gt;
-&lt;p&gt;&lt;a href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/05/21/academic-citation-practices-need-to-be-modernized/"&gt;Academic citation practices need to be modernized so that all references are digital and lead to full texts.&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="http://blogs.lse.ac.uk/impactofsocialsciences/2014/05/21/academic-citation-practices-need-to-be-modernized/"&gt;Academic citation practices need to be modernized so that all references are digital and lead to full texts.&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-3"&gt;
-&lt;p&gt;Rules learned thanks to this &lt;a href="https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf"&gt;nice presentation&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref-3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Rules learned thanks to this &lt;a href="https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf"&gt;nice presentation&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-4"&gt;
-&lt;p&gt;I suggest everyone to read &lt;a href="http://www.khirevich.com/latex/microtype/"&gt;this wounderful post&lt;/a&gt; about Microtype.&amp;#160;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;I suggest everyone to read &lt;a href="http://www.khirevich.com/latex/microtype/"&gt;this wounderful post&lt;/a&gt; about Microtype.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content></entry><entry><title>Stop remembering passwords</title><link href="//www.marcodena.it/blog/stop-remembering-passwords/" rel="alternate"></link><published>2014-09-02T10:20:00+02:00</published><updated>2014-09-02T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-09-02:/blog/stop-remembering-passwords/</id><summary type="html">&lt;p&gt;Every day we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez, and many others. Nevertheless, we continue to trust somehow the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Every day we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez, and many others. Nevertheless, we continue to trust somehow the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we often forget them and, finally, we complain when someone hacks our E-mail or Facebook account. Ask yourself:&lt;/p&gt;
