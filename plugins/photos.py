@@ -294,7 +294,7 @@ def resize_worker(orig, resized, spec, settings):
         if not isthumb or (isthumb and settings['PHOTO_WATERMARK_THUMB']):
             im = watermark_photo(im, settings)
 
-    im.save(resized, 'JPEG', quality=spec[2], icc_profile=icc_profile, exif=exif_copy)
+    im.save(resized, 'PNG')
 
 
 def resize_photos(generator, writer):
@@ -342,7 +342,7 @@ def detect_content(content):
                 photo_prefix = os.path.splitext(value)[0].lower()
 
                 if what == 'photo':
-                    photo_article = photo_prefix + 'a.jpg'
+                    photo_article = photo_prefix + 'a.png'
                     enqueue_resize(
                         path,
                         os.path.join('photos', photo_article),
@@ -362,14 +362,14 @@ def detect_content(content):
                     ))
 
                 elif what == 'lightbox' and tag == 'img':
-                    photo_gallery = photo_prefix + '.jpg'
+                    photo_gallery = photo_prefix + '.png'
                     enqueue_resize(
                         path,
                         os.path.join('photos', photo_gallery),
                         settings['PHOTO_GALLERY']
                     )
 
-                    photo_thumb = photo_prefix + 't.jpg'
+                    photo_thumb = photo_prefix + 't.png'
                     enqueue_resize(
                         path,
                         os.path.join('photos', photo_thumb),
@@ -496,8 +496,8 @@ def process_gallery(generator, content, location):
                     continue
                 if pic in blacklist:
                     continue
-                photo = os.path.splitext(pic)[0].lower() + '.jpg'
-                thumb = os.path.splitext(pic)[0].lower() + 't.jpg'
+                photo = os.path.splitext(pic)[0].lower() + '.png'
+                thumb = os.path.splitext(pic)[0].lower() + 't.png'
                 content_gallery.append((
                     pic,
                     os.path.join(dir_photo, photo),
@@ -548,8 +548,8 @@ def process_image(generator, content, image):
         image = file_clipper(image)
 
     if os.path.isfile(path):
-        photo = os.path.splitext(image)[0].lower() + 'a.jpg'
-        thumb = os.path.splitext(image)[0].lower() + 't.jpg'
+        photo = os.path.splitext(image)[0].lower() + 'a.png'
+        thumb = os.path.splitext(image)[0].lower() + 't.png'
         content.photo_image = (
             os.path.basename(image).lower(),
             os.path.join('photos', photo),

@@ -86,6 +86,6 @@ ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
 #PHOTO_LIBRARY = "content/images/papers/"
 PHOTO_LIBRARY = "/Users/marcodena/Documents/marcodena.it/content/images/papers/"
 PHOTO_THUMB = (140, 180, 80)
-PHOTO_WATERMARK = True
+PHOTO_WATERMARK = False
 
 
