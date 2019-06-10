@@ -259,7 +259,7 @@ def manipulate_exif(img, settings):
 def resize_worker(orig, resized, spec, settings):
 
     logger.info('photos: make photo {} -> {}'.format(orig, resized))
-    im = Image.open(orig)
+    im = Image.open(orig).convert('RGB')
 
     if ispiexif and settings['PHOTO_EXIF_KEEP'] and im.format == 'JPEG':  # Only works with JPEG exif for sure.
         try:
@@ -294,7 +294,7 @@ def resize_worker(orig, resized, spec, settings):
         if not isthumb or (isthumb and settings['PHOTO_WATERMARK_THUMB']):
             im = watermark_photo(im, settings)
 
-    im.save(resized, 'PNG')
+    im.save(resized, 'JPEG', quality=spec[2])
 
 
 def resize_photos(generator, writer):
@@ -310,10 +310,8 @@ def resize_photos(generator, writer):
         resized = os.path.join(generator.output_path, resized)
         orig, spec = what
         if (not os.path.isfile(resized) or os.path.getmtime(orig) > os.path.getmtime(resized)):
-            if debug:
-                resize_worker(orig, resized, spec, generator.settings)
-            else:
-                pool.apply_async(resize_worker, (orig, resized, spec, generator.settings))
+            resize_worker(orig, resized, spec, generator.settings)
+            
 
     pool.close()
     pool.join()
@@ -342,7 +340,7 @@ def detect_content(content):
                 photo_prefix = os.path.splitext(value)[0].lower()
 
                 if what == 'photo':
-                    photo_article = photo_prefix + 'a.png'
+                    photo_article = photo_prefix + 'a.jpg'
                     enqueue_resize(
                         path,
                         os.path.join('photos', photo_article),
@@ -362,14 +360,14 @@ def detect_content(content):
                     ))
 
                 elif what == 'lightbox' and tag == 'img':
-                    photo_gallery = photo_prefix + '.png'
+                    photo_gallery = photo_prefix + '.jpg'
                     enqueue_resize(
                         path,
                         os.path.join('photos', photo_gallery),
                         settings['PHOTO_GALLERY']
                     )
 
-                    photo_thumb = photo_prefix + 't.png'
+                    photo_thumb = photo_prefix + 't.jpg'
                     enqueue_resize(
                         path,
                         os.path.join('photos', photo_thumb),
@@ -462,6 +460,7 @@ def galleries_string_decompose(gallery_string):
 def process_gallery(generator, content, location):
 
     content.photo_gallery = []
+
     galleries = galleries_string_decompose(location)
 
     for gallery in galleries:
@@ -496,8 +495,8 @@ def process_gallery(generator, content, location):
                     continue
                 if pic in blacklist:
                     continue
-                photo = os.path.splitext(pic)[0].lower() + '.png'
-                thumb = os.path.splitext(pic)[0].lower() + 't.png'
+                photo = os.path.splitext(pic)[0].lower() + '.jpg'
+                thumb = os.path.splitext(pic)[0].lower() + 't.jpg'
                 content_gallery.append((
                     pic,
                     os.path.join(dir_photo, photo),
@@ -548,8 +547,8 @@ def process_image(generator, content, image):
         image = file_clipper(image)
 
     if os.path.isfile(path):
-        photo = os.path.splitext(image)[0].lower() + 'a.png'
-        thumb = os.path.splitext(image)[0].lower() + 't.png'
+        photo = os.path.splitext(image)[0].lower() + 'a.jpg'
+        thumb = os.path.splitext(image)[0].lower() + 't.jpg'
         content.photo_image = (
             os.path.basename(image).lower(),
             os.path.join('photos', photo),
