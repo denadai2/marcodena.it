@@ -7,13 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="//www.googletagmanager.com" rel="dns-prefetch">
         <link href="{{ SITEURL }}/theme/images/favicon.png" rel="shortcut icon">
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,700|Roboto:300,300i,400" rel="stylesheet"> 
         {% assets filters="cssmin", output="css/assets_v.0.1.4.css", "css/foundation.min.css", "css/style_v2.0.css", "css/marcodenashare_v2.0.css", "css/monokai.css" %}
             <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
         {% endassets %}
 
         {% if output_file == 'index.html' %}
-        <meta name="description" content="Marco De Nadai is a passionate data scientist and web/iOS developer. This page shows his portfolio and papers.">
+        <meta name="description" content="Marco De Nadai is a researcher who focuses on Machine Learning and Computer Vision, in particular, to understand human behaviour from multi-modal data.">
         {% endif %}
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
@@ -45,7 +44,7 @@
 <body class="home">
     <header class="header clear grid-container" role="banner" id="header">
         <div class="grid-x">
-            <nav class="nav large-8 {% if output_file != 'talks.html' and (not page or not page.paper_url) %}large-offset-3{% else %}large-offset-1{% endif %} cell end" role="navigation">
+            <nav class="nav large-8 large-offset-3 cell end" role="navigation">
                 <ul class="menu">
                     <li class="first"><a href="{{ SITEURL }}/" {% if output_file == 'index.html' %}class="selected"{% endif %}>Home</a></li>
                     <li><a href="{{ SITEURL }}/blog.html" {% if output_file not in ('index.html', 'talks.html') %}class="selected"{% endif %}>Blog</a></li>
@@ -64,14 +63,29 @@
         {% endblock %}
       </div>
     </section>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113144060-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-113144060-1');
-</script>
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Fira+Sans:200,300,700|Roboto:300,300i,400' ] }
+        };
+
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113144060-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113144060-1');
+    </script>
 </body>
 </html>

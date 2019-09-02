@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Marco De Nadai'
-SITENAME = u'Marco De Nadai'
+SITENAME = u'Marco De Nadai, PhD - Computer Vision and Data Scientist'
 SITEURL = '//www.marcodena.it'
 #SITEURL = 'http://localhost:8000'
 
