@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="//www.googletagmanager.com" rel="dns-prefetch">
         <link href="//www.marcodena.it/theme/images/favicon.png" rel="shortcut icon">
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,700|Roboto:300,300i,400" rel="stylesheet"> 
             <link rel="stylesheet" href="//www.marcodena.it/theme/css/assets_v.0.1.4.css?a123428f">
 
 </head>
@@ -14,7 +13,7 @@
 <body class="home">
     <header class="header clear grid-container" role="banner" id="header">
         <div class="grid-x">
-            <nav class="nav large-8 large-offset-1 cell end" role="navigation">
+            <nav class="nav large-8 large-offset-3 cell end" role="navigation">
                 <ul class="menu">
                     <li class="first"><a href="//www.marcodena.it/" >Home</a></li>
                     <li><a href="//www.marcodena.it/blog.html" class="selected">Blog</a></li>
@@ -86,14 +85,29 @@
 <section class="noTopPadding cell large-10 large-offset-1 end"">&nbsp;</section>
       </div>
     </section>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113144060-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-113144060-1');
-</script>
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Fira+Sans:200,300,700|Roboto:300,300i,400' ] }
+        };
+
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113144060-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113144060-1');
+    </script>
 </body>
 </html>

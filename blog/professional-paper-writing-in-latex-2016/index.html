@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="//www.googletagmanager.com" rel="dns-prefetch">
         <link href="//www.marcodena.it/theme/images/favicon.png" rel="shortcut icon">
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,700|Roboto:300,300i,400" rel="stylesheet"> 
             <link rel="stylesheet" href="//www.marcodena.it/theme/css/assets_v.0.1.4.css?a123428f">
 
 
@@ -38,7 +37,7 @@
 		</div>
 		<div class="cell small-8 large-12" id="profile-content">
 			<h3 class="show-for-small-only" id="profile-name">Marco De Nadai</h3>
-			<p id="personal-description">Data Scientist and Ph.D. student at University of Trento, Italy. <span class="show-for-small-only"><br />
+			<p id="personal-description">Data Scientist and Computer Vision researcher at FBK, Italy. <span class="show-for-small-only"><br />
 				<a href="http://twitter.com/denadai2">Twitter</a> - <a href="https://github.com/denadai2">GitHub</a> - <a href="http://nl.linkedin.com/in/marcodenadai/">LinkedIn</a> - <a href="http://www.marcodena.it/resume_Marco_De_Nadai.pdf">Curriculum Vitae</a></span></p>
 		</div>
       	<div class="cell small-6 large-12 hide-for-small-only">
@@ -256,14 +255,29 @@ Finally, some tips: </p>
 
       </div>
     </section>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113144060-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-113144060-1');
-</script>
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Fira+Sans:200,300,700|Roboto:300,300i,400' ] }
+        };
+
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113144060-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113144060-1');
+    </script>
 </body>
 </html>
