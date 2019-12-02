@@ -29,11 +29,12 @@
 
 body {
     color:rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /*-moz-osx-font-smoothing: grayscale;*/
     text-rendering: optimizeLegibility;
     font-weight: 400;
-    font-size: 1.125em;
+    font-size: 16px;
+    line-height: 1.6;
     background: #FFF;
     border-top: 7px solid #C0392B;
 }
@@ -63,14 +64,11 @@ a {
     color:#c0392b;
     text-decoration:none;
 }
-a:hover {
-    color:#444;
 
-}
 a:focus {
     outline:0;
 }
-a:hover,a:active{border-bottom: 1px solid rgba(192,57,43,1);}
+a:hover,a:active{ text-decoration:underline}
 a:hover,
 a:active {
     outline:0;
@@ -80,9 +78,14 @@ input:focus {
     border:1px solid #04A4CC;
 }
 
+
+sup a{
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6{
-    color:rgba(0, 0, 0, 0.79);
-    font-family: 'Fira Sans', sans-serif;
+    color:rgb(12, 52, 75);
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin: 2rem 0 0.9rem;
 }
@@ -90,23 +93,21 @@ h1, h2, h3, h4, h5, h6{
 h1,h2,h3,h4{
     line-height: 1.1;
 }
+h3,h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
 h1{
     font-size: 48px;
     font-weight: 700;
 }
 h2{
     font-size: 30px;
-    font-family: 'Fira Sans',sans-serif;
-    font-weight: 300;
     position: relative;
+    padding-bottom: .5em;
 }
-h2::before {
-    content: '»';
-    position: absolute;
-    color: #b3b3b3;
-    left: -28px;
-    top: -1px;
-}
+
 h3{
     font-size: 26px;
 }
@@ -125,7 +126,6 @@ p, li{
 
 /* header */
 header#header {
-    font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 50px;
     background-color: #FFF;
@@ -160,14 +160,27 @@ header#header nav li.first{
 header#header a{
     color: #333;
 	border-bottom: transparent;
-	font-size: 1em;
+	font-size: 16px;
+	font-weight: 400;
     display: inline-block;
     -moz-osx-font-smoothing: grayscale;
+    height: 28px;
+    white-space: nowrap;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 6px;
+    display: inline-flex;
 }
 
 header#header a:hover, header#header a.selected{
-    text-decoration: none;
-    border-bottom: 2px solid #C0392B;
+    background:#3D5866;
+    color: white;
+    transition: background 140ms ease-out 0s, color 140ms ease-out 0s;
+
 }
 
 
@@ -441,7 +454,7 @@ a img.aligncenter {
 \*------------------------------------*/
 
 section {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 section.index h2, #comments h2, h2.first{
@@ -455,13 +468,22 @@ section .project h3{
 }
 
 section h4, section .date{
-    font-family: 'Fira Sans',sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     font-size:18px;
     text-transform: none;
+    color:rgb(61, 88, 102);
     margin-top: 0;
-    line-height: 1.2em;
+    line-height: 1.1;
     margin-bottom: 5px;
+}
+
+#articles .date, #articles h4 {
+    font-weight: 400;
+}
+
+section a h4, section a:active h4, section a:visited h4 {
+    color:#b5190e;
 }
 
 #authors{
@@ -472,6 +494,9 @@ section h4, section .date{
 
 .gallery a:hover{
     text-decoration: none;
+}
+.gallery img {
+    margin: 10px 0;
 }
 
 /*section p{
@@ -496,17 +521,17 @@ section .grid-x.articleSummary:last-child{
     margin-bottom:0 
 }
 
-section .articleSummary p, section .articleSummary{
-    line-height: 1.4em;
-}
 section .articleSummary p{
-    color: rgba(27, 5, 33, 0.75);
     margin-bottom: 0;
 }
 section .articleSummary p.links{
 	display: block;
 	font-size: 13px;
 	margin-bottom: 0;
+	margin-top: 0;
+}
+.articleSummary .date{
+	font-weight:400;
 }
 
 section hr {
@@ -611,12 +636,20 @@ section hr {
 }
 
 #articleContent h1, #pageContent h1, #talksContent h3{
-    font-weight: 200;
-    font-family: 'Fira Sans',sans-serif;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(12, 52, 75);
+    line-height: 1.12;
     text-transform: none;
-    font-size: 2.2rem;
+    font-size: 32px;
     margin: 0;
-    line-height: 1.2em;
+}
+
+#talksContent h3{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(61, 88, 102);
+    line-height: 1.25;
 }
 
 #pageContent h1, #talksContent h3{
@@ -629,7 +662,6 @@ section hr {
 
 article {
     font-style: normal;
-    font-weight: 300;
 }
 
 article strong {
@@ -661,7 +693,6 @@ article img {
 }
 
 article .date, article .articleInfo{
-    font-size: 18px;
     text-transform: none;
     display: block;
     margin-bottom: 1.6em;

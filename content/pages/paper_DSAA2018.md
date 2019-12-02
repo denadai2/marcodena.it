@@ -11,7 +11,18 @@ paper_url: https://arxiv.org/abs/1808.02547
 
 * Code and instructions: [GitHub project](https://github.com/denadai2/real-estate-neighborhood-prediction)
 
+## Cite
 
+    @inproceedings{DeNadai8631423,
+    author={M. {De Nadai} and B. {Lepri}},
+    booktitle={2018 IEEE 5th International Conference on Data Science and Advanced Analytics (DSAA)},
+    title={The Economic Value of Neighborhoods: Predicting Real Estate Prices from the Urban Environment},
+    year={2018},
+    pages={323-330},
+    keywords={Internet;pricing;property market;real estate data processing;Web sites;neighborhood changes;predicting real estate prices;urban environment;housing costs;online companies;proprietary systems;housing prices;professional appraisers;economic contribution;security perception;Open data;housing value;Italian cities highlight;Urban areas;Companies;Security;Economics;Industries;Local government;Data models;urban science;automated real estate;multimodal features},
+    doi={10.1109/DSAA.2018.00043},
+    month={Oct}
+    } 
 
 
 

@@ -9,11 +9,11 @@
 		<span class="date" id="authors">{{ page.authors|join(', ') }}</span>
 	</header>
 
-	<h2>Abstract</h2>
+	<h3>Abstract</h3>
 	<p id="abstract">{{ page.abstract }}</p>
 		
 	{% if page.photo_gallery %}
-	<h2><a href="{{ page.paper_url }}">The paper</a></h2>
+	<h3><a href="{{ page.paper_url }}">The paper</a></h3>
 	<div class="gallery hide-for-small-only">
 		{% for title, gallery in page.photo_gallery %}
 			{% for name, photo, thumb, exif, caption in gallery %}
