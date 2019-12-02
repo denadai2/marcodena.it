@@ -177,7 +177,7 @@ header#header a{
 }
 
 header#header a:hover, header#header a.selected{
-    background:#3D5866;
+    background:rgb(12, 52, 75);
     color: white;
     transition: background 140ms ease-out 0s, color 140ms ease-out 0s;
 
