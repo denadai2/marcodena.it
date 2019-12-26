@@ -1,5 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai, PhD - Computer Vision and Data Scientist - Marco De Nadai</title><link href="//www.marcodena.it/" rel="alternate"></link><link href="//www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>//www.marcodena.it/</id><updated>2018-12-26T11:00:00+01:00</updated><entry><title>My favorite scientific papers of 2018</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2018/" rel="alternate"></link><published>2018-12-26T11:00:00+01:00</published><updated>2018-12-26T11:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-12-26:/blog/my-favorite-scientific-papers-of-2018/</id><summary type="html">&lt;p&gt;My last year of Ph.D. is ended. Before knowing where and what to do next, it's time to write my annual review of the papers I read in the last year. You can find the previous lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marco De Nadai, PhD - Computer Vision and Data Scientist - Marco De Nadai</title><link href="//www.marcodena.it/" rel="alternate"></link><link href="//www.marcodena.it/feeds/marco-de-nadai.atom.xml" rel="self"></link><id>//www.marcodena.it/</id><updated>2019-12-26T16:00:00+01:00</updated><entry><title>My favorite scientific papers of 2019</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2019/" rel="alternate"></link><published>2019-12-26T16:00:00+01:00</published><updated>2019-12-26T16:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2019-12-26:/blog/my-favorite-scientific-papers-of-2019/</id><summary type="html">&lt;p&gt;2019 is almost ended, so it is time to wrap-up the annual list of the best scientific papers of the year.
+It is the fourth time I write this feature, and I really enjoy going through my lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2018/"&gt;2018&lt;/a&gt;, &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. 
+However, I am not alone in doing …&lt;/p&gt;</summary><content type="html">&lt;p&gt;2019 is almost ended, so it is time to wrap-up the annual list of the best scientific papers of the year.
+It is the fourth time I write this feature, and I really enjoy going through my lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2018/"&gt;2018&lt;/a&gt;, &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. 
+However, I am not alone in doing this. 
+Nicola Perra listed &lt;a href="http://www.nicolaperra.com/twitter-top-10-2019.html"&gt;the top 10 articles&lt;/a&gt; for the number of engagements from the &lt;a href="https://twitter.com/net_science"&gt;NetScience twitter profile&lt;/a&gt;, while the community of 'r/MachineLearning' listed the &lt;a href="https://www.reddit.com/r/MachineLearning/comments/e8the3/d_what_was_your_favorite_paper_of_2019_and_why/"&gt;best paper of 2019 for the Machine Learning community&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1906.05433"&gt;Tackling Climate Change with Machine Learning&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;. Thanks (mainly) to Greta Thunberg, mass media amply discussed climate change. 
+The research community was no exception. Many have focused on the increasing cost of Deep Learning models, while others have concentrated on their potentialities. 
+Specifically, 21 researchers wrote an article that collects recent trends and discoveries that might help alleviating climate change. 
+These discoveries are organized by field (e.g. Industry, Buildings and cities) and strategies (e.g. long-term, uncertain impact). 
+As a bonus, I also suggest &lt;a href="https://arxiv.org/abs/1907.10597"&gt;GreenAI&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;, which explains the complexity and efficiency of recent Deep Learning models. I think that, by increasing awareness on the environmental cost of our models, we might think twice about the trade-off between complexity and models' performance.
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/O2VyykXbDc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41598-019-43830-2"&gt;Modelling opinion dynamics in the age of algorithmic personalization&lt;/a&gt;&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;. Modern technology has greatly influenced how we access information, form opinions and interact with other people. 
+We have access to an increasing amount of information, which is easily accessible through or devices, and we are able to communicate with other people without being affected by geographical constraints. However, our attention is affected by cognitive constraints.
+Algorithms such as those that control the Facebook and Instagram timelines can distil information for us. How do they shape our opinions’ share and distributions? How do filtering algorithms influence people's polarization?
+This paper develops a mechanistic model to explain exactly this. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://science.sciencemag.org/content/359/6373/325"&gt;Sha-RNN&lt;/a&gt;&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt;. Not only is this paper useful, but also funny to read!&lt;br&gt;
+It discusses a new Deep Learning module, called SHA-RNN, that allows to model long-term dependencies of data with fewer parameters and without LSTMs.
+Even if you do not work in the NLP field, it might be useful to read it!
+    &lt;img alt="sha-rnn-paper" src="/images/SHA-RNN.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1312.6114"&gt;Auto-encoding variational bayes&lt;/a&gt;&lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5"&gt;5&lt;/a&gt;&lt;/sup&gt;. I reached this paper pretty late, but it is a masterpiece of Machine Learning. Variational Auto-Encoders (VAEs) greatly influenced my research as they allow to stochastically sampling from a learned distribution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Guo_SpotTune_Transfer_Learning_Through_Adaptive_Fine-Tuning_CVPR_2019_paper.html"&gt;SpotTune: transfer learning through adaptive fine-tuning&lt;/a&gt;&lt;sup id="fnref:6"&gt;&lt;a class="footnote-ref" href="#fn:6"&gt;6&lt;/a&gt;&lt;/sup&gt;. Transfer learning allows to fine-tuned a model trained in one task and apply it to another task. In Deep Learning, transfer learning is widely applied, but the strategy to conduct transfer learning depends on the dataset and the researcher.
+SpotTune is an adaptive fine-tuning approach that finds the optimal fine-tuning strategy per instance for the target data. A handy method for your transfer learning tasks!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1809.07952"&gt;Refining Coarse-grained Spatial Data using Auxiliary Spatial Data Sets with Various Granularities&lt;/a&gt;&lt;sup id="fnref:7"&gt;&lt;a class="footnote-ref" href="#fn:7"&gt;7&lt;/a&gt;&lt;/sup&gt;. During my PhD I always had to use geographical data sources with various spatial aggregation (e.g. points, and district-level or city-level data). 
+The usual way to deal with this problem it aggregating all the data to a common level. Researchers aggregated the data when the spatial aggregation of one dataset was lower than the target one, while they assume a uniform spatial distribution otherwise. 
+This papers instead proposes a Gaussian process model that deals with datasets with varying spatial aggregations. Interesting!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1805.02855"&gt;Tile2Vec: Unsupervised representation learning for spatially distributed data&lt;/a&gt;&lt;sup id="fnref:8"&gt;&lt;a class="footnote-ref" href="#fn:8"&gt;8&lt;/a&gt;&lt;/sup&gt;. To be fair, I read this research some time ago from a &lt;a href="https://www.sentiance.com/2018/05/03/venue-mapping/"&gt;blog post of Sentiance&lt;/a&gt;, a US research company. 
+However, this paper proposes a model that learns a latent vector (embedding) of a geographical place from its neighbouring images (e.g. Satellite). Thus, they use this unsupervised model to predict land cover, poverty and the health index of geographical areas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1907.04122"&gt;Uncovering the role of spatial constraints in the differences and similarities between physical and virtual mobility&lt;/a&gt;&lt;sup id="fnref:9"&gt;&lt;a class="footnote-ref" href="#fn:9"&gt;9&lt;/a&gt;&lt;/sup&gt;. I recently had the chance of working on a dataset of app usage, and I published a paper in &lt;a href=""&gt;Scientific Reports&lt;/a&gt; that studies the similarity between human mobility and app usage. In other words, in my view, human behavior is similar between the digital and physical worlds.
+This paper discovers similar results in web browsing behaviour. From this paper, I especially liked the level of details in the comparisons and the fact that he is the first one comparing web browsing with mobility!
+It was unfortunate that I did not read it before my paper.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41597-019-0247-7"&gt;A public data set of spatio-temporal match events in soccer competitions&lt;/a&gt;&lt;sup id="fnref:10"&gt;&lt;a class="footnote-ref" href="#fn:10"&gt;10&lt;/a&gt;&lt;/sup&gt;. I now finish with two datasets. The first one is about football! Through this dataset, you can analyze the actions of football players during various International competitions. A UNIQUE dataset!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41597-019-0325-x"&gt;Interaction data from the Copenhagen Networks Study&lt;/a&gt;&lt;sup id="fnref:11"&gt;&lt;a class="footnote-ref" href="#fn:11"&gt;11&lt;/a&gt;&lt;/sup&gt;. The Copenhagen Network study collected human interaction data from more than 700 university students. 
+This data was passively collected, and it included phone calls, GPS locations&lt;sup id="fnref:12"&gt;&lt;a class="footnote-ref" href="#fn:12"&gt;12&lt;/a&gt;&lt;/sup&gt;, Bluetooth proximity, and facebook friendships. After a careful operation of anonymization, the data is now available for everyone! Dig into it!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;What are your favorite research papers of 2019?&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Rolnick, David, et al. "Tackling Climate Change with Machine Learning." arXiv preprint arXiv:1906.05433 (2019).&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Schwartz, Roy, et al. "Green AI." arXiv preprint arXiv:1907.10597 (2019).&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Perra, Nicola, and Luis EC Rocha. "Modelling opinion dynamics in the age of algorithmic personalisation." Scientific reports 9.1 (2019): 7261.&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;Merity, Stephen. "Single Headed Attention RNN: Stop Thinking With Your Head." arXiv preprint arXiv:1911.11423 (2019).&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;Kingma, Diederik P., and Max Welling. "Auto-encoding variational bayes." arXiv preprint arXiv:1312.6114 (2013).&amp;#160;&lt;a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:6"&gt;
+&lt;p&gt;Guo, Yunhui, et al. "SpotTune: transfer learning through adaptive fine-tuning." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019.&amp;#160;&lt;a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:7"&gt;
+&lt;p&gt;Tanaka, Yusuke, et al. "Refining coarse-grained spatial data using auxiliary spatial data sets with various granularities." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 33. 2019.&amp;#160;&lt;a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:8"&gt;
+&lt;p&gt;Jean, Neal, et al. "Tile2Vec: Unsupervised representation learning for spatially distributed data." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 33. 2019.&amp;#160;&lt;a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:9"&gt;
+&lt;p&gt;Hazarie, Surendra, et al. "Uncovering the role of spatial constraints in the differences and similarities between physical and virtual mobility." arXiv preprint arXiv:1907.04122 (2019).&amp;#160;&lt;a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:10"&gt;
+&lt;p&gt;Pappalardo, Luca, et al. "A public data set of spatio-temporal match events in soccer competitions." Scientific data 6.1 (2019): 1-15.&amp;#160;&lt;a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:11"&gt;
+&lt;p&gt;Sapiezynski, Piotr, et al. "Interaction data from the Copenhagen Networks Study." Scientific Data 6.1 (2019): 1-10.&amp;#160;&lt;a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:12"&gt;
+&lt;p&gt;For anonymity reasons, the GPS data is not shared in this dataset.&amp;#160;&lt;a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content></entry><entry><title>My favorite scientific papers of 2018</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2018/" rel="alternate"></link><published>2018-12-26T11:00:00+01:00</published><updated>2018-12-26T11:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-12-26:/blog/my-favorite-scientific-papers-of-2018/</id><summary type="html">&lt;p&gt;My last year of Ph.D. is ended. Before knowing where and what to do next, it's time to write my annual review of the papers I read in the last year. You can find the previous lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. &lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://www.nature.com/articles/s41586-018-0095-1"&gt;Addressing the minimum fleet problem in on-demand urban …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;My last year of Ph.D. is ended. Before knowing where and what to do next, it's time to write my annual review of the papers I read in the last year. You can find the previous lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. &lt;/p&gt;
