@@ -33,11 +33,12 @@ SpotTune is an adaptive fine-tuning approach that finds the optimal fine-tuning 
 6. [Refining Coarse-grained Spatial Data using Auxiliary Spatial Data Sets with Various Granularities](https://arxiv.org/abs/1809.07952)[^7]. During my PhD I always had to use geographical data sources with various spatial aggregation (e.g. points, and district-level or city-level data). 
 The usual way to deal with this problem it aggregating all the data to a common level. Researchers aggregated the data when the spatial aggregation of one dataset was lower than the target one, while they assume a uniform spatial distribution otherwise. 
 This papers instead proposes a Gaussian process model that deals with datasets with varying spatial aggregations. Interesting!
-
+    ![Aggregating data at different spatial aggregations](/images/aggregating-spatial-data.png)
+   
 7. [Tile2Vec: Unsupervised representation learning for spatially distributed data](https://arxiv.org/abs/1805.02855)[^8]. To be fair, I read this research some time ago from a [blog post of Sentiance](https://www.sentiance.com/2018/05/03/venue-mapping/), a US research company. 
 However, this paper proposes a model that learns a latent vector (embedding) of a geographical place from its neighbouring images (e.g. Satellite). Thus, they use this unsupervised model to predict land cover, poverty and the health index of geographical areas.
 
-8. [Uncovering the role of spatial constraints in the differences and similarities between physical and virtual mobility](https://arxiv.org/abs/1907.04122)[^9]. I recently had the chance of working on a dataset of app usage, and I published a paper in [Scientific Reports]() that studies the similarity between human mobility and app usage. In other words, in my view, human behavior is similar between the digital and physical worlds.
+8. [Uncovering the role of spatial constraints in the differences and similarities between physical and virtual mobility](https://arxiv.org/abs/1907.04122)[^9]. I recently had the chance of working on a dataset of app usage, and I published [a paper in Scientific Reports](https://www.nature.com/articles/s41598-019-47493-x) that studies the similarity between human mobility and app usage. In other words, in my view, human behavior is similar between the digital and physical worlds.
 This paper discovers similar results in web browsing behaviour. From this paper, I especially liked the level of details in the comparisons and the fact that he is the first one comparing web browsing with mobility!
 It was unfortunate that I did not read it before my paper.
 
