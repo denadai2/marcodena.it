@@ -7,8 +7,7 @@ Abstract: The dataset is composed of mobile phone telecommunications, weather, n
 paper_url: https://www.nature.com/articles/sdata201555
 dataset_url: https://www.nature.com/articles/sdata201555
 doi: https://doi.org/10.1038/sdata.2015.55
-keywords: 
-    mobile phone
+keywords: mobile phone
     mobility
     interactions
     telecommunications

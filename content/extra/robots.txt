@@ -17,5 +17,4 @@ Disallow: /
 User-agent: *
 Disallow: /cgi-bin/
 Disallow: /category/*/*
-Disallow: /*?
 Allow: /themse/
