@@ -7,15 +7,11 @@
       "@type":"Dataset",
       "name":"{{ page.title }}",
       "description":"{{ page.abstract }}",
-      "url":"{{ page.dataset_url }}",
-      "sameAs":"https://gis.ncdc.noaa.gov/geoportal/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00510",
-      "identifier": ["{{ page.doi }}"],
+      "identifier": "{{ page.doi }}",
 		"citation": "{{ page.doi }}",
-      "keywords":[
-		  {% for k in page.keywords %}
+      "keywords":[{% for k in page.keywords %}
 		  "{{k}}",
-		  {% endfor %}
-      ],
+		  {% endfor %}],
 		"url" : "{{page.dataset_url}}",
       "temporalCoverage":"{{ page.temporal_coverage }}",
       "spatialCoverage": "{{ page.spatial_coverage }}"
