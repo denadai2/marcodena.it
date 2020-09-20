@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.marcodena.it/</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/archives.html</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/tags.html</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/categories.html</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,21 +40,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.marcodena.it/projects/komixjam</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/projects/mcz</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/projects/mczservice</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -74,6 +74,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>//www.marcodena.it/pages/a-multi-source-dataset-of-urban-life-in-the-city-of-milan-and-the-province-of-trentino.html</loc>
+<lastmod>2014-09-02T10:20:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>//www.marcodena.it/pages/the-death-and-life-of-great-italian-cities-a-mobile-phone-data-perspective.html</loc>
 <lastmod>2014-09-02T10:20:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -82,14 +89,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.marcodena.it/projects/red365</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>//www.marcodena.it/projects/sunday</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -110,7 +117,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.marcodena.it/projects/votoil12giugno</loc>
-<lastmod>2020-08-24T21:58:49-00:00</lastmod>
+<lastmod>2020-09-20T12:40:22-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>

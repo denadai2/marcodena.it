@@ -524,11 +524,22 @@ section .grid-x.articleSummary:last-child{
 section .articleSummary p{
     margin-bottom: 0;
 }
+section .articleSummary p.papertags {
+    margin-top:0;
+}
+section .articleSummary p.papertags span {
+    font-weight:600;
+    text-transform:uppercase;
+    padding-right:10px;
+    color: rgb(184, 194, 204);
+    font-size: 13px;
+}
 section .articleSummary p.links{
 	display: block;
 	font-size: 13px;
 	margin-bottom: 0;
 	margin-top: 0;
+	padding-top:0;
 }
 .articleSummary .date{
 	font-weight:400;
