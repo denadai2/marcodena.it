@@ -1,7 +1,28 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block content %}
-	
+<script type="application/ld+json">
+    {
+      "@context":"https://schema.org/",
+      "@type":"Dataset",
+      "name":"{{ page.title }}",
+      "description":"{{ page.abstract }}",
+      "url":"{{ page.dataset_url }}",
+      "sameAs":"https://gis.ncdc.noaa.gov/geoportal/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00510",
+      "identifier": ["{{ page.doi }}"],
+		"citation": "{{ page.doi }}",
+      "keywords":[
+		  {% for k in page.keywords %}
+		  "{{k}}",
+		  {% endfor %}
+      ],
+		"url" : "{{page.dataset_url}}",
+      "temporalCoverage":"{{ page.temporal_coverage }}",
+      "spatialCoverage": "{{ page.spatial_coverage }}"
+    }
+    </script>
+
+
 <article id="content" class="cell body large-10 large-offset-1 end">
 	
 	<header id="paperTitle">
