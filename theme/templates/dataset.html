@@ -9,9 +9,7 @@
       "description":"{{ page.abstract }}",
       "identifier": "{{ page.doi }}",
 		"citation": "{{ page.doi }}",
-      "keywords":[{% for k in page.keywords %}
-		  "{{k}}",
-		  {% endfor %}],
+      "keywords":[{% for k in page.keywords %}"{{k}}",{% endfor %}],
 		"url" : "{{page.dataset_url}}",
       "temporalCoverage":"{{ page.temporal_coverage }}",
       "spatialCoverage": "{{ page.spatial_coverage }}"
