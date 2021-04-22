@@ -66,31 +66,28 @@
 <h2>Packages</h2>
 <p>I don't even try to explain the reason why Latex is so popular in academia. But, if you are still hesitant about it, I suggest to look at these slides before continuing.</p>
 <h3>The indispensable</h3>
-<div class="highlight"><pre><span></span>\usepackage{graphicx} 
-\usepackage[pdftex]{hyperref}
-\usepackage{cleveref}
+<div class="highlight"><pre><span></span><code><span class="err">\</span><span class="n">usepackage</span><span class="err">{</span><span class="n">graphicx</span><span class="err">}</span><span class="w"> </span>
+<span class="err">\</span><span class="n">usepackage</span><span class="o">[</span><span class="n">pdftex</span><span class="o">]</span><span class="err">{</span><span class="n">hyperref</span><span class="err">}</span><span class="w"></span>
+<span class="err">\</span><span class="n">usepackage</span><span class="err">{</span><span class="n">cleveref</span><span class="err">}</span><span class="w"></span>
 
-\usepackage{booktabs}
-\usepackage{tabularx}
-</pre></div>
-
+<span class="err">\</span><span class="n">usepackage</span><span class="err">{</span><span class="n">booktabs</span><span class="err">}</span><span class="w"></span>
+<span class="err">\</span><span class="n">usepackage</span><span class="err">{</span><span class="n">tabularx</span><span class="err">}</span><span class="w"></span>
+</code></pre></div>
 
 <p>graphicx allows to include, shrink and rotate figures inside the text. It accepts vector files as input.
 hyperref is a great tool to include links which I usually add in the text with the <code>\url</code> command, appending the accessing date information as well.</p>
-<div class="highlight"><pre><span></span>\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
+</code></pre></div>
 
 <p>This allows readers to know the availability of the resource and search for it (maybe in archive.org?). 
 If you want to refer to sections, tables and images without even writing the element type name you are referring to, you can use cleveref. For example this code</p>
-<div class="highlight"><pre><span></span>\begin{figure}
-   \includegraphics{image.pdf}
-   \label{fig:randomName}
-\end{figure}
+<div class="highlight"><pre><span></span><code>\<span class="nv">begin</span>{<span class="nv">figure</span>}
+   \<span class="nv">includegraphics</span>{<span class="nv">image</span>.<span class="nv">pdf</span>}
+   \<span class="nv">label</span>{<span class="nv">fig</span>:<span class="nv">randomName</span>}
+\<span class="k">end</span>{<span class="nv">figure</span>}
 
-See \cref{fig:randomName}. \Cref{fig:randomName} is really cool!
-</pre></div>
-
+<span class="nv">See</span> \<span class="nv">cref</span>{<span class="nv">fig</span>:<span class="nv">randomName</span>}. \<span class="nv">Cref</span>{<span class="nv">fig</span>:<span class="nv">randomName</span>} <span class="nv">is</span> <span class="nv">really</span> <span class="nv">cool</span><span class="o">!</span>
+</code></pre></div>
 
 <p>will generate “See figure 1. Figure 1 is really cool!”. Cool, isn’t it?</p>
 <h4>Tables</h4>
@@ -105,36 +102,34 @@ Which one would you prefer? The second one is very neat, isn't it? However, the 
 </ul>
 <p>Hence, the next step is using the <a href="http://texcatalogue.sarovar.org/entries/booktabs.html">booktabs</a> package, which provides some nice commands for the lines we will add to the tables. Then, we will increase the space between rows with the command <code>\ra{1.2}</code> and remove the space to the vertical edges (the first and the last column will not have unnecessary paddings anymore) with the <code>@{}</code> in the column specification (<code>\begin{tabularx}{\columnwidth}{@{}Xccc@{}}</code>).
 Hence, in the header of your document include:</p>
-<div class="highlight"><pre><span></span>\usepackage{booktabs}
+<div class="highlight"><pre><span></span><code>\usepackage{booktabs}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
-</pre></div>
-
+</code></pre></div>
 
 <p>Then make the table in this way:</p>
-<div class="highlight"><pre><span></span>\begin{table}[ht]
-    \centering
-    \ra{1.2}
-    \begin{tabularx}{\columnwidth}{@{}Xccc@{}}
-        \midrule
-        \textbf{City} &amp; \textbf{\#Districts} &amp; \textbf{Size (avg)} &amp; \textbf{Population (avg)} \\ \toprule
-        Bologna &amp; 23 &amp; 3.34 &amp; 15,918
-        \\
-        Florence &amp; 21 &amp; 2.89 &amp; 16,633
-        \\
-        Milan &amp; 85 &amp; 1.72 &amp; 14,551
-        \\
-        Palermo &amp; 43 &amp; 2.01 &amp; 15,075 
-        \\
-        Rome &amp; 146 &amp; 3.24 &amp; 17,312 
-        \\
-        Turin &amp; 56 &amp; 2.00 &amp; 15,543 
-        \\
-         \bottomrule
-    \end{tabularx}
-    \caption{Number, average size and population of districts in the analyzed cities.}
-\end{table}
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="err">\</span><span class="k">begin</span><span class="err">{</span><span class="nc">table</span><span class="err">}</span><span class="o">[</span><span class="n">ht</span><span class="o">]</span><span class="w"></span>
+<span class="w">    </span><span class="err">\</span><span class="n">centering</span><span class="w"></span>
+<span class="w">    </span><span class="err">\</span><span class="n">ra</span><span class="err">{</span><span class="mf">1.2</span><span class="err">}</span><span class="w"></span>
+<span class="w">    </span><span class="err">\</span><span class="k">begin</span><span class="err">{</span><span class="n">tabularx</span><span class="err">}{\</span><span class="n">columnwidth</span><span class="err">}{@{}</span><span class="n">Xccc</span><span class="err">@{}}</span><span class="w"></span>
+<span class="w">        </span><span class="err">\</span><span class="n">midrule</span><span class="w"></span>
+<span class="w">        </span><span class="err">\</span><span class="n">textbf</span><span class="err">{</span><span class="n">City</span><span class="err">}</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="err">\</span><span class="n">textbf</span><span class="err">{\</span><span class="n">#Districts</span><span class="err">}</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="err">\</span><span class="n">textbf</span><span class="err">{</span><span class="k">Size</span><span class="w"> </span><span class="p">(</span><span class="nf">avg</span><span class="p">)</span><span class="err">}</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="err">\</span><span class="n">textbf</span><span class="err">{</span><span class="n">Population</span><span class="w"> </span><span class="p">(</span><span class="nf">avg</span><span class="p">)</span><span class="err">}</span><span class="w"> </span><span class="err">\\</span><span class="w"> </span><span class="err">\</span><span class="n">toprule</span><span class="w"></span>
+<span class="w">        </span><span class="n">Bologna</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">23</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mf">3.34</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span><span class="mi">918</span><span class="w"></span>
+<span class="w">        </span><span class="err">\\</span><span class="w"></span>
+<span class="w">        </span><span class="n">Florence</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">21</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mf">2.89</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">16</span><span class="p">,</span><span class="mi">633</span><span class="w"></span>
+<span class="w">        </span><span class="err">\\</span><span class="w"></span>
+<span class="w">        </span><span class="n">Milan</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">85</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mf">1.72</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">14</span><span class="p">,</span><span class="mi">551</span><span class="w"></span>
+<span class="w">        </span><span class="err">\\</span><span class="w"></span>
+<span class="w">        </span><span class="n">Palermo</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">43</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mf">2.01</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span><span class="mi">075</span><span class="w"> </span>
+<span class="w">        </span><span class="err">\\</span><span class="w"></span>
+<span class="w">        </span><span class="n">Rome</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">146</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mf">3.24</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">17</span><span class="p">,</span><span class="mi">312</span><span class="w"> </span>
+<span class="w">        </span><span class="err">\\</span><span class="w"></span>
+<span class="w">        </span><span class="n">Turin</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">56</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mf">2.00</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span><span class="mi">543</span><span class="w"> </span>
+<span class="w">        </span><span class="err">\\</span><span class="w"></span>
+<span class="w">         </span><span class="err">\</span><span class="n">bottomrule</span><span class="w"></span>
+<span class="w">    </span><span class="err">\</span><span class="k">end</span><span class="err">{</span><span class="n">tabularx</span><span class="err">}</span><span class="w"></span>
+<span class="w">    </span><span class="err">\</span><span class="n">caption</span><span class="err">{</span><span class="n">Number</span><span class="p">,</span><span class="w"> </span><span class="n">average</span><span class="w"> </span><span class="k">size</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">population</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">districts</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">analyzed</span><span class="w"> </span><span class="n">cities</span><span class="p">.</span><span class="err">}</span><span class="w"></span>
+<span class="err">\</span><span class="k">end</span><span class="err">{</span><span class="nc">table</span><span class="err">}</span><span class="w"></span>
+</code></pre></div>
 
 <p>The result is this, instead of the second one:
 <img alt="Nice table" src="/images/table_nice.png">
@@ -145,15 +140,14 @@ Hence, in the header of your document include:</p>
 <p>Although there are a lot of websites which allows people to collaborate online and write documents together, I usually have to share PDF documents with my colleagues. Sending PDF documents creates a strange sense of officiality even if the content is still a draft. Thus, the package I personally like the most is todonotes. This package allows to create colored notes all around the pages, enclosed by nice boxes, allowing authors to share ideas, concepts and warnings that are not part of the real content.
 <img alt="Nice table" src="/images/latex_todonotes.png"></p>
 <p>I usually add this code to the preamble, which creates four commands for different purpose boxes that are self explainable from their names.</p>
-<div class="highlight"><pre><span></span>\usepackage{xargs} 
+<div class="highlight"><pre><span></span><code>\usepackage{xargs} 
 \usepackage[colorinlistoftodos,prependcaption,textsize=normal]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
 \newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
 \newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
 \newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
 \newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
-</pre></div>
-
+</code></pre></div>
 
 <h4>Microtype</h4>
 <p><a href="http://ctan.org/tex-archive/macros/latex/contrib/microtype">Microtype</a> is one of the most useful packages, but it is known by too few people. It greatly improves general appearance of the text using different techniques, such as margin kerning (protrusion), extra kerning, expansion, tracking, and spacing<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. With the default configuration, Microtype optimize the text readability, and you can compare the effect by observing these two texts, where in the second one Microtype was applied:
@@ -162,10 +156,9 @@ Hence, in the header of your document include:</p>
 <p>Typesetting experts can observe the total interword spacing and appreciate the improved readability. Others can believe in the more positive effect in the reader when he faces the entire, optimized, document. Moreover, it is important to notice that text takes less space, an important feature when you don't have enough space in your papers.</p>
 <h4>siunitx</h4>
 <p>Shall you write in your paper km^2 or &#13218;? I prefer the second one. This is where <a href="https://www.ctan.org/pkg/siunitx">siunitx</a> operates in two ways:</p>
-<div class="highlight"><pre><span></span>\SI{10}{\metre}
+<div class="highlight"><pre><span></span><code>\SI{10}{\metre}
 \si{\kilogram\metre\per\second} % Note no `\usk&#39; here
-</pre></div>
-
+</code></pre></div>
 
 <p>and it has many standard units, including the ones coming from Computer science like MB, Gb, etc.</p>
 <h2>References</h2>

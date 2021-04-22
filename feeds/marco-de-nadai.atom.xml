@@ -6,14 +6,15 @@ It is the fourth time I write this feature, and I really enjoy going through my 
 However, I am not alone in doing this. 
 Nicola Perra listed &lt;a href="http://www.nicolaperra.com/twitter-top-10-2019.html"&gt;the top 10 articles&lt;/a&gt; for the number of engagements from the &lt;a href="https://twitter.com/net_science"&gt;NetScience twitter profile&lt;/a&gt;, while the community of 'r/MachineLearning' listed the &lt;a href="https://www.reddit.com/r/MachineLearning/comments/e8the3/d_what_was_your_favorite_paper_of_2019_and_why/"&gt;best paper of 2019 for the Machine Learning community&lt;/a&gt;.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/1906.05433"&gt;Tackling Climate Change with Machine Learning&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;. Thanks (mainly) to Greta Thunberg, mass media amply discussed climate change. 
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/1906.05433"&gt;Tackling Climate Change with Machine Learning&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;. Thanks (mainly) to Greta Thunberg, mass media amply discussed climate change. 
 The research community was no exception. Many have focused on the increasing cost of Deep Learning models, while others have concentrated on their potentialities. 
 Specifically, 21 researchers wrote an article that collects recent trends and discoveries that might help alleviating climate change. 
 These discoveries are organized by field (e.g. Industry, Buildings and cities) and strategies (e.g. long-term, uncertain impact). 
-As a bonus, I also suggest &lt;a href="https://arxiv.org/abs/1907.10597"&gt;GreenAI&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;, which explains the complexity and efficiency of recent Deep Learning models. I think that, by increasing awareness on the environmental cost of our models, we might think twice about the trade-off between complexity and models' performance.
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/O2VyykXbDc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;/li&gt;
+As a bonus, I also suggest &lt;a href="https://arxiv.org/abs/1907.10597"&gt;GreenAI&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;, which explains the complexity and efficiency of recent Deep Learning models. I think that, by increasing awareness on the environmental cost of our models, we might think twice about the trade-off between complexity and models' performance.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/O2VyykXbDc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://www.nature.com/articles/s41598-019-43830-2"&gt;Modelling opinion dynamics in the age of algorithmic personalization&lt;/a&gt;&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;. Modern technology has greatly influenced how we access information, form opinions and interact with other people. 
 We have access to an increasing amount of information, which is easily accessible through or devices, and we are able to communicate with other people without being affected by geographical constraints. However, our attention is affected by cognitive constraints.
@@ -97,7 +98,7 @@ This data was passively collected, and it included phone calls, GPS locations&lt
 &lt;p&gt;For anonymity reasons, the GPS data is not shared in this dataset.&amp;#160;&lt;a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content></entry><entry><title>My favorite scientific papers of 2018</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2018/" rel="alternate"></link><published>2018-12-26T11:00:00+01:00</published><updated>2018-12-26T11:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-12-26:/blog/my-favorite-scientific-papers-of-2018/</id><summary type="html">&lt;p&gt;My last year of Ph.D. is ended. Before knowing where and what to do next, it's time to write my annual review of the papers I read in the last year. You can find the previous lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;</content><category term="Research"></category></entry><entry><title>My favorite scientific papers of 2018</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2018/" rel="alternate"></link><published>2018-12-26T11:00:00+01:00</published><updated>2018-12-26T11:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-12-26:/blog/my-favorite-scientific-papers-of-2018/</id><summary type="html">&lt;p&gt;My last year of Ph.D. is ended. Before knowing where and what to do next, it's time to write my annual review of the papers I read in the last year. You can find the previous lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. &lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://www.nature.com/articles/s41586-018-0095-1"&gt;Addressing the minimum fleet problem in on-demand urban …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;My last year of Ph.D. is ended. Before knowing where and what to do next, it's time to write my annual review of the papers I read in the last year. You can find the previous lists of &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/"&gt;2017&lt;/a&gt; and &lt;a href="https://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;2016&lt;/a&gt;. &lt;/p&gt;
@@ -131,9 +132,12 @@ While many countries assign refugees according to the capacity of local settleme
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://www.nature.com/articles/s41586-018-0637-6/"&gt;The Moral Machine experiment&lt;/a&gt;&lt;sup id="fnref:8"&gt;&lt;a class="footnote-ref" href="#fn:8"&gt;8&lt;/a&gt;&lt;/sup&gt;. Chapeau Iyad Rahwan! This paper describes the moral dilemma that autonomous driving is facing: in case of an accident, would you choose to put at risk the driver or the person on the street? 
-   What if the person on the street crossed it with the red light? What if she is old? What if... These answers depend on the culture? We need only consider that Western culture usually spares young people, while Eastern culture does not! What's the best way to describe an academic paper? A youtuber ahaha! &lt;a href="http://moralmachine.mit.edu/"&gt;Try it yourself&lt;/a&gt;
-&lt;iframe width="637" height="315" src="https://www.youtube.com/embed/9VVqYmf5s18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+   What if the person on the street crossed it with the red light? What if she is old? What if... These answers depend on the culture? We need only consider that Western culture usually spares young people, while Eastern culture does not! What's the best way to describe an academic paper? A youtuber ahaha! &lt;a href="http://moralmachine.mit.edu/"&gt;Try it yourself&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;iframe width="637" height="315" src="https://www.youtube.com/embed/9VVqYmf5s18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://royalsocietypublishing.org/doi/full/10.1098/rsif.2017.0946"&gt;Small cities face greater impact from automation&lt;/a&gt;&lt;sup id="fnref:9"&gt;&lt;a class="footnote-ref" href="#fn:9"&gt;9&lt;/a&gt;&lt;/sup&gt;. Are you interested in ethical questions about Artificial Intelligence? This paper is perfect for you. Some skills are at higher risk of computerization than others. However, education and a highly diversified job market are expected to help people to find a new job. Are all cities created equal? Do some cities face higher risk from automation? By using a nation-wide dataset of occupation, Frank et al. used an elegant and simple combination of entropy metrics to define this risk. Nice!&lt;/p&gt;
 &lt;/li&gt;
@@ -176,7 +180,7 @@ While many countries assign refugees according to the capacity of local settleme
 &lt;p&gt;Blitzstein, Joseph K., and Jessica Hwang. Introduction to probability. Chapman and Hall/CRC, 2014.&amp;#160;&lt;a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content></entry><entry><title>My favorite scientific papers of 2017</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/" rel="alternate"></link><published>2018-01-27T17:00:00+01:00</published><updated>2018-01-27T17:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-01-27:/blog/my-favorite-scientific-papers-of-2017/</id><summary type="html">&lt;p&gt;Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is &lt;a href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;the list for 2016&lt;/a&gt;, and 2017 follows:&lt;/p&gt;
+&lt;/div&gt;</content><category term="Research"></category></entry><entry><title>My favorite scientific papers of 2017</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2017/" rel="alternate"></link><published>2018-01-27T17:00:00+01:00</published><updated>2018-01-27T17:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-01-27:/blog/my-favorite-scientific-papers-of-2017/</id><summary type="html">&lt;p&gt;Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is &lt;a href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;the list for 2016&lt;/a&gt;, and 2017 follows:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://www.nature.com/articles/s41562-017-0092"&gt;Connective recovery in social …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Last year I set a goal to write something each month on the blog. Obviously, I failed. However, I want to share my yearly list of the best scientific paper I read during the previous twelve months. Here is &lt;a href="http://www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/"&gt;the list for 2016&lt;/a&gt;, and 2017 follows:&lt;/p&gt;
@@ -249,7 +253,7 @@ While many countries assign refugees according to the capacity of local settleme
 &lt;p&gt;Albert, Adrian, Jasleen Kaur, and Marta C. Gonzalez. "Using convolutional networks and satellite imagery to identify patterns in urban environments at a large scale." Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017.&amp;#160;&lt;a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content></entry><entry><title>Send a Telegram notification when a script is done</title><link href="//www.marcodena.it/blog/telegram-logging-handler-for-python-java-bash/" rel="alternate"></link><published>2018-01-01T10:20:00+01:00</published><updated>2018-01-01T10:20:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-01-01:/blog/telegram-logging-handler-for-python-java-bash/</id><summary type="html">&lt;p&gt;Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason, &lt;a href="http://disi.unitn.it/~foroni/"&gt;Daniele&lt;/a&gt; and myself developed a first, naive version of a Telegram logging system that alerts you whenever something happens. These are the use cases:&lt;/p&gt;
+&lt;/div&gt;</content><category term="Research"></category></entry><entry><title>Send a Telegram notification when a script is done</title><link href="//www.marcodena.it/blog/telegram-logging-handler-for-python-java-bash/" rel="alternate"></link><published>2018-01-01T10:20:00+01:00</published><updated>2018-01-01T10:20:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2018-01-01:/blog/telegram-logging-handler-for-python-java-bash/</id><summary type="html">&lt;p&gt;Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Did you ever have a piece of code that lasted hours? I did (and do). The problem is that I am usually obsessed with the question "did it finish??". So, I log into my server, and I check whether the code is running. This had to stop. For this reason, &lt;a href="http://disi.unitn.it/~foroni/"&gt;Daniele&lt;/a&gt; and myself developed a first, naive version of a Telegram logging system that alerts you whenever something happens. These are the use cases:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Critical software: send me a Telegram message (and push notification on my phone) whenever something bad happens&lt;/li&gt;
 &lt;li&gt;Errors: push a message on errors&lt;/li&gt;
@@ -263,40 +267,34 @@ While many countries assign refugees according to the capacity of local settleme
 &lt;p&gt;Search the BotFather, the official bot that allows you to create bots :))&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Telegram BotFather" src="/images/telegram_notificator2.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Then, create a new bot:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/newbot
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;/newbot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Choose a name for your bot&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;UltraNotifier
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;UltraNotifier
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Choose a username for your bot, which must end with "_bot"&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ultranotifier_bot
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ultranotifier_bot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Once the bot is created, you will have a long string that is the TOKENID. The message will be similar to:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Use this token to access the HTTP API:
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Use this token to access the HTTP API:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Now, the bot is only the "guy" who will send you the messages. It has to know the chat where to send them. For this reason, got to the search bar of Telegram, and search your bot. Then, start the bot:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/start
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;/start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;You can now go to the website &lt;code&gt;https://api.telegram.org/bot[TOKENID]/getUpdates&lt;/code&gt; (replacing &lt;code&gt;[TOKENID]&lt;/code&gt; with the ID you received before) and search for your id.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Telegram chat id" src="/images/telegram_notificator3.png"&gt;&lt;/p&gt;
 &lt;p&gt;Now you are ready to use a command line code to send your first notification&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ curl -s -X POST https://api.telegram.org/bot&lt;span class="o"&gt;[&lt;/span&gt;TOKENID&lt;span class="o"&gt;]&lt;/span&gt;/sendMessage -d &lt;span class="nv"&gt;chat_id&lt;/span&gt;&lt;span class="o"&gt;=[&lt;/span&gt;ID&lt;span class="o"&gt;]&lt;/span&gt; -d &lt;span class="nv"&gt;text&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Hello world&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;curl&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;POST&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;api&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;telegram&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;org&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bot&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;TOKENID&lt;/span&gt;&lt;span class="o"&gt;]/&lt;/span&gt;&lt;span class="n"&gt;sendMessage&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;chat_id&lt;/span&gt;&lt;span class="o"&gt;=[&lt;/span&gt;&lt;span class="n"&gt;ID&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nc"&gt;text&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;Hello world&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;Python logger&lt;/h2&gt;
 &lt;p&gt;I decided to write a simple Python logger that sends you a notification/message whenever something happens. Here you have the simple code, with the configuration before the class.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;requests&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;requests&lt;/span&gt;
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;logging&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Handler&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Formatter&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;logging&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
@@ -312,7 +310,7 @@ While many countries assign refugees according to the capacity of local settleme
             &lt;span class="s1"&gt;&amp;#39;text&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;log_entry&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
             &lt;span class="s1"&gt;&amp;#39;parse_mode&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;HTML&amp;#39;&lt;/span&gt;
         &lt;span class="p"&gt;}&lt;/span&gt;
-        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://api.telegram.org/bot{token}/sendMessage&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;token&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;TELEGRAM_TOKEN&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://api.telegram.org/bot&lt;/span&gt;&lt;span class="si"&gt;{token}&lt;/span&gt;&lt;span class="s2"&gt;/sendMessage&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;token&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;TELEGRAM_TOKEN&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
                              &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;payload&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;
 
 &lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;LogstashFormatter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Formatter&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
@@ -322,12 +320,11 @@ While many countries assign refugees according to the capacity of local settleme
     &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
         &lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;utcnow&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;%Y-%m-&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s1"&gt; %H:%M:%S&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;i&amp;gt;{datetime}&amp;lt;/i&amp;gt;&amp;lt;pre&amp;gt;&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;{message}&amp;lt;/pre&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;i&amp;gt;&lt;/span&gt;&lt;span class="si"&gt;{datetime}&lt;/span&gt;&lt;span class="s2"&gt;&amp;lt;/i&amp;gt;&amp;lt;pre&amp;gt;&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="si"&gt;{message}&lt;/span&gt;&lt;span class="s2"&gt;&amp;lt;/pre&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;It can be simply used as all the usual logger handlers:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;logger = logging.getLogger(&amp;#39;trymeApp&amp;#39;)
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;logger = logging.getLogger(&amp;#39;trymeApp&amp;#39;)
 logger.setLevel(logging.WARNING)
 
 handler = RequestsHandler()
@@ -338,13 +335,12 @@ logger.addHandler(handler)
 logger.setLevel(logging.WARNING)
 
 logger.error(&amp;#39;We have a problem&amp;#39;)
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The message will be:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Telegram error notification" src="/images/telegram_notificator1.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Java, Bash, others&lt;/h2&gt;
-&lt;p&gt;Thanks to Daniele, now we have &lt;a href="https://github.com/forons/telegram-log"&gt;a new repo with other languages as well&lt;/a&gt;. I hope you will enjoy it. Thanks!&lt;/p&gt;</content></entry><entry><title>My favorite scientific papers of 2016</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/" rel="alternate"></link><published>2016-12-28T14:00:00+01:00</published><updated>2016-12-28T14:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-12-28:/blog/my-favorite-scientific-papers-of-2016/</id><summary type="html">&lt;p&gt;It is almost the end of 2016 and this was a busy year for me, continuously traveling all over the world for conferences and new (scientific?) experiences. Despite my inexperience, I want to share some of my favorite papers published this year.&lt;/p&gt;
+&lt;p&gt;Thanks to Daniele, now we have &lt;a href="https://github.com/forons/telegram-log"&gt;a new repo with other languages as well&lt;/a&gt;. I hope you will enjoy it. Thanks!&lt;/p&gt;</content><category term="Programming"></category></entry><entry><title>My favorite scientific papers of 2016</title><link href="//www.marcodena.it/blog/my-favorite-scientific-papers-of-2016/" rel="alternate"></link><published>2016-12-28T14:00:00+01:00</published><updated>2016-12-28T14:00:00+01:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-12-28:/blog/my-favorite-scientific-papers-of-2016/</id><summary type="html">&lt;p&gt;It is almost the end of 2016 and this was a busy year for me, continuously traveling all over the world for conferences and new (scientific?) experiences. Despite my inexperience, I want to share some of my favorite papers published this year.&lt;/p&gt;
 &lt;p&gt;If you find this list (or idea) interesting …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It is almost the end of 2016 and this was a busy year for me, continuously traveling all over the world for conferences and new (scientific?) experiences. Despite my inexperience, I want to share some of my favorite papers published this year.&lt;/p&gt;
 &lt;p&gt;If you find this list (or idea) interesting, I ask you to write your list of favorite papers and share it with me! I am always interested in exploring others' scientific interests.&lt;/p&gt;
 &lt;ol&gt;
@@ -427,35 +423,32 @@ logger.error(&amp;#39;We have a problem&amp;#39;)
 &lt;p&gt;Calabrese, Francesco, et al. "&lt;a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020814"&gt;Interplay between telecommunications and face-to-face interactions: A study using mobile phone data&lt;/a&gt;." PloS one 6.7 (2011): e20814.&amp;#160;&lt;a class="footnote-backref" href="#fnref:14" title="Jump back to footnote 14 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content></entry><entry><title>Professional paper writing in Latex [2016]</title><link href="//www.marcodena.it/blog/professional-paper-writing-in-latex-2016/" rel="alternate"></link><published>2016-09-25T10:20:00+02:00</published><updated>2016-09-25T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-09-25:/blog/professional-paper-writing-in-latex-2016/</id><summary type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew from the start. &lt;/p&gt;
+&lt;/div&gt;</content><category term="Research"></category></entry><entry><title>Professional paper writing in Latex [2016]</title><link href="//www.marcodena.it/blog/professional-paper-writing-in-latex-2016/" rel="alternate"></link><published>2016-09-25T10:20:00+02:00</published><updated>2016-09-25T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2016-09-25:/blog/professional-paper-writing-in-latex-2016/</id><summary type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have been through a lot of problems in my early times in academia and even now, I still don't remember some packages or methods to write a good article. For this reason, I here present some technical guidelines to write a paper in LaTex, some I wish I knew from the start. &lt;/p&gt;
 &lt;h2&gt;Packages&lt;/h2&gt;
 &lt;p&gt;I don't even try to explain the reason why Latex is so popular in academia. But, if you are still hesitant about it, I suggest to look at these slides before continuing.&lt;/p&gt;
 &lt;h3&gt;The indispensable&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\usepackage{graphicx} 
-\usepackage[pdftex]{hyperref}
-\usepackage{cleveref}
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;usepackage&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;graphicx&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;usepackage&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;pdftex&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;hyperref&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;usepackage&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;cleveref&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-\usepackage{booktabs}
-\usepackage{tabularx}
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;usepackage&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;booktabs&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;usepackage&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;tabularx&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;graphicx allows to include, shrink and rotate figures inside the text. It accepts vector files as input.
 hyperref is a great tool to include links which I usually add in the text with the &lt;code&gt;\url&lt;/code&gt; command, appending the accessing date information as well.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;\url{http://www.marcodena.it/blog/wordpress-the-future-is-static/} (accessing date: 09/10/2015)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;This allows readers to know the availability of the resource and search for it (maybe in archive.org?). 
 If you want to refer to sections, tables and images without even writing the element type name you are referring to, you can use cleveref. For example this code&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\begin{figure}
-   \includegraphics{image.pdf}
-   \label{fig:randomName}
-\end{figure}
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;\&lt;span class="nv"&gt;begin&lt;/span&gt;{&lt;span class="nv"&gt;figure&lt;/span&gt;}
+   \&lt;span class="nv"&gt;includegraphics&lt;/span&gt;{&lt;span class="nv"&gt;image&lt;/span&gt;.&lt;span class="nv"&gt;pdf&lt;/span&gt;}
+   \&lt;span class="nv"&gt;label&lt;/span&gt;{&lt;span class="nv"&gt;fig&lt;/span&gt;:&lt;span class="nv"&gt;randomName&lt;/span&gt;}
+\&lt;span class="k"&gt;end&lt;/span&gt;{&lt;span class="nv"&gt;figure&lt;/span&gt;}
 
-See \cref{fig:randomName}. \Cref{fig:randomName} is really cool!
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;span class="nv"&gt;See&lt;/span&gt; \&lt;span class="nv"&gt;cref&lt;/span&gt;{&lt;span class="nv"&gt;fig&lt;/span&gt;:&lt;span class="nv"&gt;randomName&lt;/span&gt;}. \&lt;span class="nv"&gt;Cref&lt;/span&gt;{&lt;span class="nv"&gt;fig&lt;/span&gt;:&lt;span class="nv"&gt;randomName&lt;/span&gt;} &lt;span class="nv"&gt;is&lt;/span&gt; &lt;span class="nv"&gt;really&lt;/span&gt; &lt;span class="nv"&gt;cool&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;will generate “See figure 1. Figure 1 is really cool!”. Cool, isn’t it?&lt;/p&gt;
 &lt;h4&gt;Tables&lt;/h4&gt;
@@ -470,36 +463,34 @@ Which one would you prefer? The second one is very neat, isn't it? However, the 
 &lt;/ul&gt;
 &lt;p&gt;Hence, the next step is using the &lt;a href="http://texcatalogue.sarovar.org/entries/booktabs.html"&gt;booktabs&lt;/a&gt; package, which provides some nice commands for the lines we will add to the tables. Then, we will increase the space between rows with the command &lt;code&gt;\ra{1.2}&lt;/code&gt; and remove the space to the vertical edges (the first and the last column will not have unnecessary paddings anymore) with the &lt;code&gt;@{}&lt;/code&gt; in the column specification (&lt;code&gt;\begin{tabularx}{\columnwidth}{@{}Xccc@{}}&lt;/code&gt;).
 Hence, in the header of your document include:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\usepackage{booktabs}
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;\usepackage{booktabs}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Then make the table in this way:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\begin{table}[ht]
-    \centering
-    \ra{1.2}
-    \begin{tabularx}{\columnwidth}{@{}Xccc@{}}
-        \midrule
-        \textbf{City} &amp;amp; \textbf{\#Districts} &amp;amp; \textbf{Size (avg)} &amp;amp; \textbf{Population (avg)} \\ \toprule
-        Bologna &amp;amp; 23 &amp;amp; 3.34 &amp;amp; 15,918
-        \\
-        Florence &amp;amp; 21 &amp;amp; 2.89 &amp;amp; 16,633
-        \\
-        Milan &amp;amp; 85 &amp;amp; 1.72 &amp;amp; 14,551
-        \\
-        Palermo &amp;amp; 43 &amp;amp; 2.01 &amp;amp; 15,075 
-        \\
-        Rome &amp;amp; 146 &amp;amp; 3.24 &amp;amp; 17,312 
-        \\
-        Turin &amp;amp; 56 &amp;amp; 2.00 &amp;amp; 15,543 
-        \\
-         \bottomrule
-    \end{tabularx}
-    \caption{Number, average size and population of districts in the analyzed cities.}
-\end{table}
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="k"&gt;begin&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="nc"&gt;table&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;ht&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;centering&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;ra&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mf"&gt;1.2&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="k"&gt;begin&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;tabularx&lt;/span&gt;&lt;span class="err"&gt;}{\&lt;/span&gt;&lt;span class="n"&gt;columnwidth&lt;/span&gt;&lt;span class="err"&gt;}{@{}&lt;/span&gt;&lt;span class="n"&gt;Xccc&lt;/span&gt;&lt;span class="err"&gt;@{}}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;midrule&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;textbf&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;City&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;textbf&lt;/span&gt;&lt;span class="err"&gt;{\&lt;/span&gt;&lt;span class="n"&gt;#Districts&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;textbf&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="k"&gt;Size&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;avg&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;textbf&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Population&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;avg&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;\\&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;toprule&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;Bologna&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;23&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;3.34&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;918&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;\\&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;Florence&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;21&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;2.89&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;633&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;\\&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;Milan&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;85&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1.72&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;551&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;\\&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;Palermo&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;43&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;2.01&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;075&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;\\&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;Rome&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;146&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;3.24&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;17&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;312&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;\\&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;Turin&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;56&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;2.00&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;543&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="err"&gt;\\&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;         &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;bottomrule&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="k"&gt;end&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;tabularx&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;caption&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Number&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;average&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;size&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;population&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;districts&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;analyzed&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;cities&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="k"&gt;end&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="nc"&gt;table&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The result is this, instead of the second one:
 &lt;img alt="Nice table" src="/images/table_nice.png"&gt;
@@ -510,15 +501,14 @@ Hence, in the header of your document include:&lt;/p&gt;
 &lt;p&gt;Although there are a lot of websites which allows people to collaborate online and write documents together, I usually have to share PDF documents with my colleagues. Sending PDF documents creates a strange sense of officiality even if the content is still a draft. Thus, the package I personally like the most is todonotes. This package allows to create colored notes all around the pages, enclosed by nice boxes, allowing authors to share ideas, concepts and warnings that are not part of the real content.
 &lt;img alt="Nice table" src="/images/latex_todonotes.png"&gt;&lt;/p&gt;
 &lt;p&gt;I usually add this code to the preamble, which creates four commands for different purpose boxes that are self explainable from their names.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\usepackage{xargs} 
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;\usepackage{xargs} 
 \usepackage[colorinlistoftodos,prependcaption,textsize=normal]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
 \newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
 \newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
 \newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
 \newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h4&gt;Microtype&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://ctan.org/tex-archive/macros/latex/contrib/microtype"&gt;Microtype&lt;/a&gt; is one of the most useful packages, but it is known by too few people. It greatly improves general appearance of the text using different techniques, such as margin kerning (protrusion), extra kerning, expansion, tracking, and spacing&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt;. With the default configuration, Microtype optimize the text readability, and you can compare the effect by observing these two texts, where in the second one Microtype was applied:
@@ -527,10 +517,9 @@ Hence, in the header of your document include:&lt;/p&gt;
 &lt;p&gt;Typesetting experts can observe the total interword spacing and appreciate the improved readability. Others can believe in the more positive effect in the reader when he faces the entire, optimized, document. Moreover, it is important to notice that text takes less space, an important feature when you don't have enough space in your papers.&lt;/p&gt;
 &lt;h4&gt;siunitx&lt;/h4&gt;
 &lt;p&gt;Shall you write in your paper km^2 or &amp;#13218;? I prefer the second one. This is where &lt;a href="https://www.ctan.org/pkg/siunitx"&gt;siunitx&lt;/a&gt; operates in two ways:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;\SI{10}{\metre}
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;\SI{10}{\metre}
 \si{\kilogram\metre\per\second} % Note no `\usk&amp;#39; here
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;and it has many standard units, including the ones coming from Computer science like MB, Gb, etc.&lt;/p&gt;
 &lt;h2&gt;References&lt;/h2&gt;
@@ -569,14 +558,13 @@ Finally, some tips: &lt;/p&gt;
 &lt;p&gt;I suggest everyone to read &lt;a href="http://www.khirevich.com/latex/microtype/"&gt;this wounderful post&lt;/a&gt; about Microtype.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content></entry><entry><title>Stop remembering passwords</title><link href="//www.marcodena.it/blog/stop-remembering-passwords/" rel="alternate"></link><published>2014-09-02T10:20:00+02:00</published><updated>2014-09-02T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-09-02:/blog/stop-remembering-passwords/</id><summary type="html">&lt;p&gt;Every day we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez, and many others. Nevertheless, we continue to trust somehow the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Every day we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez, and many others. Nevertheless, we continue to trust somehow the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we often forget them and, finally, we complain when someone hacks our E-mail or Facebook account. Ask yourself:&lt;/p&gt;
+&lt;/div&gt;</content><category term="Research"></category></entry><entry><title>Stop remembering passwords</title><link href="//www.marcodena.it/blog/stop-remembering-passwords/" rel="alternate"></link><published>2014-09-02T10:20:00+02:00</published><updated>2014-09-02T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-09-02:/blog/stop-remembering-passwords/</id><summary type="html">&lt;p&gt;Every day we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez, and many others. Nevertheless, we continue to trust somehow the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Every day we hear about hackers stealing password and accounts. Just one week ago &lt;a href="http://it.slashdot.org/story/14/09/01/2213202/hackers-behind-biggest-ever-password-theft-begin-attacks"&gt;1.2 billion passwords were stolen&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; hacker shown the content of the phone of Jennifer Lawrence, Selena Gomez, and many others. Nevertheless, we continue to trust somehow the &lt;strong&gt;passwords&lt;/strong&gt;, which are insecure, we often forget them and, finally, we complain when someone hacks our E-mail or Facebook account. Ask yourself:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;What can happen and how much time will your waste with a stolen Facebook account? &lt;/li&gt;
 &lt;li&gt;Are you using the same password everywhere? If so, do you know how dangerous it is?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In this article, I will present one of the most secure methods to overcome the old password fashion.&lt;/p&gt;
 &lt;iframe width="637" height="358" src="//www.youtube.com/embed/vrQFBYgwQW8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
 &lt;p&gt;&lt;em&gt;Video: &lt;a href="http://en.wikipedia.org/wiki/2014_celebrity_pictures_hack"&gt;The Fappening&lt;/a&gt; - Reddit reacting to Jennifer Lawrence nudes&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Why is the same password method so insecure&lt;/h2&gt;
 &lt;p&gt;Reusing passwords for email, banking, and social media accounts can lead to identity theft. Imagine an attacker who steals your Twitter account password. What happens if it is different from all the others? Now Imagine the contrary. &lt;/p&gt;
@@ -603,7 +591,7 @@ Finally, some tips: &lt;/p&gt;
 &lt;h2&gt;Is it the future?&lt;/h2&gt;
 &lt;p&gt;Yes and no. Mitro attacks the problem on the "password side": it allows you to use the websites in the old way, storing your passwords and increasing the security. The future will probably be about using different types of access methods, like &lt;a href="http://oauth.net/"&gt;OAuth&lt;/a&gt;, &lt;a href="https://www.mozilla.org/en-US/persona/"&gt;Mozilla Persona&lt;/a&gt; or &lt;a href="https://medium.com/@ninjudd/passwords-are-obsolete-9ed56d483eb"&gt;considering obsolete the passwords&lt;/a&gt;. All these methods depend on the websites we use, so we can't do anything but wait. &lt;/p&gt;
 &lt;p&gt;We just need to wait, using Mitro meanwhile.&lt;/p&gt;
-&lt;p&gt;Please, give it a try and share your thoughts :)&lt;/p&gt;</content></entry><entry><title>Wordpress? The future is static</title><link href="//www.marcodena.it/blog/wordpress-the-future-is-static/" rel="alternate"></link><published>2014-08-09T10:20:00+02:00</published><updated>2014-08-09T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-08-09:/blog/wordpress-the-future-is-static/</id><summary type="html">&lt;p&gt;I was a PHP developer and I lived the blog fashion bubble when everyone made blogs, 
+&lt;p&gt;Please, give it a try and share your thoughts :)&lt;/p&gt;</content><category term="Security"></category></entry><entry><title>Wordpress? The future is static</title><link href="//www.marcodena.it/blog/wordpress-the-future-is-static/" rel="alternate"></link><published>2014-08-09T10:20:00+02:00</published><updated>2014-08-09T10:20:00+02:00</updated><author><name>Marco De Nadai</name></author><id>tag:www.marcodena.it,2014-08-09:/blog/wordpress-the-future-is-static/</id><summary type="html">&lt;p&gt;I was a PHP developer and I lived the blog fashion bubble when everyone made blogs, 
 even talking about non-sense. Since that "era", &lt;a href="http://www.wordpress.org"&gt;Wordpress&lt;/a&gt;
 established the "standard de-facto" among the blogging platforms. Wordpress has been highly
 customizable (it has more than 15'000 of plugins), it is still used by high …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was a PHP developer and I lived the blog fashion bubble when everyone made blogs, 
@@ -643,40 +631,35 @@ that I don't know Ruby and that I prefer the &lt;a href="http://docs.getpelican.
 &lt;/ul&gt;
 &lt;h2&gt;How to start&lt;/h2&gt;
 &lt;p&gt;The best way to start is understanding how easy is to make a blog. The &lt;a href="http://docs.getpelican.com/en/3.4.0/quickstart.html"&gt;quickstart&lt;/a&gt; is very comprensive. First of all some Python packages are necessary.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install pelican markdown
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install pelican markdown
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The second step is generating the basic structure of the blog.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;projects&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;yoursite&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;projects&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;yoursite&lt;/span&gt;
 &lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;projects&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;yoursite&lt;/span&gt;
 &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;quickstart&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Now it is time to write the &lt;strong&gt;first article&lt;/strong&gt; in Markdown:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
 &lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2010&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
 &lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
 
 &lt;span class="n"&gt;Following&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;review&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;my&lt;/span&gt; &lt;span class="n"&gt;favorite&lt;/span&gt; &lt;span class="n"&gt;mechanical&lt;/span&gt; &lt;span class="n"&gt;keyboard&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;And save it to "~/projects/yoursite/content/keyboard-review.md". The "content"
 directory is made for all the posts and pages and it will not change even if the
 blog will be revolutionized.
 From the "~/projects/yoursite/" directory, you can launch&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pelican content
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pelican content
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The static HTML files will be generated in the output directory. To visit your new
 website, just launch&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd ~/projects/yoursite/output
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cd ~/projects/yoursite/output
 python -m SimpleHTTPServer
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;And navigate http://localhost:8000/ in your browser.&lt;/p&gt;
 &lt;h2&gt;Performances&lt;/h2&gt;
@@ -689,4 +672,4 @@ of the test. The peak in the end is probably caused by this. I am sorry but I co
 &lt;h2&gt;Host your website for free&lt;/h2&gt;
 &lt;p&gt;If you want to host a website for free, use Github pages. &lt;a href="http://www.circuidipity.com/github-pages.html"&gt;Here&lt;/a&gt; you find a nice tutorial.&lt;/p&gt;
 &lt;h2&gt;Sources of this website&lt;/h2&gt;
-&lt;p&gt;The sources of this website are available &lt;a href="https://github.com/denadai2/marcodena.it"&gt;here&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;The sources of this website are available &lt;a href="https://github.com/denadai2/marcodena.it"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="Programming"></category></entry></feed>

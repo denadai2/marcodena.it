@@ -76,40 +76,34 @@
 <p>Search the BotFather, the official bot that allows you to create bots :))</p>
 <p><img alt="Telegram BotFather" src="/images/telegram_notificator2.jpg"></p>
 <p>Then, create a new bot:</p>
-<div class="highlight"><pre><span></span>/newbot
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>/newbot
+</code></pre></div>
 
 <p>Choose a name for your bot</p>
-<div class="highlight"><pre><span></span>UltraNotifier
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>UltraNotifier
+</code></pre></div>
 
 <p>Choose a username for your bot, which must end with "_bot"</p>
-<div class="highlight"><pre><span></span>ultranotifier_bot
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>ultranotifier_bot
+</code></pre></div>
 
 <p>Once the bot is created, you will have a long string that is the TOKENID. The message will be similar to:</p>
-<div class="highlight"><pre><span></span>Use this token to access the HTTP API:
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>Use this token to access the HTTP API:
+</code></pre></div>
 
 <p>Now, the bot is only the "guy" who will send you the messages. It has to know the chat where to send them. For this reason, got to the search bar of Telegram, and search your bot. Then, start the bot:</p>
-<div class="highlight"><pre><span></span>/start
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>/start
+</code></pre></div>
 
 <p>You can now go to the website <code>https://api.telegram.org/bot[TOKENID]/getUpdates</code> (replacing <code>[TOKENID]</code> with the ID you received before) and search for your id.</p>
 <p><img alt="Telegram chat id" src="/images/telegram_notificator3.png"></p>
 <p>Now you are ready to use a command line code to send your first notification</p>
-<div class="highlight"><pre><span></span>$ curl -s -X POST https://api.telegram.org/bot<span class="o">[</span>TOKENID<span class="o">]</span>/sendMessage -d <span class="nv">chat_id</span><span class="o">=[</span>ID<span class="o">]</span> -d <span class="nv">text</span><span class="o">=</span><span class="s2">&quot;Hello world&quot;</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="err">$</span><span class="w"> </span><span class="n">curl</span><span class="w"> </span><span class="o">-</span><span class="n">s</span><span class="w"> </span><span class="o">-</span><span class="n">X</span><span class="w"> </span><span class="n">POST</span><span class="w"> </span><span class="nl">https</span><span class="p">:</span><span class="o">//</span><span class="n">api</span><span class="p">.</span><span class="n">telegram</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">bot</span><span class="o">[</span><span class="n">TOKENID</span><span class="o">]/</span><span class="n">sendMessage</span><span class="w"> </span><span class="o">-</span><span class="n">d</span><span class="w"> </span><span class="n">chat_id</span><span class="o">=[</span><span class="n">ID</span><span class="o">]</span><span class="w"> </span><span class="o">-</span><span class="n">d</span><span class="w"> </span><span class="nc">text</span><span class="o">=</span><span class="ss">&quot;Hello world&quot;</span><span class="w"></span>
+</code></pre></div>
 
 <h2>Python logger</h2>
 <p>I decided to write a simple Python logger that sends you a notification/message whenever something happens. Here you have the simple code, with the configuration before the class.</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
 <span class="kn">from</span> <span class="nn">logging</span> <span class="kn">import</span> <span class="n">Handler</span><span class="p">,</span> <span class="n">Formatter</span>
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">datetime</span>
@@ -125,7 +119,7 @@
             <span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="n">log_entry</span><span class="p">,</span>
             <span class="s1">&#39;parse_mode&#39;</span><span class="p">:</span> <span class="s1">&#39;HTML&#39;</span>
         <span class="p">}</span>
-        <span class="k">return</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://api.telegram.org/bot{token}/sendMessage&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">token</span><span class="o">=</span><span class="n">TELEGRAM_TOKEN</span><span class="p">),</span>
+        <span class="k">return</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://api.telegram.org/bot</span><span class="si">{token}</span><span class="s2">/sendMessage&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">token</span><span class="o">=</span><span class="n">TELEGRAM_TOKEN</span><span class="p">),</span>
                              <span class="n">data</span><span class="o">=</span><span class="n">payload</span><span class="p">)</span><span class="o">.</span><span class="n">content</span>
 
 <span class="k">class</span> <span class="nc">LogstashFormatter</span><span class="p">(</span><span class="n">Formatter</span><span class="p">):</span>
@@ -135,12 +129,11 @@
     <span class="k">def</span> <span class="nf">format</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">record</span><span class="p">):</span>
         <span class="n">t</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span>
 
-        <span class="k">return</span> <span class="s2">&quot;&lt;i&gt;{datetime}&lt;/i&gt;&lt;pre&gt;</span><span class="se">\n</span><span class="s2">{message}&lt;/pre&gt;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">message</span><span class="o">=</span><span class="n">record</span><span class="o">.</span><span class="n">msg</span><span class="p">,</span> <span class="n">datetime</span><span class="o">=</span><span class="n">t</span><span class="p">)</span>
-</pre></div>
-
+        <span class="k">return</span> <span class="s2">&quot;&lt;i&gt;</span><span class="si">{datetime}</span><span class="s2">&lt;/i&gt;&lt;pre&gt;</span><span class="se">\n</span><span class="si">{message}</span><span class="s2">&lt;/pre&gt;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">message</span><span class="o">=</span><span class="n">record</span><span class="o">.</span><span class="n">msg</span><span class="p">,</span> <span class="n">datetime</span><span class="o">=</span><span class="n">t</span><span class="p">)</span>
+</code></pre></div>
 
 <p>It can be simply used as all the usual logger handlers:</p>
-<div class="highlight"><pre><span></span>logger = logging.getLogger(&#39;trymeApp&#39;)
+<div class="highlight"><pre><span></span><code>logger = logging.getLogger(&#39;trymeApp&#39;)
 logger.setLevel(logging.WARNING)
 
 handler = RequestsHandler()
@@ -151,8 +144,7 @@ logger.addHandler(handler)
 logger.setLevel(logging.WARNING)
 
 logger.error(&#39;We have a problem&#39;)
-</pre></div>
-
+</code></pre></div>
 
 <p>The message will be:</p>
 <p><img alt="Telegram error notification" src="/images/telegram_notificator1.png"></p>
